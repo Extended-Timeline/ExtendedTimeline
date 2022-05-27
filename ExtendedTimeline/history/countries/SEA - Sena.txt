@@ -1,0 +1,67 @@
+government = monarchy
+add_government_reform = autocracy_reform
+#aristocracy_plutocracy = -3
+#centralization_decentralization = 3
+#innovative_narrowminded = 2
+#mercantilism_freetrade = -3
+#offensive_defensive = 0
+#land_naval = 1
+#quality_quantity = 3
+#serfdom_freesubjects = -2
+technology_group = early_indian
+religion = hinduism
+primary_culture = bengali
+capital = 561 # Nabadwip
+
+100.1.1 = { add_government_reform = early_gov_reform_1 }
+230.1.1 = { add_government_reform = early_gov_reform_2 }
+360.1.1 = { add_government_reform = early_gov_reform_3 }
+490.1.1 = { add_government_reform = early_gov_reform_4 }
+620.1.1 = { add_government_reform = early_gov_reform_5 }
+750.1.1 = { add_government_reform = early_gov_reform_6 }
+750.1.1 = { technology_group = indian }
+
+880.1.1 = { add_government_reform = early_gov_reform_7 }
+1010.1.1 = { add_government_reform = early_gov_reform_8 }
+1140.1.1 = { add_government_reform = early_gov_reform_9 }
+1174.1.1 = {
+	monarch = {
+		name = "Ballal"
+		dynasty = "Sena"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1179.1.1 = {
+	monarch = {
+		name = "Lakshman"
+		dynasty = "Sena"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1206.1.1 = {
+	monarch = {
+		name = "Vishwarup"
+		dynasty = "Sena"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1225.1.1 = {
+	monarch = {
+		name = "Keshab"
+		dynasty = "Sena"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1270.1.1 = { add_government_reform = early_gov_reform_10 }

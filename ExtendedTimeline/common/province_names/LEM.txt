@@ -1,0 +1,13 @@
+14 = "Fyen"							#Fyn				|				12.02.22	old Danish ?
+44 = "Trewar"						#Hamburg			|unclear		12.02.22	Latin: Treva	alternative: Trewam?
+45 = "Marin"						#Lübeck				|theory			13.02.22	meaning: "Sea people / famous people?"
+47 = "Wertamo"						#Würzburg			|reconstructed	13.02.22	theory, meaning: "The highest"
+53 = "Lewfanja"						#Lüneburg			|unclear		12.02.22	alternative: Lewfanjam/Lewafanjam?
+61 = "Lupfurd"						#Dresden			|unclear		12.02.22
+62 = "Argella"						#Leipzig			|reconstructed	12.02.22	replace if possible		rough possible translaion: light sounding people/sons
+1758 = "Tulifurd" 					#Hannover			|unclear		12.02.22	alternative:Tuliþurd
+1775 = "Holtslatha"					#Holstein			|reconstructed	12.02.22	
+1931 = "Ingwe"						#East Frisia		|unclear/theory	12.02.22	from:Yngvi/Ingaevones ->	replace if possible
+1983 = "Lolanda"					#Lolland			|reconstructed	12.02.22
+4745 = "Rygr"						#Rügen				|theory			12.02.22	
+4774 = "Fuldo"						#Fulda				|unclear		12.02.22	better alternatives ?

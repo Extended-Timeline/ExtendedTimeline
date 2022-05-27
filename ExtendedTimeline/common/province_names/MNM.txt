@@ -1,0 +1,3 @@
+586 = "Bago"								#Pegu					|			12.04.19
+2399 = "Pugam"								#Pagan					|			06.02.22
+4399 = "Yangon"								#Dagun					|			12.04.19

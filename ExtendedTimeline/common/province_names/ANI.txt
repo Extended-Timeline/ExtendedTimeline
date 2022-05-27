@@ -1,0 +1,12 @@
+44 = "Hammaburg"					#Hamburg					|			30.07.18
+58 = "Aneholt"						#Anhalt						|theory		26.02.19
+62 = "Libia"						#Leipzig					|reconstructed
+70 = "Wirtemberg"					#Württemberg				|			30.07.18
+75 = "Elisazon"						#Elsass						|			30.07.18
+735 = "Gale"						#Hanseong
+1872 = "Hulma"						#Ulm						|			24.09.18
+1775 = "Holtsaten"					#Holstein					|			30.07.18
+1874 = "Bremun"						#Bremen						|do not fit with the century
+4741 = "Dobrebora"					#Halle						|			10.06.20 polish/celtic origin ??
+4141 = "Ditmarsh"					#Dithmarschen				|theory
+233 = "Cornwallis"					#Cornwall					|			07.01.19

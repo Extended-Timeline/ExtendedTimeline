@@ -1,0 +1,17 @@
+579 = "Mrohaung"					#Mrak U					|			19.02.22
+580 = "Kalay"
+582 = "Mohnyin"
+583 = "Theinni"
+584 = "Inwa"						#Ava
+587 = "Kyaingtong"
+588 = "Mone"
+590 = "Sadhuim"						#Moulmein				|			19.02.22
+2404 = "Myeik"
+2395 = "Putao"
+2396 = "Mogaung"
+2399 = "Pukam"						#Pagan					|			06.02.22
+2400 = "Thibaw"
+2402 = "Thandwe"
+2401 = "Mobye"
+591 = "Dawei"
+4396 = "Pyay"						#Prome					|			06.12.19

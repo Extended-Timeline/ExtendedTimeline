@@ -1,0 +1,14 @@
+﻿l_spanish:
+ cb_spread_communism: "Propagación del Comunismo"
+ cb_spread_communism_desc: "Obligar al gobierno a adoptar un régimen comunista"
+ cb_spread_fascism: "Propagación del Fascismo"
+ cb_spread_fascism_desc: "Obligar al gobierno a adoptar un régimen facista"
+ cb_spread_democracy: "Propagación de Democracia"
+ cb_spread_democracy_desc: "Obligar al gobierno a adoptar un régimen democrático"
+ et_government_event.1.t: "Muerte de [Root.Monarch.GetTitle]"
+ et_government_event.1.d: "En el Evento de [Root.Monarch.GetHerHis] murio, nuestro [Root.Monarch.GetTitle] destinado a un sucesor que se haga [Root.Monarch.GetHerHis] lugar. Sin embargo, el nuevo [Root.Monarch.GetTitle] casi no tiene el mismo carisma [Root.Monarch.GetSheHe] tenido. Tal vez de ser elegido por un Senado aumentaría [Root.Monarch.GetHerHis] legitimidad?"
+ et_government_event.1.a: "Siempre podemos establecer la monarquía"
+ et_government_event.1.b: "Reúne un conjunto"
+ et_government_event.1.c: "Los [Root.Monarch.GetTitle] deben de tener el poder!"
+ friendly_government: "Gobierno Amigo"
+ 
