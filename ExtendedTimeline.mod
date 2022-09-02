@@ -21,5 +21,5 @@ tags={
 picture="extended_timeline.jpg"
 version="1.13.5"
 supported_version="1.33.*"
-path="C:/Users/Lari/Documents/Paradox Interactive/Europa Universalis IV/mod/ExtendedTimeline"
+path="mod/ExtendedTimeline"
 remote_file_id="217416366"
