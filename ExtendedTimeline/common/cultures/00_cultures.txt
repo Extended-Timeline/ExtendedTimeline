@@ -10032,6 +10032,20 @@ southeastasian_group = {
 			Pisey Putrea Punthea Rachana Rachany 
 		}
 	}
+	khasi = {
+		primary = JNT
+		dynasty_names = {
+			Khynriam Pnar Bhoi War Maram Lyngngam Diko
+		}
+		male_names = {
+			Urmi Krishak Hatak Guhak Jayanta Joymalla Mahabal Bancharu Kamadeva Bhimbal Kandarpa Manik Jayanta Jayanti Bara
+			Prabhat Burha Borgohain Bijay Pratap Dhan Jasa Sundar Chota Jasamanta Gurak Srihasta Kritti Bhut Navagirvan
+			Gokul Kangsa Ishan Pravir Bhujavir Ladduk Shambhuk Navarjun Madhab
+		}
+		female_names = {
+			Aibakor Akor Apjingkyrmen Kyntiew Kyrsoi Janai Badap Baia Balari Banphira Shatsngi
+		}
+	}
 	mon_khmer_canadian = {
 		dynasty_names = {
 			"Lê" "Tran" "Hau Le" "Mac" "Tay Son" "Nguyen" "Trinh"
@@ -10719,6 +10733,21 @@ burman= {
 		}
 		female_names = {
 			"Mangaldahi" "Jira" "Hira" Tashi Tenzin Tenzing Yangchen
+		}
+	}
+	brahmaputran = {
+		primary = DAV
+		dynasty_names = {
+			Shubol Chandrakirti Ganavira Marjit Charajit Pitambara Moduchandra Harshachandra Nara Devendra
+		}
+		male_names = {
+			"Pengshiba" "Ningthou Khomba" "Senbi Kiyaamba" "Koiremba" "Chingkhong Lamgai Ngamba" "Nongyin Phaaba" 
+			"Senbi Khomba" "Taangjaamba" "Chalaamba" "Munghaamba" "Khagemba" "Khunjaoba" "Paikhomba" "Charairongba" 
+			"Paamheiba" "Chit Sai" "Bhorot Sai" "Maraamba" "Chingthang Khomba" "Labeinachandra" "Maramaba" 
+			"Madhuchandra" "Chourjit" "Marjit"
+		}
+		female_names = {
+			"Mangaldahi" "Jira" "Hira" Tashi Tenzin Tenzing
 		}
 	}
 	karen = {

@@ -44,6 +44,7 @@ country_event = {
 		change_tag = RSD
 		set_country_flag = early_caliphate
 		swap_non_generic_missions = yes
+		change_religion = islam
 		change_government = theocracy
 		add_government_reform = caliphate_theocratic_reform
 		define_ruler = {
@@ -57,7 +58,6 @@ country_event = {
 		set_country_flag = ruler_muhammmad
 		set_capital = 385
 		add_stability = 1
-		change_religion = islam
 		add_adm_power = 500
 		add_dip_power = 500
 		add_mil_power = 500
@@ -102,7 +102,6 @@ country_event = {
 			}
 			add_permanent_claim = RSD
 		}
-		
 	}
 	option = {
 		name = "et.EVTOPTB7"
@@ -193,6 +192,9 @@ country_event = {
 		}
 		hidden_effect = {
 			RSD = {
+				change_religion = islam
+				change_government = theocracy
+				add_government_reform = caliphate_theocratic_reform
 				add_stability = 3
 				add_treasury = 5000
 				add_adm_power = 800

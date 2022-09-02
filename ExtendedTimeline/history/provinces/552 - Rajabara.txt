@@ -4,7 +4,7 @@ owner = KLI
 controller = KLI
 culture = oriya
 religion = jainism
-capital = "Cuttack"
+capital = "Jajpur"
 trade_goods = cloth
 hre = no
 discovered_by = chinese
@@ -21,15 +21,17 @@ base_manpower = 2
 is_city = yes
 add_core = KLI
 
-350.1.1 = { owner = GUP controller = GUP add_core = GUP }
-530.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = GUP }
-700.1.1 = { religion = hinduism }
-786.1.1 = { owner = PRD controller = PRD add_core = PRD }
+150.1.1 = { owner = TOS controller = TOS add_core = TOS }
+355.1.1 = { owner = GUP controller = GUP add_core = GUP }
+570.1.1 = { religion = hinduism }
+575.1.1 = { owner = TOS controller = TOS add_core = TOS remove_core = GUP }
+680.1.1 = { owner = KGD controller = KGD add_core = KGD }
+736.1.1 = { owner = TOS controller = TOS remove_core = KGD }
 800.1.1 = { discovered_by = nomad_group }
-882.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = PRD }
 900.1.1 = { base_tax = 5 base_production = 5 }
-1078.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI }
 1100.1.1 = { base_tax = 6 base_production = 6 }
+1118.1.1 = { owner = KLI controller = KLI add_core = KLI capital = "Kataka" }
+1434.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI capital = "Cuttack" }
 
 1568.1.1 = {
 	owner = BNG

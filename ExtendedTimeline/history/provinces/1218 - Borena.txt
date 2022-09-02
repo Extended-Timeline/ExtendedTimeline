@@ -1,6 +1,6 @@
 #2044 - Sidamo
 
-culture = sidamo 
+culture = oromo 
 religion = shamanism
 capital = "Irgalem"
 native_size = 90

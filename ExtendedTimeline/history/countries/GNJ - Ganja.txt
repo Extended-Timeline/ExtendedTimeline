@@ -239,3 +239,124 @@ religious_school = hanafi_school
 
 1260.1.1 = { primary_culture = azerbaijani religion = shiite religious_school = jafari_school }
 1270.1.1 = { add_government_reform = early_gov_reform_10 }
+
+1747.1.1 = {
+	monarch = {
+		name = "Shahverdi"
+		dynasty = "Qajar"
+		birth_date = 1717.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1747.1.1 = {
+	heir = {
+		name = "Muhammad Hasan"
+		monarch_name = "Muhammad Hasan"
+		dynasty = "Qajar"
+		birth_date = 1731.1.1
+		death_date = 1784.1.1
+		claim = 95
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Muhammad Hasan"
+		dynasty = "Qajar"
+		birth_date = 1731.1.1
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+
+1761.1.1 = {
+	heir = {
+		name = "Hajji Beg"
+		monarch_name = "Hajji Beg"
+		dynasty = "Qajar"
+		birth_date = 1754.1.1
+		death_date = 1786.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+
+1784.1.1 = {
+	monarch = {
+		name = "Hajji Beg"
+		dynasty = "Qajar"
+		birth_date = 1754.1.1
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+
+1784.1.1 = {
+	heir = {
+		name = "Rahim"
+		monarch_name = "Rahim"
+		dynasty = "Qajar"
+		birth_date = 1756.1.1
+		death_date = 1787.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Rahim"
+		dynasty = "Qajar"
+		birth_date = 1756.1.1
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
+
+1786.1.1 = {
+	heir = {
+		name = "Javad"
+		monarch_name = "Javad"
+		dynasty = "Qajar"
+		birth_date = 1748.1.1
+		death_date = 1804.1.3
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 4
+	}
+}
+
+1787.1.1 = {
+	monarch = {
+		name = "Javad"
+		dynasty = "Qajar"
+		birth_date = 1748.1.1
+		adm = 2
+		dip = 0
+		mil = 4
+	}
+}
+
+1804.1.3 = {
+	monarch = {
+		name = "(Vacant)"
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+	}
+}

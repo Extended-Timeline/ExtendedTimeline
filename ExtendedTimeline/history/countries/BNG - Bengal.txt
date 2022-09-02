@@ -3,7 +3,7 @@ add_government_reform = indian_sultanate_reform
 primary_culture = bengali
 religion = sunni
 technology_group = early_indian
-capital = 561 # Howrah, Murshidabad
+capital = 563 # Lakhnauti
 religious_school = hanafi_school
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
@@ -17,7 +17,208 @@ religious_school = hanafi_school
 880.1.1 = { add_government_reform = early_gov_reform_7 }
 1010.1.1 = { add_government_reform = early_gov_reform_8 }
 1140.1.1 = { add_government_reform = early_gov_reform_9 }
+
+#Khalji dynasty of Bengal
+1204.1.1 = {
+	monarch = {
+		name = "Muhammad Bakhtiyar"
+		dynasty = "Khalji"
+		birth_date = 1174.1.1
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+
+1204.1.1 = {
+	heir = {
+		name = "Muhammad Sheran"
+		monarch_name = "Muhammad Sheran"
+		dynasty = "Khalji"
+		birth_date = 1176.1.1
+		death_date = 1208.1.1
+		claim = 95
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+
+1206.1.1 = {
+	monarch = {
+		name = "Muhammad Sheran"
+		dynasty = "Khalji"
+		birth_date = 1176.1.1
+		adm = 0
+		dip = 3
+		mil = 2
+	}
+}
+
+1206.1.1 = {
+	heir = {
+		name = "'Iwaz Shah"
+		monarch_name = "'Iwaz Shah"
+		dynasty = "Khalji"
+		birth_date = 1180.1.1
+		death_date = 1227.1.1
+		claim = 95
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+}
+
+1208.1.1 = {
+	monarch = {
+		name = "'Iwaz Shah"
+		dynasty = "Khalji"
+		birth_date = 1180.1.1
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+}
+
+1229.1.1 = {
+	monarch = {
+		name = "Dawlat Shah"
+		dynasty = "Khalji"
+		birth_date = 1199.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1229.1.1 = {
+	heir = {
+		name = "Balka"
+		monarch_name = "Balka"
+		dynasty = "Khalji"
+		birth_date = 1200.1.1
+		death_date = 1232.1.1
+		claim = 95
+		adm = 4
+		dip = 0
+		mil = 5
+	}
+}
+
+1231.1.1 = {
+	monarch = {
+		name = "Balka"
+		dynasty = "Khalji"
+		birth_date = 1200.1.1
+		adm = 4
+		dip = 0
+		mil = 5
+	}
+}
+
 1270.1.1 = { add_government_reform = early_gov_reform_10 }
+
+#Balban dynasty of Lakhnauti
+1287.1.1 = {
+	monarch = {
+		name = "Nasiruddin Bughra Khan"
+		dynasty = "Mamluk"
+		birth_date = 1257.1.1
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1287.1.1 = {
+	heir = {
+		name = "Rukunuddin Kaikaus"
+		monarch_name = "Rukunuddin Kaikaus"
+		dynasty = "Mamluk"
+		birth_date = 1261.1.1
+		death_date = 1300.1.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1291.1.1 = {
+	monarch = {
+		name = "Rukunuddin Kaikaus"
+		dynasty = "Mamluk"
+		birth_date = 1261.1.1
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1291.1.1 = {
+	heir = {
+		name = "Shamsuddin Firoz Shah"
+		monarch_name = "Shamsuddin Firoz Shah"
+		dynasty = "Mamluk"
+		birth_date = 1270.1.1
+		death_date = 1322.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1300.1.1 = {
+	monarch = {
+		name = "Shamsuddin Firoz Shah"
+		dynasty = "Mamluk"
+		birth_date = 1270.1.1
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+
+1300.1.1 = {
+	heir = {
+		name = "Ghiyasuddin Bahadur Shah"
+		monarch_name = "Ghiyasuddin Bahadur Shah"
+		dynasty = "Mamluk"
+		birth_date = 1300.1.1
+		death_date = 1328.1.1
+		claim = 95
+		adm = 1
+		dip = 5
+		mil = 0
+	}
+}
+
+1322.1.1 = {
+	monarch = {
+		name = "Ghiyasuddin Bahadur Shah"
+		dynasty = "Mamluk"
+		birth_date = 1300.1.1
+		adm = 1
+		dip = 5
+		mil = 0
+	}
+}
+
+#1324-1338 under Delhi rule
+
+#Various rulers, Bengal split in three
+1338.1.1 = {
+	monarch = {
+		name = "Alauddin Ali Shah"
+		dynasty = "Lakhnauti"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+#Ilyas unites Bengal
 1342.1.1 = {
 	monarch = {
 		name = "Ilyas"
@@ -41,6 +242,8 @@ religious_school = hanafi_school
 		mil = 2
 	}
 }
+
+1352.1.1 = { capital = 561 } # Howrah, Murshidabad
 
 1358.1.1 = {
 	monarch = {

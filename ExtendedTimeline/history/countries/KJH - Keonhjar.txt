@@ -7,128 +7,266 @@ primary_culture = garjati
 capital = 4450 # Mayurbhanj
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
+
+#Nagas of Vindhyatabi
+150.1.1 = {
+	monarch = {
+		name = "Manabhanja"
+		dynasty = "Nagavanshi"
+		birth_date = 150.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
 230.1.1 = { add_government_reform = early_gov_reform_2 }
+
+230.1.1 = {
+	heir = {
+		name = "Satrubhanja"
+		monarch_name = "Satrubhanja"
+		dynasty = "Nagavanshi"
+		birth_date = 230.1.1
+		death_date = 340.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+261.1.1 = {
+	monarch = {
+		name = "Satrubhanja"
+		dynasty = "Nagavanshi"
+		birth_date = 231.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+300.1.1 = {
+	heir = {
+		name = "Disabhanja"
+		monarch_name = "Disabhanja"
+		dynasty = "Nagavanshi"
+		birth_date = 300.1.1
+		death_date = 400.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+340.1.1 = {
+	monarch = {
+		name = "Disabhanja"
+		dynasty = "Nagavanshi"
+		birth_date = 300.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
 360.1.1 = { add_government_reform = early_gov_reform_3 }
+
+400.1.1 = {
+	monarch = {
+		name = "(unknown)"
+		adm = 1
+		dip = 1
+		mil = 1
+		regent = yes
+	}
+}
+
 490.1.1 = { add_government_reform = early_gov_reform_4 }
+
+# Mudgalas of North Toshala
+580.1.1 = {
+	capital = 2043
+	monarch = {
+		name = "Sambhuyasa"
+		dynasty = "Mudgalas"
+		birth_date = 550.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+620.1.1 = {
+	capital = 4450
+	monarch = {
+		name = "(unknown)"
+		adm = 1
+		dip = 1
+		mil = 1
+		regent = yes
+	}
+}
+
 620.1.1 = { add_government_reform = early_gov_reform_5 }
+
+#Bhanjas of Khijjinga Mandala
+700.1.1 = {
+	monarch = {
+		name = "Adi"
+		dynasty = "Bhanja"
+		birth_date = 670.1.1
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}
+
+720.1.1 = {
+	heir = {
+		name = "Kotta"
+		monarch_name = "Kotta"
+		dynasty = "Bhanja"
+		birth_date = 720.1.1
+		death_date = 800.1.1
+		claim = 95
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+}
+
 750.1.1 = { add_government_reform = early_gov_reform_6 }
 750.1.1 = { technology_group = indian }
 
-# Bhanjas of Keonjhar and Mayurbhanj
-860.1.1 = {
+750.1.1 = {
 	monarch = {
 		name = "Kotta"
 		dynasty = "Bhanja"
-		birth_date = 830.1.1
+		birth_date = 720.1.1
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+}
+
+770.1.1 = {
+	heir = {
+		name = "Dig"
+		monarch_name = "Dig"
+		dynasty = "Bhanja"
+		birth_date = 770.1.1
+		death_date = 850.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+800.1.1 = {
+	monarch = {
+		name = "Dig"
+		dynasty = "Bhanja"
+		birth_date = 770.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+820.1.1 = {
+	heir = {
+		name = "Raja"
+		monarch_name = "Raja"
+		dynasty = "Bhanja"
+		birth_date = 820.1.1
+		death_date = 900.1.1
+		claim = 95
 		adm = 2
-		dip = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+850.1.1 = {
+	monarch = {
+		name = "Raja"
+		dynasty = "Bhanja"
+		birth_date = 820.1.1
+		adm = 2
+		dip = 2
 		mil = 4
 	}
 }
 
 870.1.1 = {
 	heir = {
-		name = "Dig"
-		monarch_name = "Dig"
+		name = "Rana"
+		monarch_name = "Rana"
 		dynasty = "Bhanja"
 		birth_date = 870.1.1
-		death_date = 924.1.1
+		death_date = 950.1.1
 		claim = 95
-		adm = 3
-		dip = 3
-		mil = 1
+		adm = 2
+		dip = 5
+		mil = 5
 	}
 }
 
 880.1.1 = { add_government_reform = early_gov_reform_7 }
+
 900.1.1 = {
 	monarch = {
-		name = "Dig"
+		name = "Rana"
 		dynasty = "Bhanja"
 		birth_date = 870.1.1
-		adm = 3
-		dip = 3
-		mil = 1
-	}
-}
-
-900.1.1 = {
-	heir = {
-		name = "Rana"
-		monarch_name = "Rana"
-		dynasty = "Bhanja"
-		birth_date = 894.1.1
-		death_date = 936.1.1
-		claim = 95
-		adm = 0
-		dip = 0
+		adm = 2
+		dip = 5
 		mil = 5
 	}
 }
 
-924.1.1 = {
-	monarch = {
-		name = "Rana"
-		dynasty = "Bhanja"
-		birth_date = 894.1.1
-		adm = 0
-		dip = 0
-		mil = 5
-	}
-}
-
-924.1.1 = {
+920.1.1 = {
 	heir = {
-		name = "Prithvi"
-		monarch_name = "Prithvi"
+		name = "Narendra"
+		monarch_name = "Narendra"
 		dynasty = "Bhanja"
-		birth_date = 906.1.1
+		birth_date = 920.1.1
 		death_date = 1000.1.1
 		claim = 95
-		adm = 5
-		dip = 2
+		adm = 2
+		dip = 0
 		mil = 3
 	}
 }
 
-936.1.1 = {
+950.1.1 = {
 	monarch = {
-		name = "Prithvi"
+		name = "Narendra"
 		dynasty = "Bhanja"
-		birth_date = 906.1.1
-		adm = 5
-		dip = 2
+		birth_date = 920.1.1
+		adm = 2
+		dip = 0
 		mil = 3
-	}
-}
-
-970.1.1 = {
-	heir = {
-		name = "Raja"
-		monarch_name = "Raja"
-		dynasty = "Bhanja"
-		birth_date = 970.1.1
-		death_date = 1060.1.1
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 4
 	}
 }
 
 1000.1.1 = {
 	monarch = {
-		name = "Raja"
+		name = "Raja" #fictional
 		dynasty = "Bhanja"
-		birth_date = 970.1.1
-		adm = 3
+		adm = 2
 		dip = 3
-		mil = 4
+		mil = 2
 	}
 }
 
 1010.1.1 = { add_government_reform = early_gov_reform_8 }
-1060.1.1 = {
+
+1050.1.1 = {
 	monarch = {
 		name = "Satru" #fictional
 		dynasty = "Bhanja"
@@ -138,6 +276,7 @@ capital = 4450 # Mayurbhanj
 	}
 }
 
+# Bhanjas of Keonjhar and Mayurbhanj
 1100.1.1 = {
 	monarch = {
 		name = "Adi"

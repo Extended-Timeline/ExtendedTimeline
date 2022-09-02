@@ -1,10 +1,10 @@
 #2233 - Raipur
 
-owner = DAK
-controller = DAK
+owner = RTT
+controller = RTT
 culture = jharkhandi
 religion = mahayana
-capital = "Ratanpur"
+capital = "Ratnapura"
 trade_goods = grain
 hre = no
 discovered_by = chinese
@@ -19,12 +19,17 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = DAK
+add_core = RTT
 
-350.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = DAK }
+175.1.1 = { owner = DAK controller = DAK add_core = DAK }
 300.1.1 = { religion = hinduism }
-500.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = GUP }
-700.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = BAA }
+320.1.1 = { owner = VAK controller = VAK add_core = VAK }
+355.1.1 = { owner = BAA controller = BAA add_core = BAA remove_core = VAK }
+490.1.1 = { owner = RTT controller = RTT add_core = RTT remove_core = BAA }
+610.1.1 = { owner = DAK controller = DAK add_core = DAK }
+730.1.1 = { owner = KLC controller = KLC add_core = KLC }
+815.1.1 = { owner = RSH controller = RSH add_core = RSH }
+850.1.1 = { owner = KLC controller = KLC remove_core = RSH }
 1000.1.1 = { owner = RTT controller = RTT add_core = RTT remove_core = KLC }
 
 1690.1.1 = { discovered_by = ENG }

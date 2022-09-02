@@ -1,10 +1,10 @@
 #564 - Dhaka
 
-owner = VGA
-controller = VGA
+owner = HRK
+controller = HRK
 culture = bengali
-religion = hinduism
-capital = "Sonargaon"
+religion = mahayana
+capital = "Devaparvata"
 trade_goods = cloth #Muslin
 hre = no
 discovered_by = chinese
@@ -19,17 +19,17 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = VGA
+add_core = HRK
 
 700.1.1 = { base_tax = 3 base_production = 3 }
-740.1.1 = { owner = HRK controller = HRK add_core = HRK remove_core = VGA }
 800.1.1 = { discovered_by = nomad_group }
 900.1.1 = { base_manpower = 2 }
-1050.1.1 = { owner = PAA controller = PAA add_core = PAA remove_core = HRK }
 1100.1.1 = { base_tax = 4 base_production = 4 }
-1174.1.1 = { owner = SEA controller = SEA add_core = SEA remove_core = PAA }
-1230.1.1 = { owner = NIZ controller = NIZ add_core = NIZ remove_core = SEA }
-1342.1.1 = { owner = BNG controller = BNG add_core = BNG remove_core = NIZ capital = "Dhaka" }
+1180.1.1 = { owner = NIZ controller = NIZ add_core = NIZ remove_core = HRK religion = hinduism }
+1230.1.1 = { owner = HRK controller = HRK add_core = HRK remove_core = NIZ }
+1320.1.1 = { owner = BNG controller = BNG add_core = BNG capital = "Sonargaon" }
+1324.1.1 = { owner = DLH controller = DLH add_core = DLH }
+1338.1.1 = { owner = BNG controller = BNG remove_core = DLH }
 
 1500.1.1 = { discovered_by = POR }
 1560.1.1 = { religion = sunni }

@@ -51,6 +51,8 @@ add_core = PRT
 } # Shah Abbas Invades
 1673.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
+1723.9.12 = { owner = RUS controller = RUS add_core = RUS } # Treaty of Saint Petersburg
+1732.1.21 = { owner = PER controller = PER remove_core = RUS } #Treaty of Resht
 
 1935.1.1   = { owner = IRA controller = IRA add_core = IRA remove_core = PER }
 

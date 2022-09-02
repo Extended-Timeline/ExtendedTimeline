@@ -32,16 +32,18 @@ base_manpower = 1
 1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
 1375.1.1 = { owner = GAZ controller = GAZ add_core = GAZ remove_core = WHH }
 
+1725.1.1 = { owner = RUS controller = RUS add_core = RUS } #Shamkhalate of Tarki abolished by Russia
+1735.3.10 = { owner = GAZ controller = GAZ remove_core = RUS } #Restored by Treaty of Ganja
 1800.1.1 = { base_tax = 3 }
-1801.1.18 = {	owner = RUS
-		controller = RUS
-		add_core = RUS
-	     } # Annexed by Russia
-
+1813.10.12 = { owner = RUS controller = RUS add_core = RUS } # Annexed by Russia, approximate date
+		 
+1844.1.1   = { capital = "Petrovskoye" }
 1857.1.1   = { capital = "Mahachkala" }
 1875.1.1 = { base_manpower = 4 }
 1880.1.1   = { culture = nogaybak }
 1910.1.1 = { discovered_by = asian }
+1917.3.6 = { owner = CCS controller = CCS add_core = CCS }
+1921.1.1  = { owner = RUS controller = RUS }
 1922.12.30 = { owner = SOV controller = SOV add_core = SOV remove_core = RUS }
 1991.12.25 = { owner = RUS controller = RUS add_core = RUS remove_core = SOV }
 2000.1.1 = { base_production = 3 }

@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = gondi
 religion = hinduism
 technology_group = early_indian
-capital = 4445 # Pushkari
+capital = 547
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }
@@ -98,9 +98,68 @@ capital = 4445 # Pushkari
 	}
 }
 
-600.1.1 = { capital = 547 } #Bastar
-
 620.1.1 = { add_government_reform = early_gov_reform_5 }
+
+600.1.1 = {
+	monarch = {
+		name = "Prithviraja"
+		dynasty = "Nala"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+630.1.1 = {
+	monarch = {
+		name = "Viruparaja"
+		dynasty = "Nala"
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}
+
+660.1.1 = {
+	monarch = {
+		name = "Vilasatunga"
+		dynasty = "Nala"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+700.1.1 = {
+	monarch = {
+		name = "Stambha"
+		dynasty = "Nala"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+720.1.1 = {
+	monarch = {
+		name = "Nandanaraja"
+		dynasty = "Nala"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+740.1.1 = {
+	monarch = {
+		name = "(unknown)"
+		adm = 1
+		dip = 1
+		mil = 1
+		regent = yes
+	}
+}
+
 750.1.1 = { add_government_reform = early_gov_reform_6 }
 750.1.1 = { technology_group = indian }
 

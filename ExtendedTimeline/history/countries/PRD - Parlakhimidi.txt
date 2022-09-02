@@ -2,515 +2,289 @@ government = tribal
 add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = early_indian
-religion = mahayana
+religion = jainism
 primary_culture = garjati
 capital = 4448 # Parlakhimidi
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }
 360.1.1 = { add_government_reform = early_gov_reform_3 }
+400.1.1 = { religion = hinduism }
 490.1.1 = { add_government_reform = early_gov_reform_4 }
 620.1.1 = { add_government_reform = early_gov_reform_5 }
-736.1.1 = {
-	monarch = {
-		name = "Kshemankaradeva"
-		dynasty = "Bhaumakara"
-		birth_date = 706.1.1
-		adm = 2
-		dip = 4
-		mil = 0
-	}
-}
-
-736.1.1 = {
-	heir = {
-		name = "Shivakaradeva"
-		monarch_name = "Shivakaradeva I"
-		dynasty = "Bhaumakara"
-		birth_date = 726.1.1
-		death_date = 790.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 0
-	}
-}
-
 750.1.1 = { add_government_reform = early_gov_reform_6 }
 750.1.1 = { technology_group = indian }
-
-756.1.1 = {
-	monarch = {
-		name = "Shivakaradeva I"
-		dynasty = "Bhaumakara"
-		birth_date = 726.1.1
-		adm = 2
-		dip = 3
-		mil = 0
-	}
-}
-
-760.1.1 = {
-	heir = {
-		name = "Shubhakaradeva"
-		monarch_name = "Shubhakaradeva I"
-		dynasty = "Bhaumakara"
-		birth_date = 760.1.1
-		death_date = 809.1.1
-		claim = 95
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-790.1.1 = {
-	monarch = {
-		name = "Shubhakaradeva I"
-		dynasty = "Bhaumakara"
-		birth_date = 760.1.1
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-790.1.1 = {
-	heir = {
-		name = "Shivakaradeva"
-		monarch_name = "Shivakaradeva II"
-		dynasty = "Bhaumakara"
-		birth_date = 779.1.1
-		death_date = 820.1.1
-		claim = 95
-		adm = 4
-		dip = 0
-		mil = 2
-	}
-}
-
-809.1.1 = {
-	religion = hinduism
-	monarch = {
-		name = "Shivakaradeva II"
-		dynasty = "Bhaumakara"
-		birth_date = 779.1.1
-		adm = 4
-		dip = 0
-		mil = 2
-	}
-}
-
-809.1.1 = {
-	heir = {
-		name = "Shantikaradeva"
-		monarch_name = "Shantikaradeva I"
-		dynasty = "Bhaumakara"
-		birth_date = 790.1.1
-		death_date = 836.1.1
-		claim = 95
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
-
-820.1.1 = {
-	monarch = {
-		name = "Shantikaradeva I"
-		dynasty = "Bhaumakara"
-		birth_date = 790.1.1
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
-
-820.1.1 = {
-	heir = {
-		name = "Shubhakaradeva"
-		monarch_name = "Shubhakaradeva II"
-		dynasty = "Bhaumakara"
-		birth_date = 806.1.1
-		death_date = 839.1.1
-		claim = 95
-		adm = 1
-		dip = 0
-		mil = 2
-	}
-}
-
-836.1.1 = {
-	monarch = {
-		name = "Shubhakaradeva II"
-		dynasty = "Bhaumakara"
-		birth_date = 806.1.1
-		adm = 1
-		dip = 0
-		mil = 2
-	}
-}
-
-836.1.1 = {
-	heir = {
-		name = "Shubhakaradeva"
-		monarch_name = "Shubhakaradeva III"
-		dynasty = "Bhaumakara"
-		birth_date = 809.1.1
-		death_date = 846.1.1
-		claim = 95
-		adm = 3
-		dip = 2
-		mil = 1
-	}
-}
-
-839.1.1 = {
-	monarch = {
-		name = "Shubhakaradeva III"
-		dynasty = "Bhaumakara"
-		birth_date = 809.1.1
-		adm = 3
-		dip = 2
-		mil = 1
-	}
-}
-
-839.1.1 = {
-	heir = {
-		name = "Tribhuvana Mahadevi"
-		monarch_name = "Tribhuvana Mahadevi I"
-		dynasty = "Bhaumakara"
-		birth_date = 816.1.1
-		death_date = 860.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 5
-		female = yes
-	}
-}
-
-846.1.1 = {
-	monarch = {
-		name = "Tribhuvana Mahadevi I"
-		dynasty = "Bhaumakara"
-		birth_date = 816.1.1
-		adm = 2
-		dip = 3
-		mil = 5
-		female = yes
-	}
-}
-
-846.1.1 = {
-	heir = {
-		name = "Shantikaradeva"
-		monarch_name = "Shantikaradeva II"
-		dynasty = "Bhaumakara"
-		birth_date = 830.1.1
-		death_date = 881.1.1
-		claim = 95
-		adm = 5
-		dip = 0
-		mil = 3
-	}
-}
-
-860.1.1 = {
-	monarch = {
-		name = "Shantikaradeva II"
-		dynasty = "Bhaumakara"
-		birth_date = 830.1.1
-		adm = 5
-		dip = 0
-		mil = 3
-	}
-}
-
-860.1.1 = {
-	heir = {
-		name = "Shubhakaradeva"
-		monarch_name = "Shubhakaradeva IV"
-		dynasty = "Bhaumakara"
-		birth_date = 851.1.1
-		death_date = 885.1.1
-		claim = 95
-		adm = 3
-		dip = 4
-		mil = 0
-	}
-}
-
 880.1.1 = { add_government_reform = early_gov_reform_7 }
-881.1.1 = {
-	monarch = {
-		name = "Shubhakaradeva IV"
-		dynasty = "Bhaumakara"
-		birth_date = 851.1.1
-		adm = 3
-		dip = 4
-		mil = 0
-	}
-}
-
-881.1.1 = {
-	heir = {
-		name = "Shivakaradeva"
-		monarch_name = "Shivakaradeva III"
-		dynasty = "Bhaumakara"
-		birth_date = 855.1.1
-		death_date = 894.1.1
-		claim = 95
-		adm = 2
-		dip = 0
-		mil = 5
-	}
-}
-
-885.1.1 = {
-	monarch = {
-		name = "Shivakaradeva III"
-		dynasty = "Bhaumakara"
-		birth_date = 855.1.1
-		adm = 2
-		dip = 0
-		mil = 5
-	}
-}
-
-885.1.1 = {
-	heir = {
-		name = "Tribhuvana Mahadevi"
-		monarch_name = "Tribhuvana Mahadevi II"
-		dynasty = "Bhaumakara"
-		birth_date = 864.1.1
-		death_date = 900.1.1
-		claim = 95
-		adm = 0
-		dip = 1
-		mil = 3
-		female = yes
-	}
-}
-
-894.1.1 = {
-	monarch = {
-		name = "Tribhuvana Mahadevi II"
-		dynasty = "Bhaumakara"
-		birth_date = 864.1.1
-		adm = 0
-		dip = 1
-		mil = 3
-		female = yes
-	}
-}
-
-894.1.1 = {
-	heir = {
-		name = "Shantikaradeva"
-		monarch_name = "Shantikaradeva III"
-		dynasty = "Bhaumakara"
-		birth_date = 870.1.1
-		death_date = 905.1.1
-		claim = 95
-		adm = 0
-		dip = 5
-		mil = 0
-	}
-}
-
-900.1.1 = {
-	monarch = {
-		name = "Shantikaradeva III"
-		dynasty = "Bhaumakara"
-		birth_date = 870.1.1
-		adm = 0
-		dip = 5
-		mil = 0
-	}
-}
-
-900.1.1 = {
-	heir = {
-		name = "Shubhakaradeva"
-		monarch_name = "Shubhakaradeva V"
-		dynasty = "Bhaumakara"
-		birth_date = 875.1.1
-		death_date = 910.1.1
-		claim = 95
-		adm = 0
-		dip = 2
-		mil = 1
-	}
-}
-
-905.1.1 = {
-	monarch = {
-		name = "Shubhakaradeva V"
-		dynasty = "Bhaumakara"
-		birth_date = 875.1.1
-		adm = 0
-		dip = 2
-		mil = 1
-	}
-}
-
-905.1.1 = {
-	heir = {
-		name = "Gauri Mahadevi"
-		monarch_name = "Gauri Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 880.1.1
-		death_date = 916.1.1
-		claim = 95
-		adm = 1
-		dip = 5
-		mil = 4
-		female = yes
-	}
-}
-
-910.1.1 = {
-	monarch = {
-		name = "Gauri Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 880.1.1
-		adm = 1
-		dip = 5
-		mil = 4
-		female = yes
-	}
-}
-
-910.1.1 = {
-	heir = {
-		name = "Dandi Mahadevi"
-		monarch_name = "Dandi Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 886.1.1
-		death_date = 925.1.1
-		claim = 95
-		adm = 5
-		dip = 3
-		mil = 1
-		female = yes
-	}
-}
-
-916.1.1 = {
-	monarch = {
-		name = "Dandi Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 886.1.1
-		adm = 5
-		dip = 3
-		mil = 1
-		female = yes
-	}
-}
-
-916.1.1 = {
-	heir = {
-		name = "Vakula Mahadevi"
-		monarch_name = "Vakula Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 895.1.1
-		death_date = 940.1.1
-		claim = 95
-		adm = 0
-		dip = 3
-		mil = 5
-		female = yes
-	}
-}
-
-925.1.1 = {
-	monarch = {
-		name = "Vakula Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 895.1.1
-		adm = 0
-		dip = 3
-		mil = 5
-		female = yes
-	}
-}
-
-925.1.1 = {
-	heir = {
-		name = "Charma Mahadevi"
-		monarch_name = "Charma Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 920.1.1
-		death_date = 980.1.1
-		claim = 95
-		adm = 0
-		dip = 1
-		mil = 1
-		female = yes
-	}
-}
-
-940.1.1 = {
-	monarch = {
-		name = "Charma Mahadevi"
-		dynasty = "Bhaumakara"
-		birth_date = 920.1.1
-		adm = 0
-		dip = 1
-		mil = 1
-		female = yes
-	}
-}
-
-# Founder 
 1010.1.1 = { add_government_reform = early_gov_reform_8 }
 1140.1.1 = { add_government_reform = early_gov_reform_9 }
 1270.1.1 = { add_government_reform = early_gov_reform_10 }
-1444.1.1 = { # Younger son of Kapilendra of Orissa
+
+1309.1.1 = {
 	monarch = {
-		name = "Kolahomi"
-		dynasty = "Gajapati"
-		ADM = 1
-		DIP = 1
-		MIL = 2
+		name = "Narasingha"
+		dynasty = "Ganga"
+		birth_date = 1279.1.1
+		adm = 1
+		dip = 2
+		mil = 4
 	}
 }
 
-# Fictional son of Kolahomi
-
-1480.1.1 = {
+1309.1.1 = {
 	heir = {
-		name = "Kaluadeva"
-		monarch_name = "Kaluadeva"
-		dynasty = "Gajapati"
-		birth_date = 1480.1.1
-		death_Date = 1566.1.1
+		name = "Madanrudra"
+		monarch_name = "Madanrudra"
+		dynasty = "Ganga"
+		birth_date = 1290.1.1
+		death_date = 1339.1.1
 		claim = 95
-		ADM = 1
-		DIP = 2
-		MIL = 1
+		adm = 5
+		dip = 3
+		mil = 4
 	}
 }
 
-1498.1.1 = {
+1320.1.1 = {
 	monarch = {
-		name = "Kaluadeva"
-		dynasty = "Gajapati"
-		ADM = 1
-		DIP = 2
-		MIL = 1
+		name = "Madanrudra"
+		dynasty = "Ganga"
+		birth_date = 1290.1.1
+		adm = 5
+		dip = 3
+		mil = 4
 	}
 }
 
-# Back to historical rulers
+1320.1.1 = {
+	heir = {
+		name = "Narayana"
+		monarch_name = "Narayana"
+		dynasty = "Ganga"
+		birth_date = 1309.1.1
+		death_date = 1353.1.1
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 0
+	}
+}
+
+1339.1.1 = {
+	monarch = {
+		name = "Narayana"
+		dynasty = "Ganga"
+		birth_date = 1309.1.1
+		adm = 0
+		dip = 2
+		mil = 0
+	}
+}
+
+1339.1.1 = {
+	heir = {
+		name = "Ananda"
+		monarch_name = "Ananda"
+		dynasty = "Ganga"
+		birth_date = 1323.1.1
+		death_date = 1367.1.1
+		claim = 95
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}
+
+1353.1.1 = {
+	monarch = {
+		name = "Ananda"
+		dynasty = "Ganga"
+		birth_date = 1323.1.1
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}
+
+1353.1.1 = {
+	heir = {
+		name = "Jayarudra"
+		monarch_name = "Jayarudra"
+		dynasty = "Ganga"
+		birth_date = 1337.1.1
+		death_date = 1399.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1367.1.1 = {
+	monarch = {
+		name = "Jayarudra"
+		dynasty = "Ganga"
+		birth_date = 1337.1.1
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1369.1.1 = {
+	heir = {
+		name = "Lakshmi Narasingha"
+		monarch_name = "Lakshmi Narasingha"
+		dynasty = "Ganga"
+		birth_date = 1369.1.1
+		death_date = 1418.1.1
+		claim = 95
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Lakshmi Narasingha"
+		dynasty = "Ganga"
+		birth_date = 1369.1.1
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Madhukarna Gajapati"
+		monarch_name = "Madhukarna Gajapati"
+		dynasty = "Ganga"
+		birth_date = 1388.1.1
+		death_date = 1441.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Madhukarna Gajapati"
+		dynasty = "Ganga"
+		birth_date = 1388.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	heir = {
+		name = "Murtunjaya"
+		monarch_name = "Murtunjaya"
+		dynasty = "Ganga"
+		birth_date = 1411.1.1
+		death_date = 1467.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Murtunjaya"
+		dynasty = "Ganga"
+		birth_date = 1411.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Madhaba"
+		monarch_name = "Madhaba"
+		dynasty = "Ganga"
+		birth_date = 1437.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 0
+		dip = 4
+		mil = 3
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Madhaba"
+		dynasty = "Ganga"
+		birth_date = 1437.1.1
+		adm = 0
+		dip = 4
+		mil = 3
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "Chandra Betal"
+		monarch_name = "Chandra Betal"
+		dynasty = "Ganga"
+		birth_date = 1465.1.1
+		death_date = 1520.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Chandra Betal"
+		dynasty = "Ganga"
+		birth_date = 1465.1.1
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Subarnalinga"
+		monarch_name = "Subarnalinga"
+		dynasty = "Ganga"
+		birth_date = 1490.1.1
+		death_date = 1566.1.1
+		claim = 95
+		adm = 1
+		dip = 5
+		mil = 2
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Subarnalinga"
+		dynasty = "Ganga"
+		birth_date = 1490.1.1
+		adm = 1
+		dip = 5
+		mil = 2
+	}
+}
 
 1540.1.1 = {
 	heir = {
 		name = "Sibalinga Narayan"
 		monarch_name = "Sibalinga Narayan"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1540.1.1
 		death_Date = 1590.1.1
 		claim = 95
@@ -523,7 +297,7 @@ capital = 4448 # Parlakhimidi
 1566.1.1 = {
 	monarch = {
 		name = "Sibalinga Narayan"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 0
 		DIP = 0
 		MIL = 1
@@ -534,7 +308,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Subarna Kesari Govinda"
 		monarch_name = "Subarna Kesari Govinda"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1575.1.1
 		death_Date = 1630.1.1
 		claim = 95
@@ -547,7 +321,7 @@ capital = 4448 # Parlakhimidi
 1590.1.1 = {
 	monarch = {
 		name = "Subarna Kesari Govinda"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 1
 		DIP = 3
 		MIL = 0
@@ -559,7 +333,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Mukunda Rudra"
 		monarch_name = "Mukunda Rudra"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1610.1.1
 		death_Date = 1656.1.1
 		claim = 95
@@ -572,7 +346,7 @@ capital = 4448 # Parlakhimidi
 1630.1.1 = {
 	monarch = {
 		name = "Mukunda Rudra"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 3
 		DIP = 2
 		MIL = 3
@@ -583,7 +357,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Mukunda"
 		monarch_name = "Mukunda"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1640.1.1
 		death_Date = 1674.1.1
 		claim = 95
@@ -596,7 +370,7 @@ capital = 4448 # Parlakhimidi
 1656.1.1 = {
 	monarch = {
 		name = "Mukunda"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 2
 		DIP = 2
 		MIL = 3
@@ -607,7 +381,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Ananta Padmanabh"
 		monarch_name = "Ananta Padmanabh"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1657.1.1
 		death_Date = 1686.1.1
 		claim = 95
@@ -620,7 +394,7 @@ capital = 4448 # Parlakhimidi
 1674.1.1 = {
 	monarch = {
 		name = "Ananta Padmanabh"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 2
 		DIP = 3
 		MIL = 2
@@ -631,7 +405,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Sarbajgan Jagannatha"
 		monarch_name = "Sarbajgan Jagannatha"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1670.1.1
 		death_Date = 1702.1.1
 		claim = 95
@@ -644,7 +418,7 @@ capital = 4448 # Parlakhimidi
 1686.1.1 = {
 	monarch = {
 		name = "Sarbajgan Jagannatha"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 2
 		DIP = 3
 		MIL = 0
@@ -655,7 +429,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Bira Padmanabh"
 		monarch_name = "Bira Padmanabh"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1686.1.1
 		death_Date = 1748.1.1
 		claim = 95
@@ -668,7 +442,7 @@ capital = 4448 # Parlakhimidi
 1729.1.1 = {
 	monarch = {
 		name = "Bira Padmanabh"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 2
 		DIP = 3
 		MIL = 2
@@ -679,7 +453,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Prataprudra"
 		monarch_name = "Prataprudra"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1715.1.1
 		death_Date = 1748.1.1
 		claim = 95
@@ -692,7 +466,7 @@ capital = 4448 # Parlakhimidi
 1748.1.1 = {
 	monarch = {
 		name = "Prataprudra"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 2
 		DIP = 2
 		MIL = 3
@@ -703,7 +477,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Jagannath"
 		monarch_name = "Jagannath"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1733.1.1
 		death_Date = 1770.1.1
 		claim = 95
@@ -716,7 +490,7 @@ capital = 4448 # Parlakhimidi
 1751.1.1 = {
 	monarch = {
 		name = "Jagannath"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 3
 		DIP = 1
 		MIL = 3
@@ -727,7 +501,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Goura Chandra"
 		monarch_name = "Goura Chandra"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1748.1.1
 		death_Date = 1802.1.1
 		claim = 95
@@ -740,7 +514,7 @@ capital = 4448 # Parlakhimidi
 1771.1.1 = {
 	monarch = {
 		name = "Goura Chandra"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 3
 		DIP = 1
 		MIL = 3
@@ -751,7 +525,7 @@ capital = 4448 # Parlakhimidi
 	heir = {
 		name = "Purushottam"
 		monarch_name = "Purushottam"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		birth_date = 1766.1.1
 		death_Date = 1821.1.1
 		claim = 95
@@ -764,7 +538,7 @@ capital = 4448 # Parlakhimidi
 1802.1.1 = {
 	monarch = {
 		name = "Purushottam"
-		dynasty = "Gajapati"
+		dynasty = "Ganga"
 		ADM = 1
 		DIP = 1
 		MIL = 1

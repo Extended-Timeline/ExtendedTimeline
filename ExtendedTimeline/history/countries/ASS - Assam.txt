@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 primary_culture = assamese
 religion = hinduism
 technology_group = early_chinese
-capital = 4440 # Gargaon
+capital = 571 # Pragjyotishpura
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }
@@ -669,110 +669,37 @@ capital = 4440 # Gargaon
 	}
 }
 
-1100.1.1 = {
+1110.1.1 = {
 	monarch = {
-		name = "Giridhar"
-		dynasty = "Kachari"
-		adm = 1
+		name = "Timgyadeva"
+		dynasty = "Kamarupa"
+		adm = 2
 		dip = 1
 		mil = 2
 	}
 }
 
-1100.1.1 = {
-	heir = {
-		name = "Beeradhwaj"
-		monarch_name = "Beeradhwaj"
-		dynasty = "Kachari"
-		birth_date = 1095.1.1
-		death_date = 1155.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1125.1.1 = {
+1126.1.1 = {
 	monarch = {
-		name = "Beeradhwaj"
-		dynasty = "Kachari"
+		name = "Vaidyadeva"
+		dynasty = "Kamarupa"
 		adm = 2
 		dip = 2
-		mil = 2
+		mil = 1
 	}
 }
 
-1125.1.1 = {
-	heir = {
-		name = "Surajit"
-		monarch_name = "Surajit"
-		dynasty = "Kachari"
-		birth_date = 1125.1.1
-		death_date = 1180.1.1
-		claim = 95
-		adm = 5
-		dip = 1
-		mil = 3
-	}
-}
+1100.1.1 = { capital = 4440 }
 
 1140.1.1 = { add_government_reform = early_gov_reform_9 }
-1155.1.1 = {
+
+1140.1.1 = {
 	monarch = {
-		name = "Surajit"
-		dynasty = "Kachari"
-		adm = 5
+		name = "(unknown)"
+		adm = 1
 		dip = 1
-		mil = 3
-	}
-}
-
-1155.1.1 = {
-	heir = {
-		name = "Ohak"
-		monarch_name = "Ohak"
-		dynasty = "Kachari"
-		birth_date = 1150.1.1
-		death_date = 1210.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}
-
-1180.1.1 = {
-	monarch = {
-		name = "Ohak"
-		dynasty = "Kachari"
-		adm = 2
-		dip = 3
-		mil = 4
-	}
-}
-
-1180.1.1 = {
-	heir = {
-		name = "Makardhwaj"
-		monarch_name = "Makardhwaj"
-		dynasty = "Kachari"
-		birth_date = 1180.1.1
-		death_date = 1228.1.1
-		claim = 95
-		adm = 5
-		dip = 2
-		mil = 5
-	}
-}
-
-1210.1.1 = {
-	monarch = {
-		name = "Makardhwaj"
-		dynasty = "Kachari"
-		adm = 5
-		dip = 2
-		mil = 5
+		mil = 1
+		regent = yes
 	}
 }
 

@@ -13,11 +13,55 @@ capital = 553 # Sambalpur
 620.1.1 = { add_government_reform = early_gov_reform_5 }
 750.1.1 = { add_government_reform = early_gov_reform_6 }
 750.1.1 = { technology_group = indian }
-
 880.1.1 = { add_government_reform = early_gov_reform_7 }
 1010.1.1 = { add_government_reform = early_gov_reform_8 }
+
+740.1.1 = {
+	monarch = {
+		name = "Udita Varsha"
+		dynasty = "Mayura"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+790.1.1 = {
+	monarch = {
+		name = "Teja Varsha"
+		dynasty = "Mayura"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+840.1.1 = {
+	religion = mahayana
+	monarch = {
+		name = "Udaya Varsha"
+		dynasty = "Mayura"
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}
+
+885.1.1 = { religion = hinduism }
+
+1125.1.1 = {
+	monarch = {
+		name = "(unknown)"
+		adm = 1
+		dip = 1
+		mil = 1
+		regent = yes
+	}
+}
+
 1140.1.1 = { add_government_reform = early_gov_reform_9 }
 1270.1.1 = { add_government_reform = early_gov_reform_10 }
+
 1444.1.1 = {
 	monarch = {
 		name = "Ramai Dev"

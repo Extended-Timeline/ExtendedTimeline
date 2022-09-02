@@ -397,8 +397,24 @@ christian = {
 			global_missionary_strength = 0.02
 			female_advisor_chance = 0.4
 		}
-		
-		
+
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			cathar_aspect_endura
+			cathar_aspect_cathar_hierarchy
+			cathar_aspect_pacifism
+			cathar_aspect_equality_of_men_and_women
+			cathar_aspect_fortress_churches
+			cathar_aspect_generous_donations
+			cathar_aspect_allowed_interest
+			cathar_aspect_consolamentum
+			cathar_aspect_perfecti
+			cathar_aspect_support_of_the_nobility
+			cathar_aspect_ascetic_lifestyle
+			cathar_aspect_collective_families
+		}
+		aspects_name = PROTESTANT_ASPECTS
+
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
 		
 		date = 1143.1.1

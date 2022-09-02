@@ -32,6 +32,7 @@ discovered_by = east_african
 	add_core = ETH
 	remove_core = ADA
 } # Adal collapse in highlands in wake of Ahmad Gran's death
+1650.1.1 = { culture = oromo }
 
 1910.1.1 = { discovered_by = western discovered_by = eastern }
 1936.1.20  = { controller = ITA }

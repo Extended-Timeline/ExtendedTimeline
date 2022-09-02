@@ -1,10 +1,10 @@
 #2232 - Sambalpur
 
-owner = DAK
-controller = DAK
+owner = KLI
+controller = KLI
 culture = garjati
-religion = jainism
-capital = "Sonepur"
+religion = hinduism
+capital = "Suvarnapura"
 trade_goods = naval_supplies
 hre = no
 discovered_by = chinese
@@ -19,17 +19,22 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
+add_core = KLI
 add_core = DAK
 
-350.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = DAK }
-400.1.1 = { religion = hinduism }
-475.1.1 = { owner = BAA controller = BAA add_core = BAA remove_core = GUP }
-590.1.1 = { owner = DAK controller = DAK add_core = DAK }
-790.1.1 = { owner = PTT controller = PTT add_core = PTT remove_core = PTT }
+120.1.1 = { owner = DAK controller = DAK remove_core = KLI }
+350.1.1 = { owner = KLH controller = KLH add_core = KLH remove_core = DAK }
+475.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = KLH }
+580.1.1 = { owner = KHN controller = KHN add_core = KHN remove_core = DAK }
+700.1.1 = { owner = DAK controller = DAK add_core = DAK }
+760.1.1 = { owner = KHN controller = KHN remove_core = DAK }
 800.1.1 = { discovered_by = nomad_group }
-980.1.1 = { owner = KLI controller = KLI add_core = KLI }
-1110.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI }
-1191.1.1 = { owner = PTT controller = PTT add_core = PTT remove_core = ORI }
+885.1.1 = { owner = DAK controller = DAK add_core = DAK capital = "Yayatinagara" }
+950.1.1 = { owner = TOS controller = TOS add_core = TOS }
+1023.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = TOS capital = "Suvarnapura" }
+1114.1.1 = { owner = RTT controller = RTT add_core = RTT capital = "Sonepur" }
+1225.1.1 = { owner = KHN controller = KHN add_core = KHN remove_core = RTT }
+1323.1.1 = { owner = PTT controller = PTT add_core = PTT }
 
 1494.1.1 = {
 	owner = SBP

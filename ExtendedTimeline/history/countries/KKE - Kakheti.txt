@@ -311,13 +311,200 @@ capital = 2203
 	}
 }
 
-1747.6.19 = {
+1527.1.1 = {
+	heir = {
+		name = "Aleksandre"
+		monarch_name = "Aleksandre II"
+		dynasty = "Bagrationi"
+		birth_date = 1527.1.1
+		death_date = 1605.3.12
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1574.1.1 = {
+	monarch = {
+		name = "Aleksandre II"
+		dynasty = "Bagrationi"
+		birth_date = 1527.1.1
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1589.1.1 = {
+	heir = {
+		name = "Teimuraz"
+		monarch_name = "Teimuraz I"
+		dynasty = "Bagrationi"
+		birth_date = 1589.1.1
+		death_date = 1661.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}
+
+1605.3.12 = {
+	monarch = {
+		name = "Teimuraz I"
+		dynasty = "Bagrationi"
+		birth_date = 1589.1.1
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}
+
+1664.1.1 = {
+	monarch = {
+		name = "Archil I"
+		dynasty = "Bagrationi"
+		birth_date = 1647.1.1
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+}
+
+1664.1.1 = {
+	heir = {
+		name = "Erekle"
+		monarch_name = "Erekle I"
+		dynasty = "Bagrationi"
+		birth_date = 1642.1.1
+		death_date = 1709.1.1
+		claim = 95
+		adm = 5
+		dip = 0
+		mil = 3
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Erekle I"
+		dynasty = "Bagrationi"
+		birth_date = 1642.1.1
+		adm = 5
+		dip = 0
+		mil = 3
+	}
+}
+
+1679.1.1 = {
+	heir = {
+		name = "Davit"
+		monarch_name = "Davit II"
+		dynasty = "Bagrationi"
+		birth_date = 1679.1.1
+		death_date = 1722.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1709.1.1 = {
+	monarch = {
+		name = "Davit II"
+		dynasty = "Bagrationi"
+		birth_date = 1679.1.1
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1709.1.1 = {
+	heir = {
+		name = "Constantine"
+		monarch_name = "Constantine II"
+		dynasty = "Bagrationi"
+		birth_date = 1692.1.1
+		death_date = 1732.12.28
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Constantine II"
+		dynasty = "Bagrationi"
+		birth_date = 1692.1.1
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+}
+
+1725.1.1 = {
+	monarch = {
+		name = "Constantine II"
+		dynasty = "Bagrationi"
+		birth_date = 1692.1.1
+		adm = 4
+		dip = 1
+		mil = 4
+		religion = sunni
+	}
+}
+
+1725.1.1 = {
+	heir = {
+		name = "Teimuraz"
+		monarch_name = "Teimuraz II"
+		dynasty = "Bagrationi"
+		birth_date = 1700.1.1
+		death_date = 1762.1.8
+		claim = 95
+		adm = 1
+		dip = 4
+		mil = 5
+	}
+}
+
+1732.12.28 = {
+	monarch = {
+		name = "Teimuraz II"
+		dynasty = "Bagrationi"
+		birth_date = 1700.1.1
+		adm = 1
+		dip = 4
+		mil = 5
+	}
+}
+
+1732.12.28 = {
+	heir = {
+		name = "Erekle"
+		monarch_name = "Erekle II"
+		dynasty = "Bagrationi"
+		birth_date = 1729.11.7
+		death_date = 1798.1.11
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+}
+
+1744.1.1 = {
 	monarch = {
 		name = "Erekle II"
 		dynasty = "Bagrationi"
-		birth_date = 1720.11.7
-		adm = 2
-		dip = 3
-		mil = 2
+		birth_date = 1729.11.7
+		adm = 4
+		dip = 1
+		mil = 3
 	}
 }

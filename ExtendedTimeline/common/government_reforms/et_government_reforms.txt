@@ -61,7 +61,10 @@ caliphate_theocratic_reform = {
 	allow_normal_conversion = no
 	potential = {
 		religion_group = muslim
-		has_reform = caliphate_theocratic_reform
+		OR = {
+			tag = RSD
+			has_reform = caliphate_theocratic_reform
+		}
 	}
 	lock_level_when_selected = yes
 	valid_for_nation_designer = yes

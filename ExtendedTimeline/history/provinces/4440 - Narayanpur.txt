@@ -1,9 +1,9 @@
 #566 - Assam
 
-owner = ASS
-controller = ASS
-culture = assamese
-religion = hinduism
+owner = DAV
+controller = DAV
+culture = brahmaputran
+religion = animism
 capital = "Charaideo"
 trade_goods = tea
 hre = no
@@ -16,12 +16,17 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = ASS
+add_core = DAV
 
+400.1.1 = { owner = ASS controller = ASS add_core = ASS }
+500.1.1 = { religion = hinduism }
 600.1.1 = { base_tax = 2 base_production = 2 }
 800.1.1 = { base_tax = 3 base_production = 3 discovered_by = nomad_group }
 1000.1.1 = { base_manpower = 3 }
+1100.1.1 = { owner = SDY controller = SDY add_core = SDY remove_core = ASS }
 1200.1.1 = { base_tax = 4 base_production = 4 }
+1228.1.1 = { owner = ASS controller = ASS add_core = ASS remove_core = SDY }
+1250.1.1 = { culture = assamese }
 
 1540.1.1 = {
 	capital = "Garhgaon"

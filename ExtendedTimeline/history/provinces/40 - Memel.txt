@@ -25,7 +25,7 @@ add_permanent_province_modifier = {
 800.1.1 = { base_manpower = 2 }
 1000.1.1 = { base_tax = 3 base_production = 3 }
 1200.1.1 = { base_manpower = 3 discovered_by = muslim discovered_by = ottoman }
-1252.1.1 = { owner = TEU controller = TEU add_core = TEU religion = catholic culture = prussian }
+1252.1.1 = { owner = TEU controller = TEU add_core = TEU religion = catholic culture = lithuanian }
 1300.1.1 = { remove_core = CUR }
 
 1454.2.10 = { add_core = POL revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Thirteen years' war
@@ -57,7 +57,7 @@ add_permanent_province_modifier = {
 1871.1.18  = { owner = GER controller = GER add_core = GER remove_core = PRU } # German unification
 1910.1.1 = { discovered_by = asian }
 1919.6.28  = { owner = MML controller = MML add_core = MML remove_core = GER }
-1923.1.19  = { owner = LIT controller = LIT add_core = LIT remove_core = MML capital = "Klaipeda" culture = lithuanian }
+1923.1.19  = { owner = LIT controller = LIT add_core = LIT remove_core = MML capital = "Klaipeda" }
 1939.3.22  = { owner = GER controller = GER add_core = GER }
 1945.1.28  = { controller = SOV }
 1945.5.8   = { owner = SOV controller = SOV add_core = SOV remove_core = GER }

@@ -69,17 +69,13 @@ add_core = ARM
 	controller = ARM
 } # Shah Nadir is killed, local khanates emerged
 1747.1.1 = {
-	owner = ARM
-	controller = ARM
+	owner = GNJ
+	controller = GNJ
 } # Shah Nadir is killed, local khanates emerged
-1796.6.15 = { controller = RUS } # Overran by Russian troops
-1796.11.1 = { controller = ARM }
-1813.10.24 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS
-	remove_core = PER
-} # The Treaty of Gulistan
+1781.1.1 = { owner = MLK controller = MLK add_core = MLK } #Taken by Ibrahim Khalil Khan
+1784.1.1 = { owner = GNJ controller = GNJ remove_core = MLK } #Retaken
+1804.1.15 = { controller = RUS } #Battle of Ganja
+1805.1.1 = { owner = RUS add_core = RUS remove_core = PER } # Ganja Khanate abolished
 
 1861.1.1 = { base_manpower = 3 }
 1888.1.1 = { base_production = 3 }

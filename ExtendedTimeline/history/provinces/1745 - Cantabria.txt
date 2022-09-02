@@ -1,8 +1,8 @@
 #1745 - Cantabria
 
-owner = VAS
-controller = VAS
-add_core = VAS
+owner = ROM
+controller = ROM
+add_core = ROM
 culture = cantabrian
 religion = druidism
 hre = no
@@ -21,7 +21,6 @@ capital = "Iuliobrigensium"
 is_city = yes
 center_of_trade = 1
 
-14.1.1 = { owner = ROM controller = ROM add_core = ROM }
 395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
 420.1.1 = { religion = chalcedonism }
 455.1.1 = { owner = VAS controller = VAS add_core = VAS remove_core = ROW capital = "Santander" }

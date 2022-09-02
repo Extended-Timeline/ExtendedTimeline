@@ -227,7 +227,7 @@ kievenrus_missions_2 = {
 				province_id = 33
 				province_id = 34
 				province_id = 1752
-				province_id = 1949
+				province_id = 1959
 				province_id = 1961
 				province_id = 4261
 			}
@@ -246,7 +246,7 @@ kievenrus_missions_2 = {
 				33 = { country_or_non_sovereign_subject_holds = ROOT }
 				34 = { country_or_non_sovereign_subject_holds = ROOT }
 				1752 = { country_or_non_sovereign_subject_holds = ROOT }
-				1949 = { country_or_non_sovereign_subject_holds = ROOT }
+				1959 = { country_or_non_sovereign_subject_holds = ROOT }
 				1961 = { country_or_non_sovereign_subject_holds = ROOT }
 				4261 = { country_or_non_sovereign_subject_holds = ROOT }
 			}

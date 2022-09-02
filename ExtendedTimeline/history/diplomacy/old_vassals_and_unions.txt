@@ -1899,6 +1899,14 @@ vassal = {
 	end_date = 1443.12.31
 }
 
+#Caucasus
+vassal = {
+	first = GEO
+	second = SME
+	start_date = 1334.1.1
+	end_date = 1465.1.1
+}
+
 # Persia
 dependency = {
 	subject_type = "client_kingdom"
@@ -2225,6 +2233,12 @@ vassal = {
 	end_date = 1335.1.1
 }
 vassal = {
+	first = ILK
+	second = SME
+	start_date = 1268.1.1
+	end_date = 1334.1.1
+}
+vassal = {
 	first = JAL
 	second = ARD
 	start_date = 1335.1.1
@@ -2427,6 +2441,30 @@ vassal = {
 	end_date = 180.1.1
 }
 vassal = {
+	first = PLL
+	second = YOR
+	start_date = 325.1.1
+	end_date = 840.1.1
+}
+vassal = {
+	first = GUP
+	second = BAA
+	start_date = 355.1.1
+	end_date = 375.1.1
+}
+vassal = {
+	first = GUP
+	second = KLH
+	start_date = 355.1.1
+	end_date = 375.1.1
+}
+vassal = {
+	first = GUP
+	second = BST
+	start_date = 355.1.1
+	end_date = 375.1.1
+}
+vassal = {
 	first = KAD
 	second = ALV
 	start_date = 480.1.1
@@ -2491,6 +2529,12 @@ vassal = {
 	second = TLG
 	start_date = 973.1.1
 	end_date = 1163.1.1
+}
+vassal = {
+	first = KLC
+	second = RTT
+	start_date = 1000.1.1
+	end_date = 1120.1.1
 }
 vassal = {
 	first = MLW

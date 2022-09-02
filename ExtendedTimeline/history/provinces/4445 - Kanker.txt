@@ -1,10 +1,10 @@
 #547 - Bastar
 
-owner = KLI
-controller = KLI
+owner = KKR
+controller = KKR
 culture = jharkhandi
-religion = jainism
-capital = "Pushkari"
+religion = hinduism
+capital = "Sihava"
 trade_goods = tropical_wood
 hre = no
 discovered_by = chinese
@@ -19,23 +19,26 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KLI
+add_core = KKR
 
-320.1.1 = { owner = VAK controller = VAK add_core = VAK remove_core = KLI }
-380.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = VAK }
-400.1.1 = { religion = hinduism }
-475.1.1 = { owner = BST controller = BST add_core = BST remove_core = GUP }
-600.1.1 = { owner = DAK controller = DAK add_core = DAK capital = "Kanker" }
-720.1.1 = { owner = KLI controller = KLI add_core = KLI }
-736.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = KLI }
-960.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = KLI }
-1005.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = KLI }
-1162.1.1 = { owner = TLG controller = TLG add_core = TLG remove_core = GRJ }
-1250.1.1 = { owner = KJH controller = KJH add_core = KJH remove_core = TLG }
-1324.1.1 = { owner = BST controller = BST add_core = BST remove_core = KJH }
+120.1.1 = { owner = STV controller = STV add_core = STV }
+175.1.1 = { owner = BST controller = BST add_core = BST remove_core = STV }
+450.1.1 = { owner = VAK controller = VAK add_core = VAK }
+456.1.1 = { owner = BST controller = BST remove_core = VAK }
+620.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = BST }
+650.1.1 = { owner = BST controller = BST add_core = BST remove_core = CLY }
+815.1.1 = { owner = RSH controller = RSH add_core = RSH }
+820.1.1 = { owner = BST controller = BST remove_core = RSH }
+940.1.1 = { owner = KLC controller = KLC add_core = KLC }
+1000.1.1 = { owner = RTT controller = RTT add_core = RTT remove_core = KLC }
+1125.1.1 = { owner = KKR controller = KKR add_core = KKR remove_core = RTT }
+1410.1.1 = { capital = "Nagri" }
+1430.1.1 = { capital = "Kanker" }
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
+1809.1.1 = { owner = NAG controller = NAG add_core = NAG }
+1818.1.1 = { owner = KKR controller = KKR add_core = KKR remove_core = NAG }
 
 1910.1.1 = { discovered_by = western discovered_by = eastern }
 1930.1.1  = { add_core = INI }

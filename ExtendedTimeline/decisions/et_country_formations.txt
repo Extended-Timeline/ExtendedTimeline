@@ -2913,4 +2913,69 @@ country_decisions = {
 		}
 		ai_importance = 400 #
 	}
+	
+	caucasian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = CCS }
+			OR = {
+				culture_group = caucasian
+				primary_culture = avar
+				primary_culture = alan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 463
+				province_id = 4306
+				province_id = 423
+				province_id = 419
+				province_id = 421
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = CCS }
+			adm_tech = 55
+			is_subject = no
+			is_at_war = no
+			is_nomad = no
+			owns_core_province = 463
+			owns_core_province = 4306
+			owns_core_province = 423
+			owns_core_province = 419
+			owns_core_province = 421
+		}
+		effect = {
+			change_tag = CCS
+			remove_non_electors_emperors_from_empire_effect = yes
+			caucasia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = CCS
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
 }

@@ -35,15 +35,13 @@ base_manpower = 1
 1240.1.1 = { capital = "Khunzah" }
 1260.1.1 = { owner = AVR controller = AVR remove_core = KHA }
 
-1801.1.18 = {	owner = RUS
-		controller = RUS
-		add_core = RUS
-	     } # Annexed by Russia
-1818.1.1  = { capital = "Groznaya" }
-
+1828.1.1 = { owner = CCS controller = CCS add_core = CCS remove_core = AVR }
+1859.9.1 = { owner = RUS controller = RUS capital = "Groznaya" }
 1869.12.1  = { capital = "Grozny" }
 1910.1.1 = { discovered_by = asian }
 1913.1.1   = { trade_goods = oil base_production = 5 }
+1917.3.6 = { owner = CCS controller = CCS }
+1921.1.1  = { owner = RUS controller = RUS }
 1922.12.30 = { owner = SOV controller = SOV add_core = SOV remove_core = RUS }
 1991.12.25 = { owner = RUS controller = RUS add_core = RUS remove_core = SOV }
 

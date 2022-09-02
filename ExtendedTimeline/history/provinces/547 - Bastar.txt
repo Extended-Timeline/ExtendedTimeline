@@ -1,10 +1,10 @@
 #547 - Bastar
 
-owner = KLI
-controller = KLI
+owner = BST
+controller = BST
 culture = gondi
-religion = jainism
-capital = "Jagdalpur"
+religion = hinduism
+capital = "Pushkari"
 trade_goods = tropical_wood
 hre = no
 discovered_by = chinese
@@ -19,21 +19,20 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KLI
+add_core = BST
 
-320.1.1 = { owner = VAK controller = VAK add_core = VAK remove_core = KLI }
-380.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = VAK }
-400.1.1 = { religion = hinduism }
-475.1.1 = { owner = BST controller = BST add_core = BST remove_core = GUP }
-600.1.1 = { owner = DAK controller = DAK add_core = DAK }
-720.1.1 = { owner = KLI controller = KLI add_core = KLI }
-736.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = KLI }
+120.1.1 = { owner = STV controller = STV add_core = STV }
+175.1.1 = { owner = BST controller = BST remove_core = STV }
 800.1.1 = { base_manpower = 2 }
-960.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = PRD }
-1005.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = KLI }
-1162.1.1 = { owner = TLG controller = TLG add_core = TLG remove_core = GRJ }
-1250.1.1 = { owner = KJH controller = KJH add_core = KJH remove_core = TLG }
-1324.1.1 = { owner = BST controller = BST add_core = BST remove_core = KJH }
+815.1.1 = { owner = RSH controller = RSH add_core = RSH }
+820.1.1 = { owner = BST controller = BST remove_core = RSH }
+1023.1.1 = { owner = KLH controller = KLH add_core = KLH }
+1044.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = KLH }
+1100.1.1 = { capital = "Jagdalpur" }
+1114.1.1 = { owner = RTT controller = RTT add_core = RTT }
+1125.1.1 = { owner = KLI controller = KLI remove_core = RTT }
+1235.1.1 = { owner = TLG controller = TLG add_core = TLG remove_core = KLI }
+1324.1.1 = { owner = BST controller = BST add_core = BST remove_core = TLG }
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

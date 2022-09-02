@@ -33,9 +33,9 @@ add_core = NGP
 900.1.1 = { base_manpower = 2 }
 1100.1.1 = { base_tax = 3 base_production = 3 }
 1150.1.1 = { fort_15th = yes }
-1174.1.1 = { owner = SEA controller = SEA add_core = SEA remove_core = PAA }
+1174.1.1 = { owner = NIZ controller = NIZ add_core = NIZ remove_core = PAA }
 1180.1.1 = { religion = hinduism }
-1193.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = SEA }
+1193.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = NIZ }
 1206.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = GHU }
 1394.1.1 = { owner = JNP controller = JNP add_core = JNP }
 

@@ -21,13 +21,15 @@ base_manpower = 1
 is_city = yes
 add_core = KLI
 
-350.1.1 = { owner = GUP controller = GUP add_core = GUP }
-380.1.1 = { owner = KLI controller = KLI remove_core = GUP }
-736.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = KLI }
-760.1.1 = { religion = hinduism }
-960.1.1 = { owner = KLI controller = KLI add_core = KLI }
-1078.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = DAK }
-1444.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = ORI }
+120.1.1 = { owner = STV controller = STV add_core = STV }
+175.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = STV }
+355.1.1 = { owner = GUP controller = GUP add_core = GUP }
+380.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = GUP }
+400.1.1 = { religion = hinduism }
+498.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = KLI }
+620.1.1 = { owner = KGD controller = KGD add_core = KGD }
+780.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = KGD }
+1309.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = KLI }
 
 1498.1.1 = { discovered_by = POR }
 1752.1.1 = {

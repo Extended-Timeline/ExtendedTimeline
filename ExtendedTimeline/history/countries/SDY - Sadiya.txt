@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = assamese
-religion = hinduism
+religion = animism
 technology_group = early_indian
 capital = 2040
 
@@ -19,6 +19,7 @@ capital = 2040
 1140.1.1 = { add_government_reform = early_gov_reform_9 }
 
 1187.1.1 = {
+	religion = hinduism
 	monarch = {
 		name = "Gayapala"
 		dynasty = "Chutiya"

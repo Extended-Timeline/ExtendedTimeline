@@ -4959,15 +4959,12 @@ country_event = {
 	trigger = {
 		has_country_modifier = cultural_assimilation_enforced
 		any_owned_province = {
-			NOT = { culture = ROOT }
-			any_neighbor_province = {
-				culture = ROOT
-			}
+			has_owner_culture = no
 		}
 	}
 
 	mean_time_to_happen = {
-		months = 50
+		months = 40
 		modifier = {
 			factor = 0.75
 			has_reform = fascist_government
@@ -4980,14 +4977,49 @@ country_event = {
 
 	option = {
 		name = culture.12.a
-		random_owned_province = {
+		if = {
 			limit = {
-				NOT = { culture = ROOT }
-				any_neighbor_province = {
-					culture = ROOT
+				any_owned_province = {
+					has_owner_culture = no
+					has_owner_accepted_culture = no
+					any_neighbor_province = {
+						has_owner_culture = yes
+					}
 				}
 			}
-			change_culture = ROOT
+			random_owned_province = {
+				limit = {
+					has_owner_culture = no
+					has_owner_accepted_culture = no
+					any_neighbor_province = {
+						has_owner_culture = yes
+					}
+				}
+				change_culture = ROOT
+			}
+		}
+		else_if = {
+			limit = {
+				any_owned_province = {
+					has_owner_culture = no
+					has_owner_accepted_culture = no
+				}
+			}
+			random_owned_province = {
+				limit = {
+					has_owner_culture = no
+					has_owner_accepted_culture = no
+				}
+				change_culture = ROOT
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					has_owner_culture = no
+				}
+				change_culture = ROOT
+			}
 		}
 	}
 }
@@ -5507,5 +5539,31 @@ province_event = {
 			change_culture = central_thai
 			owner = { change_primary_culture = central_thai }
 		}
+    }
+}
+
+#Azerbaijani culture
+province_event = {
+    id = culture.22
+    title = culture.22.t
+    desc = culture.22.d
+    picture = STREET_SPEECH_eventPicture
+
+    trigger = {
+		OR = {
+			culture = aghwan
+			culture = talysh
+		}
+        owner = { culture_group = oghuz }
+		NOT = { is_year = 1500 }
+    }
+
+    mean_time_to_happen = {
+        years = 50
+    }
+
+    option = {
+        name = culture.22.a
+        change_culture = azerbaijani
     }
 }

@@ -21,14 +21,19 @@ base_manpower = 1
 is_city = yes
 add_core = KLI
 
-350.1.1 = { owner = GUP controller = GUP add_core = GUP }
-530.1.1 = { owner = KLI controller = KLI remove_core = GUP }
-736.1.1 = { owner = PRD controller = PRD add_core = PRD remove_core = KLI }
-760.1.1 = { religion = hinduism }
-800.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = PRD }
-882.1.1 = { owner = KLI controller = KLI add_core = KLI }
-1110.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI }
-1425.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = ORI }
+150.1.1 = { owner = TOS controller = TOS add_core = TOS }
+355.1.1 = { owner = GUP controller = GUP add_core = GUP }
+380.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = GUP remove_core = TOS }
+475.1.1 = { owner = DAK controller = DAK add_core = DAK }
+500.1.1 = { religion = hinduism }
+575.1.1 = { owner = TOS controller = TOS add_core = TOS remove_core = DAK }
+625.1.1 = { owner = KGD controller = KGD add_core = KGD remove_core = TOS }
+780.1.1 = { owner = TOS controller = TOS add_core = TOS remove_core = KGD }
+800.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = TOS }
+885.1.1 = { owner = DAK controller = DAK remove_core = BST }
+950.1.1 = { owner = TOS controller = TOS add_core = TOS }
+1114.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = TOS }
+1226.1.1 = { owner = GRJ controller = GRJ add_core = GRJ remove_core = KLI }
 
 1498.1.1 = { discovered_by = POR }
 1752.1.1 = {
