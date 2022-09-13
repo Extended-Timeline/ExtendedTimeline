@@ -308,7 +308,7 @@
 1767 = "Slavonya"							#Slavonia
 1769 = "Laybah"
 1772 = "Pojon"
-1773 = "Ballibadra"
+1773 = "Ahaya"								#Achaea					|			09.04.22
 1776 = "Karelya"							#Karelia
 1779 = "Rubülhali Çölü"
 1784 = "Tanri Daglari"

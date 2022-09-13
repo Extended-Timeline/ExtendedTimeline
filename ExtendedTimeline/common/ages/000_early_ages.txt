@@ -98,7 +98,7 @@ classical_age = {
 			}
 		}
 		ab_classical_terrain = {
-			rule = {
+			modifier = {
 				attack_bonus_in_capital_terrain = yes
 			}
 			ai_will_do = {

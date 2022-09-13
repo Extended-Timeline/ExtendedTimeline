@@ -99,7 +99,7 @@
 4368 = "Caisleán Scar"						#Scarborough			|reconstructed/theory
 4369 = "Caerfyrddin"						#Carmarthen				|			07.01.19
 4371 = "tSacsain Theas"						#Sussex					|direct translation
-233 = "An Corn"							#Cornwall				|			23.10.20
+233 = "An Corn"								#Cornwall				|			23.10.20
 4377 = "Urmhumhan"							#Ormond					|			07.01.19
 4378 = "Deasmhumhain"						#Desmond				|			07.01.19
 4379 = "Lár na Tíre"						#Midlands				|checked	24.09.18

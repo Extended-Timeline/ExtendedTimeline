@@ -3,7 +3,7 @@
 5 = "Wermland"						#Värmland					|			23.10.18
 7 = "Westgotland"
 8 = "Dalekarlien"
-11 = "Westmeerbusen"
+11 = "Westbottnien"					
 12 = "Kopenhagen"					#Sjælland					|			12.07.18
 13 = "Schleswig"					#Sleswig					|checked	22.05.18
 14 = "Fünen"						#Fyn						|checked	30.05.18
@@ -51,6 +51,7 @@
 116 = "Florenz"						#Firenze					|checked	22.05.18
 118 = "Rom"							#Roma						|checked	24.05.18
 119 = "Ankon"						#Ancona						|			30.05.18
+120 = "Abruzzen"					#Abruzzi					|			09.04.22
 121 = "Neapel"						#Napoli						|			30.05.18
 122 = "Salend"						#Salento					|reconstructed/possible name
 123 = "Kalabrien"					#Calabria					|checked	22.05.18
@@ -375,6 +376,7 @@
 2983 = "Salern"						#Salerno					|checked	24.05.18
 2982 = "Syrakus"					#Syracuse					|			01.06.18
 2991 = "Draconiusburg"				#Draguignan					|reconstructed/possible name
+3147 = "Segedin"					#Szeged						|			28.05.22
 4720 = "Genf"						#Geneva						|			26.08.20
 4721 = "Freiburg"					#Fribourg					|			27.07.20
 4723 = "Oppeln"						#Opole						|			24.10.20

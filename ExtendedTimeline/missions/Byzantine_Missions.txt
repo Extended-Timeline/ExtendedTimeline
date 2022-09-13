@@ -11,12 +11,6 @@ byz_western = {
 	recover_greece = {
 		icon = mission_assemble_an_army
 		required_missions = {  } #None
-		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
-			factor = 5
-		}
 		provinces_to_highlight = {
 			OR = {
 				province_id = 144
@@ -50,7 +44,7 @@ byz_western = {
 			owns_or_non_sovereign_subject_of = 4702
 		}
 		effect = {
-			if = {
+♦			if = {
 				limit = { started_in = 1261.1.1 }
 				add_country_modifier = {
 					name = "byzantium_resurgent"
@@ -124,6 +118,9 @@ byz_western = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	recover_the_balkans = {
 		icon = mission_eastern_european_city
@@ -168,6 +165,9 @@ byz_western = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	recover_south_italy = {
@@ -226,6 +226,9 @@ byz_western = {
 			add_permanent_claim = 124
 			add_permanent_claim = 2982
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	recover_sicily = {
 		icon = mission_sea_battles
@@ -250,6 +253,9 @@ byz_western = {
 				name = "theme_of_sicily"
 				duration = 5475
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }
@@ -291,6 +297,15 @@ byz_generic_slot_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Purple Phoenix" }
+				}
+				country_event = { id = flavor_byz.2 }
+			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -317,6 +332,9 @@ byz_generic_slot_2 = {
 					duration = 5475
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }

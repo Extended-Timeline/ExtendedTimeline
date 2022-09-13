@@ -907,7 +907,7 @@ ikko_ikki_peasants = {
 		has_country_flag = ikko_ikki_peasants_flag
 		OR = {
 			religion_group = eastern
-			culture_group = japanese
+			culture_group = japanese_g
 			capital_scope = {
 				region = japan_region
 			}
@@ -956,7 +956,7 @@ ikko_ikki_temple = {
 		has_country_flag = ikko_ikki_peasants_flag
 		OR = {
 			religion_group = eastern
-			culture_group = japanese
+			culture_group = japanese_g
 			capital_scope = {
 				region = japan_region
 			}
@@ -1426,7 +1426,6 @@ shinto_theocracy = {
 		3 = O_KANNUSHI
 	}
 
-	
 	heir_male = {
 		1 = HEIR
 		2 = HEIR
@@ -1661,7 +1660,11 @@ shiite_theocracy = {
 
 	trigger = {
 		religion = shiite
-		government = theocracy
+		OR = {
+			government = theocracy
+			has_reform = feudal_theocracy
+		}
+		NOT = { primary_culture = yemeni_culture }
 	}
 }
 
@@ -1949,5 +1952,53 @@ sisters_crusader_state = {
 		religion = catholic
 		has_reform = holy_state_reform
 		has_country_modifier = sisters_takeover
+	}
+}
+
+gov_jarldom = {
+	rank = {
+		1 = JARLDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = JARL
+		2 = KING
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = JARL
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	consort_male = {
+		1 = CONSORT
+		2 = KING
+		3 = EMPEROR
+	}
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN
+		3 = EMPRESS
+	}
+
+	trigger = {
+		government = monarchy
+		religion = norse_pagan_reformed
 	}
 }

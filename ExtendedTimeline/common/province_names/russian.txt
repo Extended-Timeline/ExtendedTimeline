@@ -48,7 +48,6 @@
 261 = "Terebovlya"							#Terebovlia					|			28.04.20
 262 = "Krakov"								#Krakow						|checked	29.09.18
 266 = "Praga"								#Praha						|			29.09.18
-2405 = "Bendery"								#Tighina					|checked	02.10.18
 269 = "Podlyask"							#Podlasia
 271 = "Zhmud"								#Samogitia					|checked	29.09.18
 272 = "Vilna"								#Vilna						|			16.07.19
@@ -140,7 +139,7 @@
 1829 = "Amoy"								#Xiamen
 1834 = "Jurjev"								#Dorpat
 1842 = "Rugodiv"							#Narva						|			29.09.18
-1852 = Tokachov"							#Tokachi					|made-up	18.01.22
+1852 = "Tokachov"							#Tokachi					|made-up	18.01.22
 2106 = "Vladivostok"
 1856 = "Abchasiya"							#Abkhazia
 1887 = "Akhen"								#Aachen						|			16.07.20
@@ -188,8 +187,9 @@
 2313 = "Glinanskaya"
 2296 = "Kustanay"
 2402 = "Kungrad"
+2405 = "Bendery"							#Tighina					|checked	02.10.18
 2676 = "Nikolaev"
-2677 = "Dzhambi"						#Jambi							|			26.02.22
+2677 = "Dzhambi"							#Jambi						|			26.02.22
 2678 = "Veshensakaya"
 2688 = "Ekaterinoslav"
 628 = "Novocherkassk"

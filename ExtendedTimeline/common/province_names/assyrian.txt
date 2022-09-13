@@ -412,7 +412,6 @@
 416 = "Aherbayan"
 417 = "Ilan"
 418 = "Han"
-419 = "Armeniya"
 420 = "Hanya"
 421 = "Shirhan"
 422 = "Imereti"
@@ -427,7 +426,6 @@
 431 = "Hormos"
 432 = "Keman"
 433 = "Yasht"
-2233 = "Western Mak'ran"
 435 = "Harani"
 2221 = "Mashad"
 437 = "Kopet Dah"
@@ -628,7 +626,6 @@
 632 = "Soom'bawa"
 633 = "Thelores"
 634 = "Soom'ba"
-2695 = "East Timor"
 636 = "Broonay"
 637 = "Sabah"
 638 = "Kootay"
@@ -2512,4 +2509,5 @@
 659 = "Lina"
 2679 = "Beliten"
 2683 = "Mentaway"
+4292 = "Marda"							#Mardin						|aramaic?	23.07.22	alternative: Marida
 4293 = "Arbail"							#Arbil						|			03.06.18

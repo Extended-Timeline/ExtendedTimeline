@@ -1434,44 +1434,6 @@ DVA_ideas = {
 	}
 }
 
-LIV_ideas = {
-	start = {
-		mercenary_cost = -0.25
-		infantry_cost = -0.1
-	}
-	
-	bonus = {
-		missionaries = 1
-	}
-
-	trigger = {
-		tag = LIV
-	}
-	free = yes		# will be added at load
-	
-	crusade_to_the_north = {
-		global_missionary_strength = 0.02
-	}
-	cesu_kaujas = {
-		defensiveness = 0.2
-	}
-	decentralisation_of_archbishoprics = {
-		discipline = 0.05
-	}
-	border_between_east_and_west = {
-		global_unrest = -1
-	}
-	control_of_the_grain_market = {
-		production_efficiency = 0.1
-	}
-	word_of_god = {
-		core_creation = -0.10
-	}
-	declaration_of_free_religion = {
-		discipline = 0.05
-	}
-}
-
 OSR_ideas = {
 	start = {
 		global_manpower_modifier = 0.10

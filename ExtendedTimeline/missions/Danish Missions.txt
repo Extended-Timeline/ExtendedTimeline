@@ -4,6 +4,7 @@ danish_missions_kalmar = {
 	ai = yes
 	potential = {
 		tag = DAN
+		NOT = { has_dlc = "Lions of the North" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -90,6 +91,9 @@ danish_missions_kalmar = {
 			else = {
 				add_adm_power = 50
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical conquest
 		}
 	}
 	denmark_sweden_integration = {
@@ -228,6 +232,7 @@ danish_missions_baltic = {
 	ai = yes
 	potential = {
 		tag = DAN
+		NOT = { has_dlc = "Lions of the North" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -258,6 +263,9 @@ danish_missions_baltic = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical conquest
 		}
 	}
 	control_osel = {
@@ -316,9 +324,12 @@ danish_missions_baltic = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical conquest
+		}
 	}
 	danish_controlled_cot = {
-		icon = mission_dominate_home_trade_node
+		icon = mission_hanseatic_city
 		required_missions = { control_osel }
 		provinces_to_highlight = {
 			OR = {
@@ -509,6 +520,7 @@ dan_slot3 = {
 	ai = yes
 	potential = {
 		tag = DAN
+		NOT = { has_dlc = "Lions of the North" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -847,6 +859,7 @@ dan_slot5 = {
 	generic = no
 	potential = {
 		tag = DAN
+		NOT = { has_dlc = "Lions of the North" }
 	}
 	
 	army_dan = { 

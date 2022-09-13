@@ -101,17 +101,27 @@ country_event = {
 		custom_tooltip = flavor_sel.1.tooltip
 		hidden_effect = {
 			SEL = {
+				add_manpower = 25
+				add_treasury = 1000
+				add_country_modifier = {
+					name = rise_of_an_empire_ai_et
+					duration = 18250
+				}
 				capital_scope = {
 					build_to_forcelimit = {
 						infantry = 0.6
 						cavalry = 0.3
 					}
 				}
-				add_manpower = 10
-				add_treasury = 1000
-				add_country_modifier = {
-					name = nomadic_conquest
-					duration = 1825
+				add_adm_power = 250
+				add_dip_power = 250
+				add_mil_power = 250
+				add_army_tradition = 50
+				define_general = {
+					shock = 5
+					fire = 3
+					manuever = 4
+					siege = 2
 				}
 			}
 			if = { 
@@ -156,17 +166,27 @@ country_event = {
 		}
 		hidden_effect = {
 			SEL = {
+				add_manpower = 25
+				add_treasury = 1000
+				add_country_modifier = {
+					name = rise_of_an_empire_ai_et
+					duration = 18250
+				}
 				capital_scope = {
 					build_to_forcelimit = {
 						infantry = 0.6
 						cavalry = 0.3
 					}
 				}
-				add_manpower = 5
-				add_treasury = 200
-				add_country_modifier = {
-					name = nomadic_conquest
-					duration = 1825
+				add_adm_power = 250
+				add_dip_power = 250
+				add_mil_power = 250
+				add_army_tradition = 50
+				define_general = {
+					shock = 5
+					fire = 3
+					manuever = 4
+					siege = 2
 				}
 			}
 		}
@@ -229,8 +249,12 @@ country_event = {
 			add_treasury = -200
 		}
 		SEL = {
-			add_manpower = 10
-			add_treasury = 200
+			hidden_effect = {
+				if = {
+					limit = { ai = no }
+					remove_country_modifier = rise_of_an_empire_ai_et
+				}
+			}
 		}
 	}
 	option = { # stay out of this

@@ -24,7 +24,7 @@ add_core = KLI
 150.1.1 = { owner = TOS controller = TOS add_core = TOS }
 250.1.1 = { owner = KLI controller = KLI remove_core = TOS }
 355.1.1 = { owner = GUP controller = GUP add_core = GUP }
-380.1.1 = { owner = KLI controller = KLI remove_core = GUP }
+370.1.1 = { owner = KLI controller = KLI remove_core = GUP }
 600.1.1 = { religion = hinduism }
 620.1.1 = { owner = KGD controller = KGD add_core = KGD }
 780.1.1 = { owner = KLI controller = KLI add_core = KLI }

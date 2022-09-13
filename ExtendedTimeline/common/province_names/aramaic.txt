@@ -22,4 +22,5 @@
 2310 = "Tagrit"								#Tigrit					|			26.08.19
 4289 = "Shushtrin"							#Shushtar				|			07.05.19
 4290 = "Shush"								#Hoveyzeh				|			07.05.19
+4292 = "Marda"								#Mardin					|			23.07.22	alternative: Marida	(roman)
 4293 = "Arbela"								#Arbil					|			07.05.19

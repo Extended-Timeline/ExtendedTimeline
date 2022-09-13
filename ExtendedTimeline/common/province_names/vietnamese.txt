@@ -22,11 +22,9 @@
 410 = "Bác Dat"								#Baghdad				|incomplete	12.05.19
 428 = "Te Lan"								#Teheran				|incomplete	12.05.19
 522 = "Ðe Ly"								#Delhi					|incomplete	12.05.19
-2030 = "Cô Á"								#Goa					|			12.05.19
 594 = "Tà Nê"								#Pattani				|			12.05.19
-
 600 = "Thuong Thanh"
-601 = "Xu Kho Thay"
+601 = "To Kha Thái"							#Sukhothai				|incomplete	26.03.22
 604 = "Ô Ðông"								#Oudong					|			27.04.21
 605 = "Gia Ðinh"							#Prey Nokor				|incomplete	12.02.19
 606 = "Phan Rang"							#Panduranga				|			17.05.19
@@ -39,6 +37,7 @@
 615 = "Luang Pha Bang"						#Luang Prabang			|Lão Qua?	12.05.19	
 616 = "Cao Bang"							#Cao Bang				|incomplete	27.04.21
 622 = "Tam Phat Te"							#Palembang				|incomplete	12.05.19
+661 = "Ðai Lý"								#Dali					|incomplete	26.03.22
 662 = "Côn Minh"							#Kunming				|			02.02.21
 663 = "Quang Nam"							#Guangnan				|incomplete	16.05.20
 664 = "Lang Vân"							#Lingyun				|incomplete	16.05.20
@@ -93,6 +92,7 @@
 1840 = "Que Lâm"							#Guilin					|incomplete	16.05.20
 1844 = "Tran Ninh"							#Xiankhouang			|incomplete	12.05.19
 1845 = "Bình Nhuong"						#Pyongan				|incomplete	12.05.19
+2030 = "Cô Á"								#Goa					|			12.05.19
 2106 = "Hai Sâm Uy"							#Furdan					|			12.05.19
 2136 = "Tuyên Hóa"							#Xuanhua				|			04.06.20
 2137 = "Ðai Danh"							#Daming					|			03.06.20
@@ -119,6 +119,9 @@
 2162 = "Ngô Châu"							#Wuzhou					|			16.05.20
 2163 = "Lieu Châu"							#Liuzhou				|incomplete	16.05.20
 2164 = "Nam Ninh"							#Nanming				|			16.05.20
+2165 = "Pho Nhi"							#Pu'er					|incomplete	26.03.22
+2166 = "Ðuc Hoành"							#Dehong					|incomplete	26.03.22
+2167 = "Le Giang"							#Lijiang				|incomplete	26.03.22
 2168 = "Bac Châu" 							#Bozhou					|incomplete	14.05.20
 2170 = "Tùng Châu"							#Songzhou				|			01.06.20
 2171 = "Tuong Duong"						#Xiangyang				|			12.05.20
@@ -130,7 +133,7 @@
 2179 = "Diên An"							#Yan'an					|			03.06.20
 2180 = "Thiên Thuy"							#Tianshui				|			04.06.20
 2181 = "Bình Luong"							#Pingliang				|			04.06.20
-2323 = "Sa mac Nubia"						#Sahra an Nübyah
+2323 = "Sa mac No Ti Á"						#Sahra an Nübyah		|incomplete	26.03.22
 2371 = "Son La"								#Song La				|incomplete	27.04.21
 2372 = "Hai Phòng"							#Hai Phong				|incomplete	12.02.19
 2373 = "Hue"								#Hue					|incomplete	27.04.21
@@ -163,5 +166,7 @@
 4515 = "Cát long"							#Gyirong				|			04.10.19
 4559 = "Mi Nô Ca"							#Minorca				|			12.05.19
 4658 = "Kho Di Nam"							#South Sakhalin			|reconstructed/possible name/incomplete
+4822 = "Quang Ngãi"							#Amaravati				|incomplete	26.03.22
 4823 = "Gia Rai"							#Jiarai					|			27.04.21
+4824 = "Co Ho"								#Koho					|incomplete	26.03.22
 4840 = "Sê Kông"							#Xekong					|			27.04.21

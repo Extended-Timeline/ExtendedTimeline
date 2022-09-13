@@ -21,8 +21,9 @@
 160 = "Oltenia"							#Oltenia				|checked 	19.05.18
 161 = "Târgoviste"						#Tirgoviste				|			02.10.18	
 163 = "Creta"							#Crete
+207 = "Asturii"							#Asturias				|			09.04.22
 261 = "Terebovlea"						#Terebovlia				|			03.10.18
-2405 = "Tighina"							#Tighina				|checked	02.10.18
+2405 = "Tighina"						#Tighina				|checked	02.10.18
 279 = "Volinia"							#Volhynia
 281 = "Camenita"						#Kamieniec				|			03.10.18
 282 = "Edisan"							#Yedisan				|			03.10.18
@@ -44,8 +45,8 @@
 1951 = "Hunedoara"
 1952 = "Maramures"
 1974 = "Herson"							#Yedishkul				|			04.10.18					
-268 = "Suceava"						#Suceava				|checked	21.05.18
-148 = "Salonic"						#Salonica
+268 = "Suceava"							#Suceava				|checked	21.05.18
+148 = "Salonic"							#Salonica
 4706 = "Dobrogea"						#Dobruja
 3061 = "Bucovina"						#Bukovina				|checked	28.05.18
 2406 = "Nicolaev"						#Ingil					|			03.10.18

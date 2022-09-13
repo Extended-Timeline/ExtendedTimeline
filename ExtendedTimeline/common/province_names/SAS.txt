@@ -14,6 +14,7 @@
 406 = "Anat"								#Haditha					|old_arabic	26.08.19
 394 = "Hatta"								#El Qatif
 2312 = "Kashkar"							#Wasit						|			26.08.19
+2340 = "Meshan"								#Kuwait						|			14.03.22
 2349 = "Dihistan"							#Kizil-Su
 2999 = "Abarkavan"							#Qeshm						|			18.06.19
 4288 = "Arvand"								#Shatt						|			26.08.19

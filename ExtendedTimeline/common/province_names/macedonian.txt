@@ -3,13 +3,11 @@
 77 = "Pfalc"							#Pfalz
 91 = "Eno"								#Hainaut
 89 = "Picardija"						#Picardie
-104 = "Lombardija"						#Lombardia
-114 = "Romanja"							#Romagna
-127 = "Sardinija"						#Sardinia
-4175 = "Lež"       						#Albania
+114 = "Ravena"							#Ravenna				|			14.03.22
+143 = "Valona"							#Vlore
 147 = "Tesalija"						#Salonica
-3001 = "Skopje"							#Skopje					|checked	28.03.19
 151 = "Carigrad"						#Thrace
+178 = "Anzhu"							#Anjou					|			09.04.22
 180 = "Poatu"							#Poitou
 189 = "Lorena"							#Lothringen
 197 = "Rusijon"							#Roussillon
@@ -17,22 +15,21 @@
 273 = "Latgalija"						#Latgalia
 320 = "Rodos"							#Rhodes
 321 = "Kipar"         					#Cyprus
+1756 = "Besarabija"						#Bessarabia				|			14.03.22
 1765 = "Sofija"							#Sofia
 1775 = "Holshtajn"						#Holstein
 1776 = "Karelija"						#Karelia
 4705 = "Gjumurcina"						#Komotini
 2323 = "Nubija pustina"					#Sahra an Nübyah
 2976 = "Umbrija"						#Umbria
-143 = "Valona"							#Vlore
+3001 = "Skopje"							#Skopje					|checked	28.03.19
 4174 = "Drac"							#Durres
-
+4175 = "Lezh"       					#Lezhe					|			09.04.22
 
 
 #Hispana
 210 = "Navara"			#Navarra
-#Poland
-2405 = "Moldavija"		#Bessarabia
-2997 = "Pomerelija"		#Gdingen	
+	
 #Austria
 130 = "Istra"			#Istria
 #Scandinavia

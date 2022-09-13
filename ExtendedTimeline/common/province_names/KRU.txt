@@ -1,6 +1,6 @@
 32 = "Priozersk"
 4704 = "Trnovo"								#Tarnovo					|			05.09.19
-2405 = "Tyagyanyakyacha"						#Tighina					|			02.05.19
+2405 = "Tyagyanyakyacha"					#Tighina					|			02.05.19
 272 = "Viln"								#Vilna						|			05.10.20 Church Slavonic
 275 = "Polotesk"							#Polotsk					|			03.06.19
 276 = "Mensk"								#Minsk						|			03.06.19
@@ -13,6 +13,7 @@
 1942 = "Zhitomir"							#Zhytomyr					|			05.10.20
 1945 = "Severiya"							#Severia					|			31.08.19
 771 = "Dbesk"								#Vitebsk					|			05.10.20
+1972 = "Otyakiya"							#Udmurtia					|			06.09.22
 2410 = "Korsun"								#Theodoro					|			26.02.19
 2447 = "Tmutarakan"							#Matrega					|			01.05.20
 2961 = "Lvigorod"							#Lwow						|			02.12.20 Church Slavonic

@@ -37,6 +37,7 @@
 163 = "Kréta"							#Crete					|			26.05.18
 164 = "Naxosz"							#Naxos					|			26.05.18
 183 = "Párizs"							#Paris					|checked	26.05.18
+207 = "Asztúria"						#Asturias				|			09.04.22
 227 = "Lisszabon"						#Lisboa					|			29.08.18
 256 = "Palacka"							#Plock					|			15.09.18
 257 = "Varsó"							#Warsawa				|checked	26.05.18

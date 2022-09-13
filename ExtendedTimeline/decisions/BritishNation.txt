@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = GBR }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -125,6 +129,8 @@ country_decisions = {
 				1979 = {
 					add_permanent_claim = GBR
 				}
+				370 = { add_claim = GBR }
+				371 = { add_claim = GBR }
 			}
 			if = {
 				limit = {
@@ -140,12 +146,21 @@ country_decisions = {
 				}
 			}
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = GBR_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				tag = SCO
+				NOT = { is_enemy = ENG }
+				NOT = { is_rival = ENG }
+			}
 		}
 		ai_importance = 400
 	}
@@ -159,6 +174,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			OR = {
 				AND = {
@@ -263,7 +282,10 @@ country_decisions = {
 				duration = 7300
 			}
 			if = {
-				limit = { has_custom_ideas = no }
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = GBR_ideas }
+				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}

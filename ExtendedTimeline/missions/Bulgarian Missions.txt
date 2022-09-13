@@ -53,6 +53,9 @@ bul_1 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Alt-History, but if Bulgaria exists than they should want to reconquer stuff
+		}
 	}
 	bul_restore_empire = {
 		icon = mission_crusade_for_varna
@@ -138,6 +141,9 @@ bul_1 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Alt-History, but if Bulgaria exists than they should want to reconquer stuff
+		}
 	}
 	bul_extend_empire = {
 		icon = mission_cossack_cavalry
@@ -186,6 +192,9 @@ bul_1 = {
 		}
 		effect = {
 			add_mil_power = 200
+		}
+		ai_weight = {
+			factor = 500	#Alt-History, but if Bulgaria exists than they should want to reconquer stuff
 		}
 	}
 }

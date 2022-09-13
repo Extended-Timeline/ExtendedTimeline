@@ -1,13 +1,14 @@
+406 = "Anat"								#Haditha					|			26.08.19	old Arabic
 408 = "Characene"
 409 = "Babel"								#Karbala					|			08.08.19
 410 = "Ctesiphon"
 411 = "Adiabene"
-412 = "Elymais"
+412 = "Taryana"								#Ahvaz						|			13.03.22	
 413 = "Nahavand"
 414 = "Ecbatana"
 415 = "Garmakan"							#Kirkuk						|			27.08.19
 416 = "Phraaspa"
-418 = "Amida"
+418 = "Amida"								#Diyarbakir					|			13.03.22
 2214 = "Hyrcania"
 428 = "Arsakia"
 2223 = "Parsa"								#Larestan
@@ -17,7 +18,6 @@
 2308 = "Edessa"
 2307 = "Corduene"
 2309 = "Hatra"
-406 = "Aeipolis"
 2310 = "Samarra"
 2311 = "Uruk"
 2312 = "Nippur"

@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = ROW }
 			NOT = { tag = BYZ }
@@ -86,14 +90,6 @@ country_decisions = {
 			change_tag = ROM
 			restore_country_name_effect = yes
 			custom_tooltip = roman_culture_provinces_tooltip
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						has_owner_culture = yes
-					}
-					change_culture = roman
-				}
-			}
 			change_primary_culture = roman
 			custom_tooltip = restore_roman_empire_tt
 			hidden_effect = {
@@ -130,7 +126,7 @@ country_decisions = {
 			set_country_flag = restored_rome_flag
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 	

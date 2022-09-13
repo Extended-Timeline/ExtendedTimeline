@@ -32,4 +32,6 @@
 2319 = "Akhetatun"
 2317 = "Heracleopolis"
 2316 = "Bubastis"
+2347 = "Gerrha"								#Hofuf						|			03.09.22	better alternative?
 3070 = "Harmath"
+4292 = "Marda"								#Mardin						|			23.07.22	alternative: Marida	(roman)

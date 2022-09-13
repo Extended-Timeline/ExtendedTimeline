@@ -25,7 +25,7 @@ add_core = KLI
 220.1.1 = { owner = KLI controller = KLI remove_core = STV }
 300.1.1 = { religion = hinduism }
 355.1.1 = { owner = GUP controller = GUP add_core = GUP }
-380.1.1 = { owner = KLI controller = KLI remove_core = GUP capital = "Simhapura" }
+360.1.1 = { owner = KLI controller = KLI remove_core = GUP capital = "Simhapura" }
 496.1.1 = { capital = "Kalinganagara" }
 800.1.1 = { discovered_by = nomad_group }
 1434.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI capital = "Srikakulam" }

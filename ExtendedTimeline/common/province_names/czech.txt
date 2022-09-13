@@ -39,6 +39,7 @@
 118 = "Rím"						#Roma						|incomplete	04.03.19
 121 = "Neapol"					#Napoli						|			21.06.18
 123 = "Kalábrie"				#Calabria					|			21.06.18
+131 = "Záhreb"					#Zagreb						|incomplete	03.09.22
 133 = "Linec"					#Linz						|			16.06.18
 134 = "Víden"					#Wien						|incomplete
 138 = "Cerná Hora"				#Zeta						|			21.06.18
@@ -118,7 +119,7 @@
 1318 = "Spish"					#Spis						|checked	07.03.19
 2960 = "Nový Sadec"				#Nowy Sacz					|checked	15.06.18
 2965 = "Saská Kamenice"			#Chemnitz					|			15.06.18
-46 = "Roztoky"				#Rostock					|			15.06.18
+46 = "Roztoky"					#Rostock					|			15.06.18
 2982 = "Syrakúsy"				#Syracuse					|			17.06.18
 4709 = "Pasov"					#Passau						|			26.09.20
 4710 = "Brezhnice"				#Bregenz					|			13.09.20
@@ -144,6 +145,7 @@
 4526 = "Hnezdno"				#Gniezno					|incomplete	01.10.18
 4528 = "Kujavsko"				#Kuyavia					|			02.10.18	
 4529 = "Jasy"					#Iasi						|			02.10.18
+4531 = "Bukuresht"				#Bucharest					|			03.09.22
 4533 = "Velun"					#Wielun						|incomplete	02.10.18
 4541 = "Halyc"					#Halych						|incomplete	23.03.19
 150 = "Plevno"					#Pleven						|			02.10.18
@@ -336,7 +338,7 @@
 160 = "Menshí Valashsko"
 161 = "Velké Valashsko"
 1756 = "Besarábie"
-4706 = "Dobrudža"
+4706 = "Dobrudzha"
 #Middle East
 385 = "Mekka"
 390 = "Saná"

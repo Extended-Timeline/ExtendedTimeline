@@ -110,7 +110,7 @@
 174 = "Guyena"
 175 = "Armañac"							#Armagnac					|			23.06.19
 176 = "Bearne"
-178 = "Anjeo"
+178 = "Anjeo"							#Anjou						|checked	09.04.22
 180 = "Poitú"							#Poitiers					|			07.08.18
 181 = "Ardenas"
 182 = "San Quintín"
@@ -283,7 +283,7 @@
 1769 = "Gorizia"
 1770 = "Marcha Oriental"
 1772 = "Presburgo"
-1773 = "Acaya"
+1773 = "Acaya"								#Achaea						|			09.04.22
 1804 = "Groenlandia Oriental"
 1808 = "Gran Cuenca"						#Great Basin
 1812 = "Territorios del Noroeste"

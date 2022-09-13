@@ -289,13 +289,22 @@ capital = 236 # London
 	monarch = {
 		name = "George IV"
 		dynasty = "von Hannover"
+		birth_date = 1762.8.12
 		adm = 2
 		dip = 3
 		mil = 3
 	}
-}
-
-1811.2.5 = {
+	queen = {
+		country_of_origin = BRU
+		name = "Caroline"
+		dynasty = "von Welf"
+		birth_date = 1768.5.17
+		death_date = 1821.8.7
+		adm = 2
+		dip = 3
+		mil = 2
+		female = yes
+	}
 	heir = {
 		name = "Charlotte"
 		monarch_name = "Charlotte I"
@@ -342,13 +351,21 @@ capital = 236 # London
 	monarch = {
 		name = "William IV"
 		dynasty = "von Hannover"
+		birth_date = 1765.8.21
 		adm = 2
 		dip = 2
 		mil = 2
 	}
-}
-
-1830.6.26 = {
+	queen = {
+		name = "Adelaide"
+		dynasty = "von Saxe-Meiningen"
+		birth_date = 1792.8.13
+		death_date = 1849.12.2
+		adm = 2
+		dip = 3
+		mil = 1
+		female = yes
+	}
 	heir = {
 		name = "Victoria"
 		monarch_name = "Victoria I"
@@ -367,11 +384,24 @@ capital = 236 # London
 	monarch = {
 		name = "Victoria I"
 		dynasty = "von Hannover"
+		birth_date = 1819.5.24
 		adm = 5
 		dip = 4
 		mil = 3
 		religion = protestant
 		female = yes
+	}
+}
+
+1840.2.10 = {
+	queen = {
+		name = "Albert"
+		dynasty = "von Saxe-Coburg"
+		birth_date = 1819.8.26
+		death_date = 1861.12.14
+		adm = 4
+		dip = 2
+		mil = 4
 	}
 }
 
@@ -396,14 +426,12 @@ capital = 236 # London
 	monarch = {
 		name = "Edward VII"
 		dynasty = "von Saxe-Coburg"
+		birth_date = 1841.11.9
 		adm = 4
 		dip = 3
 		mil = 4
 		religion = protestant
 	}
-}
-
-1901.1.22 = {
 	queen = {
 		country_of_origin = DAN
 		name = "Alexandra"
@@ -416,9 +444,6 @@ capital = 236 # London
 		mil = 1
 		religion = protestant
 	}
-}
-
-1901.1.22 = {
 	heir = {
 		name = "George"
 		monarch_name = "George V"
@@ -437,14 +462,22 @@ capital = 236 # London
 	monarch = {
 		name = "George V"
 		dynasty = "of Windsor"
+		birth_date = 1865.6.3
 		adm = 3
 		dip = 3
 		mil = 5
 		religion = protestant
 	}
-}
-
-1910.5.6 = {
+	queen = {
+		name = "Mary"
+		dynasty = "of Teck"
+		birth_date = 1867.5.26
+		death_date = 1953.3.24
+		adm = 3
+		dip = 3
+		mil = 1
+		female = yes
+	}
 	heir = {
 		name = "Edward"
 		monarch_name = "Edward VIII"
@@ -452,7 +485,7 @@ capital = 236 # London
 		birth_date = 1894.6.23
 		death_date = 1972.5.28
 		claim = 95
-		adm = 3
+		adm = 2
 		dip = 3
 		mil = 2
 		religion = protestant
@@ -466,8 +499,21 @@ capital = 236 # London
 	monarch = {
 		name = "Edward VIII"
 		dynasty = "of Windsor"
-		adm = 3
+		birth_date = 1894.6.23
+		adm = 2
 		dip = 3
+		mil = 2
+		religion = protestant
+	}
+	heir = {
+		name = "George"
+		monarch_name = "George VI"
+		dynasty = "of Windsor"
+		birth_date = 1895.12.14
+		death_date = 1952.2.6
+		claim = 95
+		adm = 3
+		dip = 4
 		mil = 2
 		religion = protestant
 	}
@@ -477,20 +523,28 @@ capital = 236 # London
 	monarch = {
 		name = "George VI"
 		dynasty = "of Windsor"
+		birth_date = 1895.12.14
 		adm = 3
-		dip = 3
+		dip = 4
 		mil = 2
 		religion = protestant
 	}
-}
-
-1936.12.11 = {
+	queen = {
+		name = "Elizabeth"
+		dynasty = "Bowes-Lyon"
+		birth_date = 1900.8.4
+		death_date = 2002.3.30
+		adm = 3
+		dip = 4
+		mil = 3
+		female = yes
+	}
 	heir = {
 		name = "Elizabeth"
 		monarch_name = "Elizabeth II"
 		dynasty = "of Windsor"
 		birth_date = 1926.4.21
-		death_date = 3000.1.1
+		death_date = 2022.9.8
 		claim = 95
 		adm = 5
 		dip = 4
@@ -533,9 +587,6 @@ capital = 236 # London
 		dip = 2
 		mil = 3
 	}
-}
-
-1952.2.6 = {
 	heir = {
 		name = "Charles"
 		monarch_name = "Charles III"
@@ -543,12 +594,46 @@ capital = 236 # London
 		birth_date = 1948.11.14
 		death_date = 3000.1.1
 		claim = 95
-		adm = 3
-		dip = 4
-		mil = 4
+		adm = 4
+		dip = 2
+		mil = 2
 		religion = protestant
 	}
 }
 
 1973.1.1 = { decision = dummy_join_eu }
 2020.1.31 = { decision = dummy_leave_eu }
+
+2022.9.8 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "of Windsor"
+		birth_date = 1948.11.14
+		adm = 4
+		dip = 2
+		mil = 2
+		religion = protestant
+	}
+	queen = {
+		name = "Camilla"
+		dynasty = "Bowles"
+		birth_date = 1947.7.17
+		death_date = 3000.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+		female = yes
+	}
+	heir = {
+		name = "William"
+		monarch_name = "William V"
+		dynasty = "of Windsor"
+		birth_date = 1982.6.21
+		death_date = 3000.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+		religion = protestant
+	}
+}

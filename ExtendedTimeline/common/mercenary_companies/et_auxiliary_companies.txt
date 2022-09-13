@@ -7,6 +7,7 @@ merc_dromedarii = {
 	cavalry_weight = 1
 	sprites = { dlc002_mam_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		has_dlc = "Horsemen of the Crescent Unit Pack"
 		OR = {
 			tag = BYZ
@@ -35,6 +36,7 @@ merc_alae = {
 	cavalry_weight = 1
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		NOT = { is_year = 284 }
 		OR = {
 			tag = ROM
@@ -60,6 +62,7 @@ merc_equites_numidarum = {
 	cavalry_weight = 1
 	sprites = { africangfx_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		NOT = { is_year = 500 }
 		any_owned_province = { region = maghreb_region }
 		OR = {
@@ -79,6 +82,7 @@ merc_sagittariorum = {
 	cavalry_weight = 0.4
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		NOT = { is_year = 500 }
 		OR = {
 			any_owned_province = { region = anatolia_region }
@@ -108,6 +112,7 @@ merc_balearic_slingers = {
 	cavalry_cap = 4
 	sprites = { westerngfx_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		NOT = { is_year = 284 }
 		any_owned_province = { area = baleares_area }
 	}
@@ -124,6 +129,7 @@ merc_barbarian_auxilia = {
 	cavalry_cap = 6
 	sprites = { easterngfx_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		any_neighbor_country = {
 			has_reform = barbarian_reform
 		}
@@ -143,6 +149,7 @@ merc_varangian_guard = {
 	cavalry_weight = 0.3
 	sprites  = { easterngfx_sprite_pack }
 	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
 		AND = {
 			is_year = 988
 			NOT = { is_year = 1204 }

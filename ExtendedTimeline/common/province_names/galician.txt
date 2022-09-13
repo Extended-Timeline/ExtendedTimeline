@@ -1,6 +1,9 @@
 #List
+88 = "Artésia"							#Artois						|checked	09.04.22
 2323 = "Deserto de Nubia"				#Sahra an Nübyah
-2782 = "Ourense"						#Orense					|			24.12.18
+2782 = "Ourense"						#Orense						|			24.12.18
+
+
 #Iberia
 207  = "Ástures"              	#Asturias
 209  = "Biscaia"		#Vizcaya

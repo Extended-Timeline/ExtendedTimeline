@@ -55,7 +55,7 @@
 84 = "Dusseldórfia"
 85 = "Colónia"
 86 = "Monastério"
-88 = "Artesia"
+88 = "Artésia"								#Artois						|checked	09.04.22
 89 = "Picardia"								#Picardy					|checked	23.05.18
 90 = "Flandres"								#Vlaanderen					|checked	23.05.18
 92 = "Brabante"								#Brabant					|checked	23.05.18
@@ -131,7 +131,7 @@
 203 = "Lionês"
 204 = "Delfinado"
 205 = "Saboia"
-207 = "Astúrias"
+207 = "Astúrias"							#Asturias					|			09.04.22
 208 = "Leão"								#León						|			23.05.18
 209 = "Biscaia"
 212 = "Gerunda"
@@ -165,7 +165,6 @@
 264 = "Bresvália"
 265 = "Morávia"	
 266 = "Praga"								#Praha						|checked	23.05.18
-2405 = "Bessarábia"
 269 = "Podláquia"
 271 = "Samogícia"							#Samogitia					|checked	23.05.18
 272 = "Vilna"								#Vilna						|checked	23.05.18
@@ -489,6 +488,7 @@
 1993 = "Ilhas Marechal"
 1998 = "Ilha do Natal"
 1999 = "Ilhas Cocos"
+2405 = "Bessarábia"						#Bessarabia						|			09.04.22
 4113 = "Laponia"
 148 = "Salonica"
 4815 = "Singapura"

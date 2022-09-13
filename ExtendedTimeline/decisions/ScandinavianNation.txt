@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = SCA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -47,7 +51,21 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 65
+			if = {
+				limit = {
+					has_dlc = "Lions of the North"
+				}
+				OR = {
+					adm_tech = 65
+					custom_trigger_tooltip = {
+						tooltip = scandinavian_nation_tt
+						has_country_flag = can_form_scandinavia_earlier
+					}
+				}
+			}
+			else = {
+				adm_tech = 65
+			}
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -57,6 +75,10 @@ country_decisions = {
 			owns_core_province = 12		# Sjaelland
 			owns_core_province = 15		# Jylland
 			owns_core_province = 17		# Akershus
+			num_of_owned_provinces_with = {
+				region = scandinavia_region
+				value = 40
+			}
 		}
 		effect = {
 			change_tag = SCA
@@ -65,6 +87,7 @@ country_decisions = {
 				limit = { NOT = { government_rank = 2 } }
 				set_government_rank = 2
 			}
+			swap_non_generic_missions = yes
 			scandinavia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -77,6 +100,10 @@ country_decisions = {
 			}
 			add_prestige = 10
 			set_country_flag = formed_scandinavia_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 		}
 		ai_will_do = {
 			factor = 1

@@ -1,5 +1,6 @@
 43 = "Gedanum"								#Danzig						|			01.10.20
 53 = "Lunaburgum"							#Lüneburg					|			12.02.22
+58 = "Anhaltinum"							#Anhalt						|			09.04.22
 64 = "Landishuta"							#Landshut					|			28.06.19
 87 = "Calesium"								#Calais						|			07.06.19
 89 = "Picardia"								#Picardie					|			07.06.19
@@ -26,6 +27,7 @@
 400 = "Mascatum"							#Mascat						|			12.02.22
 419 = "Revanum"								#Yerevan					|			01.10.20
 423 = "Tiphlis"								#Tbilisi					|			17.10.20
+507 = "Lahoria"								#lahore						|			02.04.22
 979 = "Insulae Aleutiae"					#Aleut						|			21.06.18
 1766 = "Kosavia"							#Kosovo						|			01.10.20
 1867 = "Valdensis"							#Vaud						|			02.10.21

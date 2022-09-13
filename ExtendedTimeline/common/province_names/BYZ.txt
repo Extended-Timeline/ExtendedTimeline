@@ -26,6 +26,7 @@
 1849 = "Emathoùs"							#Hamah						|checked	18.10.18
 1855 = "Sidón"								#Sidon						|			02.10.21
 2085 = "Órthura"							#Tiruchchirapalli			|			11.02.21
+2308 = "Justinopolis"						#Urfa						|			13.03.22
 3003 = "Chalkís"							#Euboea						|			18.10.18
 4706 = "Skythía"							#Dobruja					|			18.10.18
 3000 = "Nysós"								#Nis						|			18.10.18

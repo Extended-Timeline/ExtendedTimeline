@@ -20,7 +20,7 @@
 57 = "Brunswick"					#Brunswick					|checked	22.05.18
 62 = "Lipswick"						#Leipzig					|			22.05.18
 63 = "Thuringia"					#Thüringen					|checked	22.05.18
-2957 = "Ratisbon"						#Regensburg					|			22.05.18
+2957 = "Ratisbon"					#Regensburg					|			22.05.18
 65 = "Munich"						#München					|checked	22.05.18
 67 = "Nuremberg"					#Nürnberg					|			22.05.18
 70 = "Wurtemberg"					#Württemberg				|			22.05.18
@@ -113,7 +113,7 @@
 2342 = "Central Oman"				#Wusta						|			27.02.19
 2341 = "Mazeira"					#Masirah					|			27.02.19
 2975 = "Cleves"						#Kleve						|			22.05.18
-52 = "Maidenburgh"				#Magdeburg					|			22.05.18
+52 = "Maidenburgh"					#Magdeburg					|			22.05.18
 2982 = "Syracuse"					#Syracuse					|checked	22.05.18
 4710 = "Brigence"					#Bregenz					|theory		13.09.20
 4712 = "Constance"					#Konstanz					|checked	13.09.20
@@ -124,6 +124,7 @@
 4383 = "Hague"						#Haag						|checked	22.05.18
 4385 = "Cherburg"					#Cherbourg					|			03.07.18
 4399 = "Rangoon"					#Dagun						|			12.04.19
+4938 = "Sandalwood Island"			#Vanua Levu					|			12.03.22
 
 541 = "Bellary"
 2085 = "Arcot"

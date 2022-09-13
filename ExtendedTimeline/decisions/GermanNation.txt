@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = GER }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -46,6 +50,10 @@ country_decisions = {
 					is_former_colonial_nation = yes
 					ai = no
 				}
+			}
+			OR = {
+				has_country_flag = teu_can_form_germany
+				NOT = { has_mission = teu_pru_an_empire_of_blood_and_iron }	#Mission already makes you to Germany
 			}
 		}
 		provinces_to_highlight = {
@@ -202,7 +210,7 @@ country_decisions = {
 			emperor = {
 				country_event = { id = hre_event.5 }
 			}
-			set_government_rank = 3
+			GER = { set_government_rank = 3 }
 			north_german_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -230,10 +238,14 @@ country_decisions = {
 			swap_non_generic_missions = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 			modifier = {
 				factor = 0
-				tag = HAB
+				NOT = { adm_tech = 18 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { num_of_owned_provinces_with = { OR = { region = north_german_region region = south_german_region } value = 25 } }
 			}
 		}
 	}

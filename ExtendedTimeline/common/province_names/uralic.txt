@@ -12,6 +12,7 @@
 475 = "Bashkirmu"							#Bashkortostan					|			18.10.18
 1077 = "Sovkar"								#Solikamsk						|			18.10.18
 1079 = "Vatkar"								#Viatka							|theory		18.10.18
+1082 = "Kozan"								#Kazan							|Perm-Komi	06.09.22
 1755 = "Yuhdyn"								#Ustyug							|			18.10.18
 1957 = "Umar"								#Galich							|Erzya 		10.10.20
 1964 = "Syktyvkar"							#Ust-Sysolsk					|			18.10.18

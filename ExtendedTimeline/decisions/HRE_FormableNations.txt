@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = BAV }
 			primary_culture = bavarian
 		}
@@ -176,7 +180,13 @@ country_decisions = {
 			set_capital = 65
 			65 = { add_base_tax = 2 }
 			set_country_flag = formed_bavaria_flag
-
+			if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = BAV_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			if = {
 				limit = {
 					NOT = { tag = UBV }
@@ -192,7 +202,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		ai_importance = 400
 	}
@@ -207,6 +217,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { exists = POM }
 			primary_culture = pommeranian
@@ -336,7 +350,7 @@ country_decisions = {
 				limit = {
 					RUG = {
 						is_subject_of = ROOT
-						NOT = { has_reform = pirate_republic_reform }
+						NOT = { has_government_attribute = is_pirate_republic_reform }
 					}
 				}
 				inherit = RUG
@@ -399,6 +413,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { exists = FKN }
 			is_colonial_nation = no
@@ -543,6 +561,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = SWA }
 			is_colonial_nation = no
 			OR = {
@@ -683,6 +705,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			OR = {
 				ai = no
@@ -827,6 +853,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			NOT = { tag = GER }
@@ -961,6 +991,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = HLR }
 			NOT = { tag = HAN }

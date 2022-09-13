@@ -1830,6 +1830,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_neuschwanstein_castle.dds"
 	}
 	spriteType = {
+		name = "GFX_great_project_obelisk_of_axum"	
+		texturefile = "gfx//interface//great_projects//great_project_obelisk_of_axum.dds"
+	}
+	spriteType = {
 		name = "GFX_great_project_sagrada_familia"	
 		texturefile = "gfx//interface//great_projects//great_project_sagrada_familia.dds"
 	}
@@ -1844,5 +1848,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_sydney_opera_house"	
 		texturefile = "gfx//interface//great_projects//great_project_sydney_opera_house.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_three_gorges_dam"	
+		texturefile = "gfx//interface//great_projects//great_project_three_gorges_dam.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_ziggurat_of_ur"	
+		texturefile = "gfx//interface//great_projects//great_project_ziggurat_of_ur.dds"
 	}
 }

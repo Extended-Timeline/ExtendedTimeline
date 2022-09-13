@@ -109,6 +109,7 @@ feudalism = {
 					technology_group = north_american
 					technology_group = south_american
 					technology_group = sub_saharan
+					technology_group = aboriginal_tech
 				}
 			}
 			AND = {
@@ -234,6 +235,7 @@ feudalism = {
 				NOT = { continent = north_america }
 				NOT = { continent = south_america }
 				NOT = { continent = new_world }
+				NOT = { region = australia_region }
 				owner = {
 					NOT = { government = tribal }
 					NOT = { government = native }

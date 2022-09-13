@@ -28,3 +28,4 @@
 4418 = "Nellur"							#Nellore						|			27.02.19
 4425 = "Kontavitu"						#Kondavidu						|			11.02.21 -- t / d sound
 4431 = "Kolappur"						#Kolhapur						|			27.02.19
+4812 = "Grik"							#Gerik							|			12.03.22

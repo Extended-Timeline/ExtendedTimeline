@@ -1,4 +1,7 @@
 47 = "Virtibriga"							#Würzburg					|			13.02.22
+72 = "Brisinaco"							#Breisgau					|			04.03.22	from: Breisach am Rhein
+78 = "Mogontiuaco"							#Mainz						|reconstructed	14.04.22	theory, rough meaning: people from Mogon's place (celtic god)
+80 = "Rigodulun"							#Trier						|theory		20.05.22	from: Rigodulum	
 114 = "Solona"								#Romagna
 133 = "Lentos"								#Linz
 134 = "Vedunia"								#Vienna
@@ -11,12 +14,14 @@
 205 = "Sapaudia"							#Savoie						|			03.05.19
 206 = "Gallaecia"							#Galicia
 236 = "Lowonidonjon"						#London
+264 = "Bodorigon"							#Breslau					|			16.04.22
 1869 = "Turos"								#Zürich
 3000 = "Navissos"							#Nis
 2746 = "Dunonia"							#Vidin						|			21.04.19
 2843 = "Vareia"								#La Rioja
-2956 = "Sorviodurum"						#Straubing					| 			03.09.21	Sorviodurun alternative ?
+2956 = "Sorviodurun"						#Straubing					| 			03.09.21	Sorviodurum alternative ?
 2957 = "Radasbona"							#Regensburg
+4237 = "Eburun"								#Olomouc					|			21.05.22	from:Eburum
 4709 = "Boioduron"							#Passau						|			26.09.20
 4710 = "Brigantion"							#Bregenz					|			13.09.20
 4112 = "Divona"								#Cahors						|			02.05.19

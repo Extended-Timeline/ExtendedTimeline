@@ -5,29 +5,37 @@ estate_jains = {
 	
 	trigger = {	
 		has_dlc = "Dharma"
-		OR = { 
-			technology_group = indian
-			technology_group = early_indian
+		NOT = { has_government_attribute = disables_jains }
+		NOT = { has_country_flag = disables_jains_flag }
+		OR = {
+			has_government_attribute = enables_jains
+			has_country_flag = enables_jains_flag
+			AND = {
+				OR = { 
+					technology_group = indian
+					technology_group = early_indian
+				}
+				NOT = { religion = jainism }
+				#NOT = { has_government_attribute = is_merchant_republic }
+				#NOT = { has_reform = trading_city }
+				#NOT = { has_reform = veche_republic }
+				NOT = { is_revolutionary_republic_trigger = yes }
+				NOT = { government = native }
+				NOT = { has_reform = siberian_tribe }
+				NOT = { has_reform = cossacks_reform }
+				NOT = { has_government_attribute = is_pirate_republic_reform }
+				NOT = { has_reform = roman_empire_reform }
+				NOT = { has_reform = multi_party_system }
+				NOT = { has_reform = single_party_system }
+				NOT = { has_reform = military_government }
+				NOT = { has_reform = communist_government }
+				NOT = { has_reform = fascist_government }
+				is_nomad = no
+				is_colonial_nation = no
+				NOT = { has_reform = celestial_empire }
+				NOT = { has_reform = revolutionary_empire_reform }
+			}
 		}
-		NOT = { religion = jainism }
-		NOT = { has_government_attribute = is_merchant_republic }
-		NOT = { has_reform = trading_city }
-		NOT = { is_revolutionary_republic_trigger = yes }
-		NOT = { government = native }
-		NOT = { has_reform = siberian_tribe }
-		NOT = { has_reform = veche_republic }
-		NOT = { has_reform = cossacks_reform }
-		NOT = { has_reform = pirate_republic_reform }
-		NOT = { has_reform = roman_empire_reform }
-		NOT = { has_reform = multi_party_system }
-		NOT = { has_reform = single_party_system }
-		NOT = { has_reform = military_government }
-		NOT = { has_reform = communist_government }
-		NOT = { has_reform = fascist_government }
-		is_nomad = no
-		is_colonial_nation = no
-		NOT = { has_reform = celestial_empire }
-		NOT = { has_reform = revolutionary_empire_reform }
 	}
 
 	# These scale with loyalty & power
@@ -131,6 +139,7 @@ estate_jains = {
 		estate_jains_monopoly_of_dyes
 		estate_jains_monopoly_of_glass
 		estate_jains_monopoly_of_paper
+		estate_jains_grant_liberties
 	}
 	
 	agendas = {

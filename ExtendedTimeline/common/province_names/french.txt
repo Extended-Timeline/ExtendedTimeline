@@ -24,7 +24,6 @@
 44 = "Hambourg"							#Hamburg					|checked	27.08.18
 2996 = "Mecklembourg"
 49 = "Nouvelle Marche"
-50 = "Brandebourg"
 53 = "Lunebourg"						#Lüneburg					|checked	22.05.18
 55 = "Oldenbourg"
 56 = "Osnabruck"
@@ -375,7 +374,7 @@
 1749 = "Cadix"								#Cádiz						|			24.12.18
 1750 = "Alicante"
 1754 = "Mourom"
-1756 = "Bessarabie"
+1756 = "Bessarabie"							#Bessarabia					|			09.04.22
 1757 = "Haut-Palatinat"
 1758 = "Hannovre"
 1760 = "Coblence"							#Koblenz					|checked	22.05.18

@@ -25,7 +25,7 @@
 589 = "Qingmai"
 590 = "Maodanmian"
 2404 = "Delindayi"
-592 = "Lepi"
+592 = "Lèpifu"					#Ratchaburi					|incomplete	14.03.22	alternative:Lifu
 593 = "Luokun"
 594 = "Dani"
 595 = "Pili"
@@ -37,22 +37,23 @@
 601 = "Suketai"
 602 = "Qinglai"
 603 = "Luoyong"
-604 = "Wudong"
+604 = "Wudòng"					#Oudong						|incomplete	14.03.22
 605 = "Xigong"
-606 = "Bintonglong"
-607 = "Foshi"
+606 = "Panláng"					#Panduranga					|incomplete	14.04.22
+607 = "Xinzhou"					#Vijaya						|incomplete	14.03.22
 608 = "Zhanbasai"
 609 = "Xianli"
 2373 = "Shùnhuà"				#Hue						|			07.05.20
+610 = "Qinghuà"					#Thanh Hoa					|incomplete	14.03.22
 611 = "Ganmeng"
 612 = "Kele"
 2372 = "Haifáng"				#Hai Phong					|			07.05.20
-614 = "Wanxiang"
+614 = "Yongzhen"				#Vientiane					|incomplete	11.05.22
 615 = "Chuantong"
 613 = "Yuèbei"					#Viet Bac					|			07.05.20
 622 = "Jùgang"					#Palembang					|incomplete	18.01.22
 631 = "Balidao"					#Bali
-641 = "Wangjiaxi"				#Makassar
+641 = "Xijiang"					#Makassar					|incomplete	14.03.22
 2686 = "Liaonei"
 659 = "Línjia"					#Lingga						|incomplete 26.02.22
 660 = "Xishuangbannà"			#Xishuangbanna				|incomplete	
@@ -258,6 +259,8 @@
 4678 = "Badan Jílín"			#Badain Jaran				|incomplete	05.02.22
 4683 = "Alètài"					#Altay						|			22.04.20
 4773 = "Getínggen"				#Göttingen					|incomplete	28.02.22
+4812 = "Yílì"					#Gerik						|			12.03.22
+4819 = "Guangníng"				#Quang Ninh					|incomplete	14.03.22
 4821 = "Yì'an"					#Nghe an					|incomplete	25.02.22
 #Korea
 732 = "Xianjin"
@@ -267,7 +270,6 @@
 737 = "Quanluo"
 1013 = "Zhongqing"
 
-610 = "Yi'an"
 1817 = "Nan"
 1823 = "Shangding"
 1844 = "Chuankuang"
