@@ -701,10 +701,14 @@ prussian_monarchy = {
 			AND = {
 				tag = GER
 				have_had_reform = prussian_monarchy
+				have_had_reform = prussian_republic_reform
+				have_had_reform = prussian_theocratic_reform
 			}
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = prussian_monarchy
+				have_had_reform = prussian_republic_reform
+				have_had_reform = prussian_theocratic_reform
 			}
 			has_reform = prussian_monarchy
 			has_unlocked_government_reform = {
@@ -722,6 +726,7 @@ prussian_monarchy = {
 			has_unlocked_government_reform_tooltip = {
 				government_reform = prussian_monarchy
 			}
+		}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 100
@@ -1117,6 +1122,7 @@ revolutionary_empire_reform = {
 		governing_capacity = 150
 		max_revolutionary_zeal = 50
 		papal_influence = -100
+	}
 
 	custom_attributes = {
 		locked_government_type = yes
@@ -2872,7 +2878,6 @@ imperial_nobility_reform = {
 	}
 	modifiers = {
 		leader_cost = -0.1
-								  
 		rr_royalists_influence = 0.1
 		army_tradition = 0.25
 	}

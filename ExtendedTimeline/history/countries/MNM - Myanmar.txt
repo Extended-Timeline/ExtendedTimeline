@@ -104,5 +104,6 @@ capital = 4399 # Rangoon
 		adm = 2
 		dip = 2
 		mil = 4
+		culture = mon
 	}
 }
