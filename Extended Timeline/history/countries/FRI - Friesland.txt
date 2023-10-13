@@ -1,0 +1,183 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = frisian
+religion = chalcedonism
+technology_group = western
+capital = 100 # Groningen
+
+100.1.1 = { add_government_reform = early_gov_reform_1 }
+230.1.1 = { add_government_reform = early_gov_reform_2 }
+360.1.1 = { add_government_reform = early_gov_reform_3 }
+490.1.1 = { add_government_reform = early_gov_reform_4 }
+620.1.1 = { add_government_reform = early_gov_reform_5 }
+750.1.1 = { add_government_reform = early_gov_reform_6 }
+
+834.1.1 = {
+	monarch = {
+		name = "Gerhart"
+		dynasty = "van Westergo"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+855.1.1 = {
+	monarch = {
+		name = "Wiccing"
+		dynasty = "van Westerkwartier"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+
+867.1.1 = { religion = catholic }
+
+870.1.1 = {
+	monarch = {
+		name = "Albdag"
+		dynasty = "van Oostergo"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+873.1.1 = {
+	monarch = {
+		name = "Gardulf"
+		dynasty = "Gerulfing"
+		birth_date = 850.1.1
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+880.1.1 = { add_government_reform = early_gov_reform_7 }
+
+921.1.1 = {
+	monarch = {
+		name = "Reginbert I"
+		dynasty = "Reginingen"
+		birth_date = 891.1.1
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+
+921.1.1 = {
+	heir = {
+		name = "Gerbert"
+		monarch_name = "Gerbert I"
+		dynasty = "Reginingen"
+		birth_date = 915.1.1
+		death_date = 966.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+945.1.1 = {
+	monarch = {
+		name = "Gerbert I"
+		dynasty = "Reginingen"
+		birth_date = 915.1.1
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+955.1.1 = {
+	monarch = {
+		name = "Ekbert I"
+		dynasty = "Billung"
+		birth_date = 925.1.1
+		adm = 5
+		dip = 0
+		mil = 5
+		culture = saxon
+	}
+}
+
+960.1.1 = {
+	heir = {
+		name = "Wichmann"
+		monarch_name = "Wichmann III"
+		dynasty = "Billung"
+		birth_date = 960.1.1
+		death_date = 1030.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 0
+		culture = saxon
+	}
+}
+
+994.4.4 = {
+	monarch = {
+		name = "Wichmann III"
+		dynasty = "Billung"
+		birth_date = 960.1.1
+		adm = 4
+		dip = 5
+		mil = 0
+		culture = saxon
+	}
+}
+
+1010.1.1 = { add_government_reform = early_gov_reform_8 }
+
+#1028.1.1 PU under Brunswick
+
+1090.7.3 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Northeim"
+		birth_date = 1055.1.1
+		adm = 3
+		dip = 5
+		mil = 4
+		culture = saxon
+	}
+}
+
+1090.7.3 = {
+	heir = {
+		name = "Richenza"
+		monarch_name = "Richenza I"
+		dynasty = "von Northeim"
+		birth_date = 1060.1.1
+		death_date = 1117.12.9
+		claim = 95
+		adm = 0
+		dip = 3
+		mil = 4
+		female = yes
+		culture = saxon
+	}
+}
+
+1101.1.1 = {
+	government = republic
+	add_government_reform = oligarchy_reform
+	monarch = {
+		name = "Fryske frijheid"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1140.1.1 = { add_government_reform = early_gov_reform_9 }
+1270.1.1 = { add_government_reform = early_gov_reform_10 }
+
+1515.1.1 = { leader = { name = "Greate Pier" type = admiral  fire = 1 shock = 1 manuever = 2 siege = 0 death_date = 1520.10.28 } }
