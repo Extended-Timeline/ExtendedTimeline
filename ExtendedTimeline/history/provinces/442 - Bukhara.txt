@@ -4,14 +4,14 @@ latent_trade_goods = {
 	oil
 }
 
-owner = KUS
-controller = KUS
-add_core = KUS
+owner = BUK
+controller = BUK
+add_core = BUK
 add_core = KHW
 is_city = yes
 culture = khwarezmian
 religion = zoroastrian
-capital = "Bukhara"
+capital = "Farabdiz"
 trade_goods = salt
 hre = no
 discovered_by = indian
@@ -27,11 +27,15 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
+80.1.1 = { owner = KUS controller = KUS add_core = KUS }
 230.1.1 = { owner = KHW controller = KHW remove_core = KUS }
 320.1.1 = { owner = KDT controller = KDT add_core = KDT }
+350.1.1 = { capital = "Ramithan" }
 380.1.1 = { owner = HEP controller = HEP add_core = HEP remove_core = KDT }
+480.1.1 = { capital = "Vardana" }
 567.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = HEP }
 593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = GOK }
+590.1.1 = { capital = "Bukhara" }
 600.1.1 = { owner = BUK controller = BUK add_core = BUK remove_core = WGO }
 700.1.1 = { fort_15th = yes }
 706.1.1 = { owner = UMA controller = UMA add_core = UMA }
@@ -46,8 +50,8 @@ base_manpower = 3
 1100.1.1 = { base_manpower = 5 }
 1207.1.1 = { owner = KHW controller = KHW add_core = KHW }
 1221.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KHW }
-1260.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = KHA }
-1347.1.1 = { owner = TRS controller = TRS add_core = TRS }
+1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
+1347.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = CGT }
 1360.1.1 = { owner = CHG controller = CHG add_core = CHG }
 1363.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = CHG }
 1370.1.1 = { owner = TIM controller = TIM add_core = TIM }

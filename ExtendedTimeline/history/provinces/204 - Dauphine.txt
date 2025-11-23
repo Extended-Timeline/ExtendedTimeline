@@ -23,7 +23,9 @@ add_core = ROM
 377.1.1 = { religion = chalcedonism } #Diocese founded
 381.1.1 = { capital = "Gratianopolis" }
 395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-455.1.1 = { owner = BUR controller = BUR add_core = BUR remove_core = ROW culture = burgundione capital = "Vienne" }
+455.1.1 = { owner = BUR controller = BUR add_core = BUR culture = burgundione capital = "Vienne" }
+458.1.1 = { owner = ROW controller = ROW } #Battle of Arelate
+461.8.2 = { owner = BUR controller = BUR remove_core = ROW }
 486.6.1 = { culture = burgundian }
 500.1.1 = { base_manpower = 2 }
 534.1.1 = { owner = SOI controller = SOI add_core = SOI }
@@ -85,6 +87,7 @@ add_core = ROM
 		remove_core = FRA
 	     } # Republic proclaimed
 1875.1.1 = { base_production = 8 }
+1900.1.1   = { culture = cosmopolitan_french }
 1901.1.1 = { base_tax = 6 }
 1910.1.1 = { discovered_by = asian }
 1925.1.1 = { base_tax = 7 }

@@ -226,7 +226,6 @@ capital = 4859 # Canberra
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = abolish_presidency
-	set_legacy_government = parliamentary_republic
 }
 
 1945.7.6 = {
@@ -426,5 +425,16 @@ capital = 4859 # Canberra
 		dip = 4
 		mil = 2
 		religion = protestant
+	}
+}
+
+2022.5.23 = {
+	monarch = {
+		name = "Anthony Albanese"
+		birth_date = 1963.3.2
+		adm = 3
+		dip = 4
+		mil = 3
+		religion = catholic
 	}
 }

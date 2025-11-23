@@ -196,10 +196,15 @@ country_event = {
 		NOT = { has_ruler = "Muhammad" }
 		NOT = { has_ruler = "Ali" }
 		NOT = { has_disaster = first_fitna }
+		NOT = { has_country_flag = had_first_fitna }
 	}
 	
 	mean_time_to_happen = {
 		months = 120
+		modifier = {
+			factor = 0.5
+			NOT = { has_country_modifier = rise_of_islam }
+		}
 	}
 
 	option = {
@@ -431,7 +436,7 @@ country_event = {
 		}
 		disband_rebels = pretender_rebels
 		disband_rebels = nationalist_rebels
-		exile_ruler_as = alid_ruler
+		exile_ruler_as = { name = alid_ruler }
 		define_ruler = {
 			name = "Muawiya I"
 			dynasty = "Umayyad"
@@ -507,6 +512,7 @@ country_event = {
 		name = "et_islam.13.a"
 		change_government = monarchy
 		add_government_reform = caliphate_reform
+		set_country_flag = umayyad_dynasty_in_power
 		define_heir = {
 			name = "Yazid"
 			dynasty = "Umayyad"

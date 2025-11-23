@@ -29,7 +29,8 @@ base_manpower = 2
 840.1.1 = { owner = KKH controller = KKH add_core = KKH remove_core = KLU }
 1124.1.1 = { owner = KKT controller = KKT add_core = KKT remove_core = KKH }
 1219.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KKT culture = khazak }
-1260.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = KHA }
+1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
+1347.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = CGT }
 1350.1.1 = { religion = sunni }
 
 1465.1.1 = { owner = KZH controller = KZH remove_core = CHG } # Kazakh horde forms
@@ -45,7 +46,9 @@ base_manpower = 2
 1854.2.4   = { owner = RUS controller = RUS add_core = RUS remove_core = QNG }
 1875.1.1 = { base_production = 3 }
 1910.1.1 = { discovered_by = asian }
-1917.12.13 = { add_core = KZK remove_core = KOK }
+1917.11.27 = { owner = TKS controller = TKS add_core = TKS }
+1917.12.13 = { add_core = KZK remove_core = KZH }
+1918.2.22  = { owner = RUS controller = RUS remove_core = TKS }
 1921.1.1   = { capital = "Alma-Ata" }
 1922.12.30 = { owner = SOV controller = SOV add_core = SOV remove_core = RUS }
 1925.1.1 = { base_manpower = 3 }

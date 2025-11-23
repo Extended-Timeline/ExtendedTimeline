@@ -32,7 +32,8 @@ base_manpower = 2
 1137.1.1 = { owner = KKT controller = KKT add_core = KKT remove_core = KKH }
 1218.1.1 = { capital = "Chuy" culture = kirgiz }
 1219.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KKT }
-1260.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = KHA }
+1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
+1347.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = CGT }
 
 1462.1.1 = {
 	owner = KAS
@@ -53,6 +54,8 @@ base_manpower = 2
 
 1862.1.1   = { owner = RUS controller = RUS add_core = RUS remove_core = KOK }
 1877.1.1   = { capital = "Pishpek" }
+1917.11.27 = { owner = TKS controller = TKS add_core = TKS }
+1918.2.22  = { owner = RUS controller = RUS remove_core = TKS }
 1922.12.30 = { owner = SOV controller = SOV add_core = SOV remove_core = RUS }
 1924.10.14 = { add_core = KYR remove_core = KZH culture = kirgiz }
 1926.1.1   = { capital = "Frunze" }

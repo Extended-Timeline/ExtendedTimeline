@@ -4,6 +4,30 @@
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
 
 #ET
+usa_federal_republic = {
+	rank = {
+		1 = FEDERAL_REPUBLIC
+		2 = FEDERAL_REPUBLIC
+		3 = FEDERAL_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = PRESIDENT_fem
+		2 = PRESIDENT_fem
+		3 = PRESIDENT_fem
+	}
+	
+	trigger = {
+		has_reform = federal_republic
+	}
+}
+
 german_fascism = {
 	rank = {
 		1 = FASCIST_DICTATORSHIP
@@ -424,6 +448,10 @@ kievan_grand_principality = {
 }
 
 liberian_colony = {
+	rank = {
+		1 = COLONY
+	}
+	
 	ruler_male = {
 		1 = COLONIAL_AGENT
 	}
@@ -447,7 +475,7 @@ gov_constitutional_republic_2 = {
 	}
 	
 	ruler_male = {
-		1 = CHANCELOR
+		1 = PRESIDENT
 		2 = PRESIDENT
 		3 = PRESIDENT
 	}
@@ -461,13 +489,11 @@ gov_constitutional_republic_2 = {
 	trigger = {
 		government = republic
 		OR = {
-			has_reform = constitutional_republic
 			has_reform = presidential_reform
 			has_reform = parliamentary_reform
-			has_reform = presidental_republic
 		}
 		OR = {
-			tag = IND
+			tag = INI
 			tag = ITA
 			tag = FR2
 		}
@@ -646,5 +672,88 @@ muhammad_special_title = {
 	
 	trigger = {
 		has_country_flag = ruler_muhammmad
+	}
+}
+
+sardinia_monarchy = {
+	rank = {
+		1 = JUDICATE
+		2 = JUDICATE
+		3 = GRAND_JUDICATE
+	}
+	
+	ruler_male = {
+		1 = JUDGE
+		2 = JUDGE_KING
+		3 = JUDGE_EMPEROR
+	}
+	
+	ruler_female = {
+		1 = JUDGE_fem
+		2 = JUDGE_QUEEN
+		3 = JUDGE_EMPRESS
+	}
+	
+	trigger = {
+		government = monarchy
+		OR = {
+			tag = ABR
+			tag = CAG
+			tag = LOG
+		}
+	}
+}
+
+marquisate = {
+	rank = {
+		1 = MARQUISATE
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = MARQUIS
+		2 = KING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = MARCHIONESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	trigger = {
+		has_reform = margraviate_reform
+		tag = SZO
+	}
+}
+
+sogdian_principality = {
+	rank = {
+		1 = PRINCIPALITY
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+	
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = EMPRESS
+	}
+	
+	trigger = {
+		government = monarchy
+		OR = {
+			tag = KHU
+			tag = CGN
+		}
+		NOT = { religion_group = muslim }
 	}
 }

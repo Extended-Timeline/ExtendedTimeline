@@ -308,7 +308,17 @@ capital = 12 #Sjaelland
 	}
 }
 
-814.1.1 = {
+819.1.1 = {
+	monarch = {
+		name = "Harald Klak"
+		dynasty = "Sigfreding"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+819.1.1 = {
 	heir = {
 		name = "Horik"
 		monarch_name = "Horik I"
@@ -1998,7 +2008,6 @@ capital = 12 #Sjaelland
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
 }
 1939.1.1 = { 
 	government = monarchy
@@ -2008,7 +2017,6 @@ capital = 12 #Sjaelland
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = ceremonial_monarch
-	set_legacy_government = parliamentary_monarchy
 }
 1945.5.4 = { capital = 12 } #Sjaelland
 
@@ -2067,3 +2075,29 @@ capital = 12 #Sjaelland
 }
 
 1973.1.1 = { decision = dummy_join_eu }
+
+2024.1.14 = {
+	monarch = {
+		name = "Frederik X"
+		dynasty = "von Glücksburg"
+		adm = 4
+		dip = 4
+		mil = 3
+		religion = protestant
+	}
+}
+
+2024.1.14 = {
+	heir = {
+		name = "Christian"
+		monarch_name = "Christian XI"
+		dynasty = "von Glücksburg"
+		birth_date = 2005.10.15
+		death_date = 3000.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+		religion = protestant
+	}
+}

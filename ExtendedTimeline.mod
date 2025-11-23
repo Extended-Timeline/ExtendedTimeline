@@ -16,7 +16,7 @@ tags={
 	"New Nations"
 }
 picture="extended_timeline.jpg"
-version="1.14.1"
-supported_version="1.34.*"
+version="1.18.2"
+supported_version="v1.37.*"
 path="mod/ExtendedTimeline"
 remote_file_id="217416366"

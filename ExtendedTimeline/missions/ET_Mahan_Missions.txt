@@ -13,9 +13,6 @@ mhn_slot_1 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
 		provinces_to_highlight = {
 			culture_group = japanese_g
 		}
@@ -39,7 +36,10 @@ mhn_slot_1 = {
 		icon = mission_conquer_50_development
 		required_missions = { bringer_civilisation_mhn }
 		trigger = {
-			has_country_flag = reformation_samhan
+			custom_trigger_tooltip = {
+				tooltip = reformation_event_fired
+				has_country_flag = reformation_samhan
+			}
 		}
 		effect = {
 			complete_mission = reformation_jhn
@@ -51,8 +51,8 @@ mhn_slot_1 = {
 	}
 	dongyi_trade_jin = {
 		icon = mission_dominate_home_trade_node
-		required_missions = { han_vs_han_jin }
 		position = 5
+		required_missions = { han_vs_han_jin }
 		provinces_to_highlight = {
 			province_id = 1376
 			has_discovered = ROOT
@@ -198,11 +198,7 @@ mhn_slot_2 = {
 	phoenicia_east_mhn = {
 		icon = mission_establish_high_seas_navy
 		required_missions = {  }
-		position = 1
 		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
 			factor = 5
 		}
 		trigger = {
@@ -222,6 +218,8 @@ mhn_slot_2 = {
 			advisor = naval_reformer
 		}
 		effect = {
+			complete_mission = hire_advisors_jhn
+			complete_mission = byeonhan_army_gay
 			add_country_modifier = {
 				name = naval_advisors_mhn_mod
 				duration = 9125
@@ -230,16 +228,18 @@ mhn_slot_2 = {
 	}
 	han_vs_han_jin = {
 		icon = mission_japanese_fort
-		required_missions = { restore_jin_jin }
 		position = 4
+		required_missions = { restore_jin_jin }
 		provinces_to_highlight = {
 			region = korea_region
 			owned_by = HND
 		}
 		trigger = {
-			korea_region = {
-				type = all
-				NOT = { controlled_by = HND }
+			NOT = {
+				any_province = {
+					region = korea_region
+					controller = { tag = HND }
+				}
 			}
 		}
 		effect = {
@@ -465,9 +465,6 @@ mhn_slot_3 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
 		trigger = {
 			adm_tech = 6
 		}
@@ -496,6 +493,8 @@ mhn_slot_3 = {
 			has_country_flag = reformation_samhan
 		}
 		effect = {
+			complete_mission = seek_allies_jhn
+			complete_mission = diplomats_in_japan_have_turned_gay
 			add_stability = 1
 		}
 	}
@@ -526,7 +525,7 @@ mhn_slot_3 = {
 				owned_by = MHN
 				province_id = 736
 				province_id = 737
-				province_id = 4227
+				province_id = 2511
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -566,7 +565,7 @@ mhn_slot_3 = {
 			}
 			owns = 736
 			owns = 737
-			owns = 4227
+			owns = 2511
 		}
 		effect = {
 			override_country_name = CJN
@@ -590,11 +589,7 @@ mhn_slot_4 = {
 	riches_of_mahan_mhn = {
 		icon = mission_high_income
 		required_missions = {  }
-		position = 1
 		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
 			factor = 5
 		}
 		trigger = {
@@ -620,6 +615,8 @@ mhn_slot_4 = {
 			}
 		}
 		effect = {
+			complete_mission = urban_society_jhn
+			complete_mission = military_advisors_gay
 			add_country_modifier = {
 				name = border_forts_mhn_mod
 				duration = 5480
@@ -628,8 +625,8 @@ mhn_slot_4 = {
 	}
 	tamna_jin = {
 		icon = mission_invade_island
-		required_missions = { restore_jin_jin }
 		position = 4
+		required_missions = { restore_jin_jin }
 		provinces_to_highlight = {
 			province_id = 2516
 		}
@@ -870,9 +867,6 @@ mhn_slot_5 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
 		trigger = {
 			army_size_percentage = 1
 		}
@@ -905,8 +899,8 @@ mhn_slot_5 = {
 	}
 	respected_nation_jin = {
 		icon = mission_noble_council
-		required_missions = { tamna_jin }
 		position = 5
+		required_missions = { tamna_jin }
 		trigger = {
 			prestige = 80
 		}

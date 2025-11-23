@@ -4,12 +4,16 @@ estate_jains = {
 	# If true, country will get estate
 	
 	trigger = {	
-		has_dlc = "Dharma"
-		NOT = { has_government_attribute = disables_jains }
-		NOT = { has_country_flag = disables_jains_flag }
 		OR = {
-			has_government_attribute = enables_jains
-			has_country_flag = enables_jains_flag
+			has_dlc = "Dharma"
+			has_dlc = "Winds of Change"
+		}
+		NOT = { has_government_attribute = disables_estate_jains }
+		NOT = { has_disabled_estate = { estate = estate_jains } }
+		OR = {
+			has_government_attribute = enables_estate_jains
+			has_enabled_estate = { estate = estate_jains }
+			has_unlocked_estate = { estate = estate_jains }
 			AND = {
 				OR = { 
 					technology_group = indian
@@ -22,7 +26,6 @@ estate_jains = {
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { government = native }
 				NOT = { has_reform = siberian_tribe }
-				NOT = { has_reform = cossacks_reform }
 				NOT = { has_government_attribute = is_pirate_republic_reform }
 				NOT = { has_reform = roman_empire_reform }
 				NOT = { has_reform = multi_party_system }
@@ -101,13 +104,8 @@ estate_jains = {
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_jains }
 		}
 		influence = -40
 	}
@@ -115,13 +113,8 @@ estate_jains = {
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_jains }
 		}
 		loyalty = -20
 	}
@@ -140,6 +133,16 @@ estate_jains = {
 		estate_jains_monopoly_of_glass
 		estate_jains_monopoly_of_paper
 		estate_jains_grant_liberties
+		estate_jains_land_trade_rights
+		estate_jains_development_of_cities
+		estate_jains_right_to_offer_loans
+		estate_jains_economical_boost
+		estate_jains_patronize_jain_familiy
+		estate_jains_incorruptible_offices
+		estate_jains_promote_jain_bookkeeping
+		estate_jains_MUG_gujarati_trade
+		estate_jains_MUG_support_malaccan_viceroyalty
+		estate_jains_MUG_debase_the_ruppee
 	}
 	
 	agendas = {

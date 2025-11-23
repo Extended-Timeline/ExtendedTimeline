@@ -751,7 +751,7 @@ organized_religion = {
 				is_year = 420
 				owner = { 
 					OR = {
-						religion_group = iranian
+						religion_group = zoroastrian_group
 						religion_group = jewish_group
 					}
 				}
@@ -769,7 +769,7 @@ organized_religion = {
 						religion_group = buddhic
 						religion_group = dharmic
 						religion_group = eastern
-						religion_group = iranian
+						religion_group = zoroastrian_group
 						religion_group = jewish_group
 					}
 				}
@@ -819,14 +819,14 @@ organized_religion = {
 			religion = jewish
 			AND = {
 				is_year = 450
-				religion_group = iranian
+				religion_group = zoroastrian_group
 			}
 		}
 		owner = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim
-				religion_group = iranian
+				religion_group = zoroastrian_group
 				religion = jewish
 				adm_tech = 17
 			}
@@ -885,7 +885,7 @@ organized_religion = {
 					religion_group = christian
 					religion_group = muslim
 					religion_group = jewish_group
-					religion_group = iranian
+					religion_group = zoroastrian_group
 					religion_group = buddhic
 					religion_group = dharmic
 					religion_group = eastern
@@ -2442,11 +2442,16 @@ medicine = {
 		
 		is_island = no
 		is_state = yes
-		development_discounting_tribal = 15
 		OR = {
+			is_year = 1350
+			development_discounting_tribal = 15
+		}
+		OR = {
+			is_year = 1380
 			has_province_modifier = et_plague
 			has_province_modifier = et_famine
 			has_province_modifier = et_drought
+			has_province_modifier = great_plague_province
 			AND = {
 				NOT = { has_dlc = "Common Sense" }
 				development_discounting_tribal = 18

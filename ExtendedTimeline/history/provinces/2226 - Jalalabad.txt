@@ -1,7 +1,7 @@
 #2178 - Jalalabad
 
-owner = GND
-controller = GND
+owner = KAP
+controller = KAP
 culture = afghani
 religion = mahayana
 capital = "Jalalabad"
@@ -20,7 +20,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = GND
+add_core = KAP
 
 10.1.1 = { owner = IPA controller = IPA add_core = IPA }
 76.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = IPA }
@@ -38,8 +38,9 @@ add_core = GND
 1173.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
 1215.1.1 = { owner = KHW controller = KHW add_core = KHW remove_core = GHU }
 1220.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = AFG remove_core = KHW }
-1260.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = KHA }
+1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
 1262.1.1 = { owner = AFG controller = AFG add_core = AFG }
+1347.1.1 = { remove_core = CGT }
 1370.1.1 = { owner = TIM controller = TIM add_core = TIM }
 1443.1.1 = { owner = AFG controller = AFG add_core = AFG }
 

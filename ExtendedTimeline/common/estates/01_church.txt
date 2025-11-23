@@ -3,20 +3,23 @@ estate_church = {
 
 	# If true, country will get estate
 	trigger = {
-		NOT = { has_government_attribute = disables_clergy }
-		NOT = { has_country_flag = disables_clergy_flag }
+		NOT = { has_government_attribute = disables_estate_church }
+		NOT = { has_disabled_estate = { estate = estate_church } }
 		if = {
 			limit = {
 				religion_group = dharmic
 			}
-			NOT = { has_estate = estate_brahmins }
+			OR = {
+				has_enabled_estate = { estate = estate_church }
+				NOT = { has_estate = estate_brahmins }
+			}
 		}
 		OR = {
-			has_government_attribute = enables_clergy
-			has_country_flag = enables_clergy_flag
+			has_government_attribute = enables_estate_church
+			has_enabled_estate = { estate = estate_church }
+			has_unlocked_estate = { estate = estate_church }
 			AND = {
 				NOT = { has_government_attribute = is_pirate_republic_reform }
-				NOT = { has_reform = cossacks_reform }
 				NOT = { has_reform = siberian_tribe }
 				NOT = { government = native }
 				NOT = { is_revolutionary_republic_trigger = yes }
@@ -36,6 +39,13 @@ estate_church = {
 				is_colonial_nation = no
 			}
 		}
+		#NOT = { has_government_attribute = is_merchant_republic }
+		#NOT = { has_reform = veche_republic }
+		#NOT = { has_reform = trading_city }
+		#OR = {
+		#	NOT = { has_reform = celestial_empire }
+		#	has_dlc = "Mandate of Heaven"
+		#}
 	}
 
 	# These scale with loyalty & power
@@ -112,13 +122,8 @@ estate_church = {
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_church }
 		}
 		influence = -40
 	}
@@ -126,20 +131,16 @@ estate_church = {
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_church }
 		}
 		loyalty = -20
 	}
 	loyalty_modifier = {
 		desc = EST_KNI_CONQUEST_OF_JERUSALEM
 		trigger = {
-			has_country_flag = kni_clergy_flag
+			owns = 379
+			religion = catholic
 		}
 		loyalty = 10
 	}
@@ -194,6 +195,13 @@ estate_church = {
 		}
 	}
 	
+	custom_name = {
+		desc = estate_klirikoi
+		trigger = {
+			tag = BYZ
+			culture_group = byzantine
+		}
+	}
 	custom_name = {
 		desc = estate_ogboni
 		trigger = {
@@ -256,6 +264,49 @@ estate_church = {
 		trigger = {
 			OR = {
 				religion = tengri_pagan_reformed
+				religion = suomenusko
+				religion = shamanist
+				religion = georgian_religion
+				religion = norse_pagan_reformed
+			}
+		}
+	}
+	custom_name = {
+		desc = HORDE_SHAMANS
+		trigger = {
+			has_country_flag = hordes_devout_tengri_completion_flag
+			religion = tengri_pagan_reformed
+		}
+	}
+	custom_name = {
+		desc = estate_priests
+		trigger = {
+			OR = {
+				religion = hellenism
+				religion = zamolxism
+				religion = nabataean
+				religion = armenian_religion
+				religion = romuva
+				religion = germanic
+				religion = egyptian
+				religion = ashurism
+				religion = south_arabian
+			}
+		}
+	}
+	custom_name = {
+		desc = estate_druids
+		trigger = {
+			OR = {
+				religion = druidism
+			}
+		}
+	}
+	custom_name = {
+		desc = estate_volkhvs
+		trigger = {
+			OR = {
+				religion = slavic
 			}
 		}
 	}
@@ -382,6 +433,7 @@ estate_church = {
 		estate_church_independent_inquisition
 		estate_church_new_world_mission
 		estate_church_clerical_ministers
+		estate_church_freedom_of_interpretation
 		estate_church_clerical_oversight
 		estate_church_inwards_perfection
 		estate_church_enforced_one_faith
@@ -390,6 +442,7 @@ estate_church = {
 		estate_church_influence_temples
 		estate_church_brahmins_at_court
 		estate_church_lao_animism
+		estate_church_administrative_privileges
 		estate_church_monopoly_of_incense
 		estate_church_monopoly_of_wool
 		estate_church_monopoly_of_wine
@@ -409,6 +462,27 @@ estate_church = {
 		estate_church_bishopric_of_osel_wiek
 		estate_church_bishopric_of_courland
 		estate_church_bishopric_of_reval
+		estate_church_japanese_christian_communities_privilege
+		estate_church_development_of_temples
+		estate_church_expand_the_theology
+		estate_church_clerical_education
+		estate_church_religious_delegation
+		estate_church_institutionalized_clergy
+		estate_church_donation_right
+		estate_church_union_of_the_churches
+		estate_church_BYZ_legitimization_of_dynasty
+		#1.36
+		estate_church_fund_dar_al_hadith
+		estate_church_fund_madrasas
+		estate_church_sponsor_waqf_payments
+		estate_church_muslim_integration
+		#1.37
+		estate_church_INC_idol_making
+		estate_church_MAY_cocoa_monopoly
+		estate_church_religious_tolerance
+		estate_church_TIM_yasa_supremacy
+		estate_church_TIM_promote_ijazah
+		estate_church_MUG_promote_divine_religion
 	}
 
 	agendas = {

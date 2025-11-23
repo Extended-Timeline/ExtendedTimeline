@@ -24,7 +24,6 @@ religious_school = maliki_school
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
  }
 
 1959.12.11 = {
@@ -122,6 +121,28 @@ religious_school = maliki_school
 		adm = 3
 		dip = 4
 		mil = 2
+		religion = sunni
+	}
+}
+
+2022.1.31 = {
+	monarch = {
+		name = "Paul-Henri Sandaogo Damiba"
+		birth_date = 1981.1.1
+		adm = 1
+		dip = 1
+		mil = 3
+		religion = sunni
+	}
+}
+
+2022.10.6 = {
+	monarch = {
+		name = "Ibrahim Traoré"
+		birth_date = 1988.1.1
+		adm = 2
+		dip = 2
+		mil = 3
 		religion = sunni
 	}
 }

@@ -1,8 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = aquitaine
-add_accepted_culture = occitain
+primary_culture = occitain
 add_accepted_culture = cosmopolitan_french
 religion = chalcedonism
 technology_group = western
@@ -471,12 +470,6 @@ capital = 196 # Toulouse
 }
 
 1270.1.1 = { add_government_reform = early_gov_reform_10 }
-1515.1.1 = { government = monarchy
-add_government_reform = autocracy_reform }
-
+1515.1.1 = { government = monarchy add_government_reform = autocracy_reform }
 1560.1.1 = { religion = reformed }
-
-1589.8.3 = { set_legacy_government = administrative_monarchy }
-
-1661.3.9 = { government = monarchy
-add_government_reform = autocracy_reform }
+1661.3.9 = { government = monarchy add_government_reform = autocracy_reform }

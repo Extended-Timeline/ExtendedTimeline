@@ -202,7 +202,7 @@ trade_company_south_china = {
 	color = { 100 230 20 }
 	
 	provinces = {
-2373 2372 613 662 664 2163 665 666 667 668 671 672 674 738 610 1840 3005 616 1016 663 2164 2161 2159 2160 2162 2158 2157 2156 2174 2173 673 2155 2154 4199 4819 4820 4821 
+2373 2372 613 662 664 2163 665 666 667 668 671 672 674 738 610 1840 3005 616 1016 663 2164 2161 2159 2160 2162 2158 2157 2156 2174 2173 673 2155 2154 3276 4199 4819 4820 4821 
 	}
 	
 	# Specific
@@ -752,10 +752,10 @@ trade_company_persia = {
 	# Specific
 	# Generic
 	names = {
-		name = "TRADE_COMPANY_BASRA_Root_Culture_GetName"
+		name = "TRADE_COMPANY_PERSIA_Root_Culture_GetName"
 	}
 	names = {
-		name = "TRADE_COMPANY_BASRA_Near_East_Trade_Company"
+		name = "TRADE_COMPANY_PERSIA_Near_East_Trade_Company"
 	}
 }
 

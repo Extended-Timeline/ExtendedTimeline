@@ -87,7 +87,7 @@
 438 = "Karakumy"							#Karakum					|checked	18.08.19
 441 = "Khiva"								#Khiva						|			18.08.19
 2126 = "Pishpek"
-461 = "Vernyi"
+461 = "Semirechye"							#Zhetysu					|			04.08.23
 2201 = "Alaniya"								#Alania						|			29.03.19
 465 = "Nizhny-Embinsk"
 466 = "Kamyshin"
@@ -123,7 +123,7 @@
 1053 = "Blagoveshensk"
 1054 = "Lensk"								#Muchtuja
 2355 = "Semipalatinsk"
-1071 = "Omsk"
+1071 = "Tara"								#Irtysh
 1074 = "Tobolsk"
 1078 = "Ekaterinburg"
 1079 = "Khlynov"							#Viatka						|			23.08.19
@@ -152,6 +152,7 @@
 1972 = "Glazov"
 1962 = "Kudymkar"							#Kudymkar					|			28.04.21
 1963 = "Troitsko-Pechersk"
+1967 = "Khudzhand"							#Khujand					|			02.08.23
 1970 = "Perovsk"
 1974 = "Cherson"
 1988 = "Ostrov Pashi"						#Rapanui					|			23.05.18
@@ -191,7 +192,6 @@
 2676 = "Nikolaev"
 2677 = "Dzhambi"							#Jambi						|			26.02.22
 2678 = "Veshensakaya"
-2688 = "Ekaterinoslav"
 628 = "Novocherkassk"
 2691 = "Tichoretsk"
 2692 = "Atkarsk"

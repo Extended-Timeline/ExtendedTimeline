@@ -24,7 +24,6 @@ capital = 495
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = abolish_presidency
-	set_legacy_government = parliamentary_republic
  }
 
 1983.9.19 = {
@@ -56,6 +55,17 @@ capital = 495
 		adm = 3
 		dip = 4
 		mil = 3
+		religion = protestant
+	}
+}
+
+2022.8.6 = {
+	monarch = {
+		name = "Terrence Drew"
+		birth_date = 1976.11.22
+		adm = 3
+		dip = 4
+		mil = 2
 		religion = protestant
 	}
 }

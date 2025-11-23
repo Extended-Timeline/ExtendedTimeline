@@ -16,6 +16,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ROM
+			restore_country_name = yes
 			add_prestige = 50
 			set_country_flag = rome_formed
 			swap_free_idea_group = yes
@@ -44,6 +45,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ROM
+			restore_country_name = yes
 			add_prestige = 50
 			set_country_flag = rome_formed
 		}
@@ -67,8 +69,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ROW
+			restore_country_name = yes
 			add_prestige = 50
-			
 		}
 		ai_will_do = {
 			factor = 1
@@ -335,36 +337,6 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 0
-		}
-	}
-
-	restore_byzantium = {
-		major = yes
-		potential = {
-			NOT = { exists = BYZ }
-			primary_culture = greek
-			OR = {
-				tag = NCA
-				tag = TRE
-				tag = THS
-				tag = EPI
-				tag = MOE
-			}
-		}
-		allow = {
-			is_subject = no
-			is_at_war = no
-			NOT = { exists = LAT }
-			owns = 151
-			is_core = 151
-		}
-		effect = {
-			change_tag = BYZ
-			add_prestige = 25
-			swap_free_idea_group = yes
-		}
-		ai_will_do = {
-			factor = 1
 		}
 	}
 

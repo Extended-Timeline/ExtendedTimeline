@@ -8,12 +8,10 @@ war_goal = {
 
 2022.2.24 = {
 	add_attacker = RUS
-	add_attacker = BLR
 	add_defender = UKR
 }
 
-2023.1.1 = {
+2026.1.1 = {
 	rem_attacker = RUS
-	rem_attacker = BLR
 	rem_defender = UKR
 }

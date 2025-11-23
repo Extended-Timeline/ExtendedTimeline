@@ -15,17 +15,19 @@ country_decisions = {
 				ai = no
 			}
 			NOT = { exists = GER }
+			NOT = { exists = FRE }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			NOT = { tag = FRK }
 			NOT = { tag = ENG }
 			NOT = { tag = EUR }
+			adm_tech = 48 # vanilla
 			OR = {
 				ai = no
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 20
+					adm_tech = 65
 				}
 			}
 			OR = {
@@ -35,7 +37,6 @@ country_decisions = {
 					NOT = { government = theocracy }
 				}
 			}
-			NOT = { government = tribal }
 			OR = {
 				culture_group = germanic
 				primary_culture = jute
@@ -63,6 +64,9 @@ country_decisions = {
 						region = north_german_region
 						region = south_german_region
 					}
+					NOT = { area = erzgebirge_area }
+					NOT = { area = bohemia_area }
+					NOT = { area = moravia_area }
 					root = {
 						NOT = {
 							num_of_owned_provinces_with = {
@@ -71,6 +75,9 @@ country_decisions = {
 									region = north_german_region
 									region = south_german_region
 								}
+								NOT = { area = erzgebirge_area }
+								NOT = { area = bohemia_area }
+								NOT = { area = moravia_area }
 								value = 50
 							}
 						}
@@ -156,11 +163,26 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 20
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = remove_germany_tech_requirement_flag
+					}
+				}
+			adm_tech = 65
+			}
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
+			OR = {
+				government = monarchy
+				government = republic
+				government = theocracy
+			}
 			is_at_war = no
-			is_part_of_hre = no
+			OR = {
+				is_part_of_hre = no
+				is_emperor = yes
+			}
 			owns_core_province = 50	# Berlin
 			owns_core_province = 57	# Brunswick
 			owns_core_province = 65	# München
@@ -194,23 +216,33 @@ country_decisions = {
 					region = north_german_region
 					region = south_german_region
 				}
+				NOT = { area = erzgebirge_area }
+				NOT = { area = bohemia_area }
+				NOT = { area = moravia_area }
 				value = 50
 			}
 		}
 		effect = {
 			change_tag = GER
+			on_change_tag_effect = yes
 			restore_country_name_effect = yes
-			emperor = {
-				add_opinion = {
-					who = root
-					modifier = opinion_left_empire
+			if = {
+				limit = {
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
 				}
 			}
-			set_in_empire = no
-			emperor = {
-				country_event = { id = hre_event.5 }
-			}
-			GER = { set_government_rank = 3 }
+			custom_tooltip = become_an_empire_tt
+			hidden_effect = { set_government_rank = 3 }
 			north_german_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -222,7 +254,7 @@ country_decisions = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = GER
-			}			
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -236,12 +268,21 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			swap_non_generic_missions = yes
+			if = {
+				limit = { has_dlc = "Winds of Change" }
+				set_country_flag = GER_stuck_disunited
+				add_government_reform = german_cultural_disunity_reform
+				freeze_government_power = {
+					mechanic_type = cultural_unity_mechanic
+					power_type = cultural_unity
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 100
 			modifier = {
 				factor = 0
-				NOT = { adm_tech = 18 }
+				NOT = { adm_tech = 63 }
 			}
 			modifier = {
 				factor = 0

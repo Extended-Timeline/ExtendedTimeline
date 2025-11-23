@@ -183,7 +183,6 @@ religious_school = jafari_school
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
  }
 
 1958.7.14 = {
@@ -295,5 +294,15 @@ religious_school = jafari_school
 		adm = 4
 		dip = 3
 		mil = 2
+	}
+}
+
+2022.10.17 = {
+	monarch = {
+		name = "Abdul Latif Rashid"
+		birth_date = 1944.8.10
+		adm = 2
+		dip = 4
+		mil = 3
 	}
 }

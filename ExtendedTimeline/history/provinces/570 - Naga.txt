@@ -18,10 +18,10 @@ base_manpower = 1
 is_city = yes
 add_core = MLB
 
-350.1.1 = { owner = ASS controller = ASS add_core = ASS remove_core = MLB }
+350.1.1 = { owner = KMR controller = KMR add_core = KMR remove_core = MLB }
 800.1.1 = { base_tax = 2 base_production = 2 discovered_by = nomad_group }
 1000.1.1 = { base_manpower = 2 }
-1100.1.1 = { owner = KAC controller = KAC add_core = KAC remove_core = ASS }
+1100.1.1 = { owner = KAC controller = KAC add_core = KAC remove_core = KMR }
 1300.1.1 = { religion = hinduism }
 
 1526.2.1 = { controller = ASS }
@@ -30,7 +30,7 @@ add_core = MLB
 1760.1.1 = { discovered_by = GBR }
 1770.4.11 = { unrest = 8 } # Moamoria rebellion
 1792.11.24 = { unrest = 0 }
-1822.7.1 = { controller = TAU owner = TAU }
+1822.7.1 = { controller = BRM owner = BRM }
 1826.1.1 = { owner = KAC controller = KAC } #Claimed by British but de facto independent
 
 1828.1.1   = { owner = GBR controller = GBR add_core = GBR }

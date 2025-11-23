@@ -28,15 +28,17 @@ kiel_canal = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 67
-			treasury = 10000
+			OR = { 
+				mission_completed = emp_brapru_kiel_canal
+				mission_completed = GER_german_industry
+				adm_tech = 67
+			}
 		}
 	}
 	
 	#what to do when it's built
 	on_built = {
 		add_canal = kiel_canal
-		owner = { add_prestige = 30 }
 	}
 	
 	#what to do when it's destroyed
@@ -114,6 +116,7 @@ kiel_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige = 30 }
 		}
 	}
 
@@ -175,6 +178,14 @@ kiel_canal = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
+		conditional_modifier = {
+			trigger = {
+				owner = { mission_completed = GER_kiel_canal }
+			}
+			modifier = {
+				merchants = 1
+			}
+		}
 	}
 }
 
@@ -208,15 +219,19 @@ suez_canal = {
 			owns_or_vassal_of = 4316
 			owns_or_vassal_of = 2315
 			is_subject = no
-			adm_tech = 67
-			treasury = 20000
+			OR = {
+				adm_tech = 67
+				mission_completed = mam_highway_empire
+				mission_completed = hsn_suez_canal
+				mission_completed = ITA_explore_eastern_markets
+				mission_completed = ven_mamluk_suez
+			}
 		}
 	}
 
 	#what to do when it's built
 	on_built = {
 		add_canal = suez_canal
-		owner = { add_prestige = 40 }
 	}
 	
 	#what to do when it's destroyed
@@ -291,9 +306,24 @@ suez_canal = {
 		country_modifiers = {
 			global_trade_power = 0.02
 		}
+		
+		conditional_modifier = {
+			trigger = {
+				custom_trigger_tooltip = {
+					tooltip = has_completed_hsn_suez_canal_tt
+					owner = { 
+						mission_completed = hsn_suez_canal
+					}
+				}
+			}
+			modifier = {
+				global_trade_power = 0.1
+			}
+		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige = 40 }
 		}
 	}
 
@@ -320,6 +350,20 @@ suez_canal = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_trade_power = 0.03
+		}
+		
+		conditional_modifier = {
+			trigger = {
+				custom_trigger_tooltip = {
+					tooltip = has_completed_hsn_suez_canal_tt
+					owner = { 
+						mission_completed = hsn_suez_canal
+					}
+				}
+			}
+			modifier = {
+				global_trade_power = 0.1
+			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -350,6 +394,28 @@ suez_canal = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_trade_power = 0.05
+		}
+		
+		conditional_modifier = {
+			trigger = {
+				custom_trigger_tooltip = {
+					tooltip = has_completed_hsn_suez_canal_tt
+					owner = { 
+						mission_completed = hsn_suez_canal
+					}
+				}
+			}
+			modifier = {
+				global_trade_power = 0.1
+			}
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = { mission_completed = ITA_journey_to_the_east }
+			}
+			modifier = {
+				merchants = 1
+			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -387,15 +453,19 @@ panama_canal = {
 		FROM = {
 			owns_or_vassal_of = 835
 			is_subject = no
-			adm_tech = 67
-			treasury = 30000
+			if = {
+				limit = {
+					NOT = { mission_completed = SUN_panama_canal }
+					NOT = { mission_completed = SUNm_panama_canal }
+				}
+				adm_tech = 67
+			}
 		}
 	}
 
 	#what to do when it's built
 	on_built = {
 		add_canal = panama_canal
-		owner = { add_prestige = 50 }
 	}
 	
 	#what to do when it's destroyed
@@ -473,6 +543,7 @@ panama_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige = 50 }
 		}
 	}
 
@@ -530,7 +601,25 @@ panama_canal = {
 		country_modifiers = {
 			global_trade_power = 0.05
 		}
-
+		
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					custom_trigger_tooltip = {
+						tooltip = SUN_completed_panama_canal_mission
+						OR = {
+							mission_completed = SUN_panama_canal
+							mission_completed = SUNm_panama_canal
+						}
+					}
+				}
+			}
+			modifier = {
+				reduced_trade_penalty_on_non_main_tradenode = 0.5
+				trade_efficiency = 0.05
+			}
+		}
+		
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}

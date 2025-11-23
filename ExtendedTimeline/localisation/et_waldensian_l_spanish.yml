@@ -1,0 +1,114 @@
+﻿l_spanish:
+ # Religión:
+  waldensian: "Valdenses"
+  waldensian_religion_desc: "El valdensismo es una denominación cristiana que originó en Lyon y Lombardía en el siglo XII. También se les conoce como 'Los Pobres de Lyon' o 'Los Pobres de Lombardía'. Las personas de la fe valdense viven en pobreza voluntaria y carecen de posesiones. Mientras que los creyentes de Lyon vivían solo de donaciones y trabajo autosuficiente, los seguidores lombardos de la fe también permitían el trabajo remunerado en comunas de trabajo para ganar dinero y poder subsistir. La fe valdense rechaza la idea del purgatorio, la indulgencia y la veneración de santos y reliquias, así como la riqueza de la Iglesia en general. También no apoyaban el bautismo infantil, porque querían que los bautizados lo aceptaran activamente. Aunque los valdenses aceptaban la jerarquía de la Iglesia hasta cierto grado, estaban muy a favor de tener sacerdotes laicos y de que todos hicieran estudios bíblicos personales."
+
+# Rebeldes:
+  waldensian_rebels_title: "Religiosos"
+  waldensian_rebels_name: "Zelotes de $RELIGION$"
+  waldensian_rebels_desc: "Los fanáticos religiosos tienden a levantarse en provincias controladas por naciones de una fe diferente. Buscan difundir su fe y aniquilar a todos los no creyentes."
+  waldensian_rebels_army: "Ejército $RELIGION$"
+  waldensian_rebels_demand: "Convertir a $COUNTRYNAME$"
+  waldensian_rebels_demand_desc: "Los rebeldes religiosos luchan por la religión $RELIGION$. Exigen que reconozcamos su supremacía o, al menos, que dejemos de intentar convertirlos y les permitamos adorar en paz."
+
+# GUIs:
+  et_waldensian_apostolic_poverty_title: "Pobreza Apostólica"
+  et_waldensian_apostolic_poverty_title_tt: "En la fe §Y[Root.Religion.GetName]§! la gente debe vivir una vida en pobreza y sin posesiones. Sin embargo, existen dos puntos de vista diferentes: Algunas personas creen que todos los creyentes deben depender únicamente de donaciones para cubrir los gastos de su vida diaria o vivir de trabajo autosuficiente. Mientras que otros piensan que las personas deberían poder hacer trabajo manual para ganar dinero y poder subsistir. \n--------------\nPuedes cambiar nuestro enfoque cada §Y30 años§!. \nNo puedes eliminar ambos enfoques, uno debe estar activo. \nSin embargo, cuando te conviertes a §Y[Root.Religion.GetName]§! no se seleccionará ningún enfoque. \n\nMientras no selecciones un enfoque, recibirás §R+2§! de disturbios en todas las provincias poseídas. \n--------------\nTodos los países de [Root.Religion.GetName] que sigan el mismo enfoque tendrán su opinión mutua cambiada por §G20§!. \nTodos los países de [Root.Religion.GetName] que sigan un enfoque diferente tendrán su opinión mutua cambiada por §R-20§!."
+  et_waldensian_apostolic_poverty_donations_focus_button_tt: "§YEnfoque de Donaciones y Trabajo Autosuficiente§! \nNuestra fe exige vivir en pobreza. La gente debe depender de las donaciones para subsistir o vivir de trabajo autosuficiente."
+  et_waldensian_apostolic_poverty_work_communes_focus_button_tt: "§YEnfoque de Comunas de Trabajo Remunerado§! \nNuestra fe exige vivir en pobreza. Sin embargo, a la gente se le permite hacer trabajo manual para ganar dinero y poder subsistir."
+  et_waldensian_apostolic_poverty_active_focus_tt: "Este es el enfoque actualmente seleccionado."
+  et_waldensian_apostilic_poverty_has_not_changed_focus_recently_tt_with_year: "NO ha cambiado el §YPobreza Apostólica§! en los últimos §Y30 años§! (último cambio en §Y[Root.et_waldensian_apostilic_poverty_changed_focus_year.GetValue]§!)"
+  et_waldensian_apostilic_poverty_has_not_changed_focus_recently_tt: "NO ha cambiado el §YPobreza Apostólica§! en los últimos §Y30 años§!"
+  et_waldensian_apostolic_poverty_feed_the_boor_button_tt: "§YAlimentar a los Pobres§! \nAunque la gente debe vivir en pobreza, debemos asegurarnos de que no mueran de hambre. Así que, en caso de necesidad, deberíamos alimentar a los pobres. Esto puede generar gastos adicionales, pero no solo asegurará su supervivencia, sino también la paz en nuestras provincias."
+  et_waldensian_apostolic_poverty_not_fed_the_poor_recently_tt_with_year: "NO ha alimentado a los pobres en los últimos §Y20 años§! (última vez en §Y[Root.et_waldensian_apostilic_poverty_fed_the_poor_year.GetValue]§!)"
+  et_waldensian_apostolic_poverty_not_fed_the_poor_recently_tt: "NO ha alimentado a los pobres en los últimos §Y20 años§!"
+  et_waldensian_apostolic_poverty_organize_welfare_and_labor_button_tt: "§YOrganizar Bienestar y Trabajo§! \nAunque la gente debe vivir en pobreza, debemos asegurarnos de que puedan sobrevivir. Organizar bienestar y trabajo para los pobres les permitirá vivir y al mismo tiempo mejorará la infraestructura de nuestras provincias."
+  et_waldensian_apostolic_poverty_not_organized_welfare_and_labor_recently_tt_with_year: "NO ha organizado bienestar y trabajo en los últimos §Y20 años§! (última vez en §Y[Root.et_waldensian_apostilic_organized_poverty_welfare_and_labor_year.GetValue]§!)"
+  et_waldensian_apostolic_poverty_not_organized_welfare_and_labor_recently_tt: "NO ha organizado bienestar y trabajo en los últimos §Y20 años§!"
+
+ # Decisiones:
+  convert_to_waldensian_title: "Convertirse al Valdenismo"
+  convert_to_waldensian_desc: "El valdenismo está ganando popularidad entre nuestra gente. Reconocer el valdenismo como la religión oficial podría ayudar a hacerlos felices."
+  et_waldensian_apostolic_poverty_donations_focus_decision_title: "Seleccionar Enfoque de Donaciones y Trabajo Autosuficiente"
+  et_waldensian_apostolic_poverty_donations_focus_decision_desc: "Nuestra fe exige vivir en pobreza. La gente debe depender de las donaciones para costear su vida o vivir del trabajo autosuficiente."
+  et_waldensian_apostolic_poverty_work_communes_focus_decision_title: "Seleccionar Enfoque de Comunas de Trabajo Remunerado"
+  et_waldensian_apostolic_poverty_work_communes_focus_decision_desc: "Nuestra fe exige vivir en pobreza. Sin embargo, se permite que la gente realice trabajos manuales para ganar dinero y costear su vida."
+  et_waldensian_apostolic_poverty_feed_the_boor_decision_title: "Alimentar a los Pobres"
+  et_waldensian_apostolic_poverty_feed_the_boor_decision_desc: "Nuestra fe exige vivir en pobreza. Para asegurarnos de que la gente sobreviva en caso de necesidad, debemos alimentar a los pobres. Esto puede conllevar gastos adicionales, pero no solo garantizará su supervivencia, sino también la paz en nuestras provincias."
+  et_waldensian_apostolic_poverty_organize_welfare_and_labor_decision_title: "Organizar Bienestar y Trabajo"
+  et_waldensian_apostolic_poverty_organize_welfare_and_labor_decision_desc: "Aunque la gente debe vivir en pobreza, debemos asegurarnos de que realmente puedan sobrevivir. Organizar bienestar y trabajo para los pobres les permitirá vivir y, al mismo tiempo, mejorará la infraestructura de nuestras provincias."
+
+# Eventos:
+  et_waldensian_events.EVTNAME1: "Aparición del Valdenismo"
+  et_waldensian_events.EVTDESC1: "Un movimiento cristiano recientemente surgido conocido como valdenismo ha ido ganando seguidores entre el pueblo común en algunas de nuestras provincias. Los seguidores rechazan la idea de la indulgencia, el purgatorio, la veneración de santos y reliquias. También denuncian la riqueza de la Iglesia y se ofrecen voluntariamente a vivir en pobreza. Las iglesias cristianas establecidas han denunciado el valdenismo como herético."
+  et_waldensian_events1.EVTOPT1: "Necesitamos detenerlos."
+  et_waldensian_events1.EVTOPT2: "No es nuestro problema."
+
+  et_waldensian_events.EVTNAME2: "Expansión del Valdenismo"
+  et_waldensian_events.EVTDESC2: "El valdenismo se está extendiendo lentamente en [Root.GetName] a través de sus seguidores. El valdenismo no solo denuncia la riqueza, especialmente dentro de la Iglesia, sino que también organiza regularmente comida para los pobres. Además, hace uso de sacerdotes laicos. Estas particularidades ayudan a su expansión entre los campesinos."
+  et_waldensian_events2.EVTOPT1: "Preocupante."
+  et_waldensian_events2.EVTOPT2: "Maravilloso."
+
+  et_waldensian_events.EVTNAME4: "Estudios Bíblicos Personales de [Root.Monarch.GetName]"
+  et_waldensian_events.EVTDESC4: "Los estudios bíblicos personales son una parte importante de la fe valdenista, [Root.Monarch.GetTitle] [Root.Monarch.GetName] fue preguntado por miembros cercanos del clero cuándo [Root.Monarch.GetSheHe] consideraría hacer estudios bíblicos personales [Root.Monarch.GetHerselfHimself]."
+  et_waldensian_events4.EVTOPT1: "Dedicaré mucho tiempo a los estudios bíblicos personales."
+  et_waldensian_events4.EVTOPT2: "Dedicaré una cantidad moderada de tiempo a los estudios bíblicos personales."
+  et_waldensian_events4.EVTOPT3: "Haré estudios bíblicos personales, pero no demasiados."
+  et_waldensian_events4.EVTOPT4: "No tengo tiempo para esto."
+
+  et_waldensian_events.EVTNAME5: "Progreso en los Estudios Bíblicos Personales"
+  et_waldensian_events.EVTDESC5: "[Root.Monarch.GetName] ha decidido invertir tiempo en estudios bíblicos personales. Cuanto más [Root.Monarch.GetSheHe] lee la biblia, más [Root.Monarch.GetSheHe] comprende los mensajes de Dios y Jesús."
+  et_waldensian_events5.EVTOPT1: "Muy bien."
+
+  et_waldensian_events.EVTNAME6: "Estudios Bíblicos Personales Insatisfactorios"
+  et_waldensian_events.EVTDESC6: "[Root.Monarch.GetName] ha decidido invertir tiempo en estudios bíblicos personales. Sin embargo, [Root.Monarch.GetSheHe] ha llegado a un punto en el que simplemente no puede entender el significado de ciertos textos. ¿Qué debería hacer [Root.Monarch.GetSheHe]?"
+  et_waldensian_events6.EVTOPT1: "Debo concentrarme más o pedir ayuda. Hay mucho más que aprender."
+  et_waldensian_events6.EVTOPT2: "Creo que ya he estudiado suficiente."
+
+  et_waldensian_events.EVTNAME7: "Aumento de Sacerdotes Laicos"
+  et_waldensian_events.EVTDESC7: "Una parte central de la fe valdenista es el uso de sacerdotes laicos. Tienen una mejor conexión con los campesinos y, por lo tanto, pueden convertirlos más fácilmente que algunos clérigos costosos. \nEste año parece que hay aún más sacerdotes laicos predicando la palabra de Dios a los herejes y paganos en y cerca de nuestro reino que en años anteriores."
+  et_waldensian_events7.EVTOPT1: "Debemos aprovechar eso."
+  et_waldensian_events7.EVTOPT2: "Tal vez puedan ser útiles, ya veremos."
+
+  et_waldensian_events.EVTNAME8: "Terribles Condiciones de Vida para los Pobres"
+  et_waldensian_events.EVTDESC8: "La fe valdenista exige vivir en pobreza y carecer de posesiones. Sin embargo, esto no significa que las personas deban pasar hambre, simplemente no deben vivir en riqueza y solo tener lo que necesitan. Parece que la situación en [target_province.GetName] se ha descontrolado, tenemos que hacer algo."
+  et_waldensian_events8.EVTOPT1: "Necesitamos ayudar a los pobres en [target_province.GetName]."
+  et_waldensian_events8.EVTOPT2: "¿Tal vez la gente de [target_province.GetName] ya está demasiado acostumbrada a la riqueza impía?"
+
+  et_waldensian_events.EVTNAME9: "[Root.Monarch.GetName] vive en Riqueza Impía"
+  et_waldensian_events.EVTDESC9: "El pueblo [Root.GetAdjective] ha notado la enorme cantidad de dinero y lujo que [Root.Monarch.GetTitle] ha acumulado en [Root.Monarch.GetHerHis] corte en [Root.Capital.GetName]. Ciertamente no están felices con eso, dado que [Root.Monarch.GetSheHe] debería ser un modelo a seguir y, al igual que ellos, vivir en pobreza apostólica."
+  et_waldensian_events9.EVTOPT1: "¡Solo necesito el dinero para poder donar!"
+  et_waldensian_events9.EVTOPT2: "¡Eso no es riqueza impía, es lo que necesito!"
+  et_waldensian_events9.EVTOPT3: "Dirigir el estado puede requerir un poco más de riqueza de la que la gente común necesita."
+
+ # Activadores del guion:
+  uses_waldensian_apostolic_poverty_mechanic_tt: "Usa la mecánica de §YApostolic Poverty§!"
+  not_uses_waldensian_apostolic_poverty_mechanic_tt: "NO usa la mecánica de §YApostolic Poverty§!"
+
+# Modificadores de Opinión:
+  et_waldensian_same_focus_opinion: "Mismo enfoque de Pobreza Apostólica"
+  et_waldensian_different_focus_opinion: "Enfoque diferente de Pobreza Apostólica"
+
+# Modificadores:
+## Mecánica:
+  et_waldensian_apostolic_poverty_donations_focus_modifier: "Enfoque de Donaciones y Trabajo Autosuficiente"
+  desc_et_waldensian_apostolic_poverty_donations_focus_modifier: "Nuestra fe exige vivir en pobreza. El pueblo debe depender de donaciones para costear su vida o vivir de trabajo autosuficiente."
+  et_waldensian_apostolic_poverty_work_communes_focus_modifier: "Enfoque de Comunas de Trabajo Remunerado"
+  desc_et_waldensian_apostolic_poverty_work_communes_focus_modifier: "Nuestra fe exige vivir en pobreza. Sin embargo, se permite que el pueblo realice trabajo manual para ganar dinero y costear su vida."
+  et_waldensian_apostolic_poverty_no_focus_modifier: "Sin enfoque de Pobreza Apostólica"
+  desc_et_waldensian_apostolic_poverty_no_focus_modifier: "Aún no hemos elegido un §YApostolic Poverty Focus§! Sin un enfoque, el pueblo no sabe las pautas para una vida fiel."
+  et_waldensian_apostolic_poverty_fed_the_poor_modifier: "Alimentó a los Pobres"
+  desc_et_waldensian_apostolic_poverty_fed_the_poor_modifier: "Hemos organizado comida para los pobres en nuestro reino. Con ellos alimentados, es posible que no tengamos que prepararnos para rebeliones en el futuro cercano."
+  et_waldensian_apostolic_poverty_organized_welfare_and_labor_modifier: "Bienestar y Trabajo Organizado"
+  desc_et_waldensian_apostolic_poverty_organized_welfare_and_labor_modifier: "Hemos organizado bienestar y trabajo para los pobres en nuestro reino. No solo les permite sobrevivir, sino que también nos ayuda a mejorar la infraestructura de nuestras provincias."
+
+ ## Modificadores de Decisiones:
+  et_waldensian_recent_conversion_modifier: "Celo Religioso"
+
+## Modificadores de Eventos:
+  et_waldensian_persecution: "Persecución de los Valdenses"
+  et_waldensian_ruler_excessive_bible_studies_modifier: "Estudios Bíblicos Personales Excesivos"
+  et_waldensian_ruler_normal_bible_studies_modifier: "Estudios Bíblicos Personales"
+  et_waldensian_ruler_small_bible_studies_modifier: "Pocos Estudios Bíblicos Personales"
+  et_waldensian_ruler_no_bible_studies_modifier: "Sin Estudios Bíblicos Personales"
+  et_waldensian_increase_in_lay_priests_modifier: "Aumento de Sacerdotes Laicos"

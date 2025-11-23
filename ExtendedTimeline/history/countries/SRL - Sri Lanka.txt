@@ -25,7 +25,6 @@ capital = 572 # Kandy
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
 }
 
 1950.1.1 = { technology_group = asian }
@@ -105,8 +104,28 @@ capital = 572 # Kandy
 	monarch = {
 		name = "Gotabaya Rajapaksa"
 		birth_date = 1949.6.20
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+
+2022.7.14 = {
+	monarch = {
+		name = "Ranil Wickremesinghe"
+		birth_date = 1949.3.24
 		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+2024.9.23 = {
+	monarch = {
+		name = "Anura Kumara Dissanayake"
+		birth_date = 1968.11.24
+		adm = 2
 		dip = 4
-		mil = 2
+		mil = 3
 	}
 }

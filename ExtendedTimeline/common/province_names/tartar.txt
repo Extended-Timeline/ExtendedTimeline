@@ -42,8 +42,9 @@
 1966 = "Siläbe"							#Chelyaba					|			23.03.19
 1967 = "Huzand"							#Khujand					|			03.02.19
 1968 = "Kulab"							#Kulob						|			03.02.19
+1971 = "Mechät"							#Tsarityn					|unclear	17.02.22
 1973 = "Ürgänech"						#Urgench					|			04.02.19
-268 = "Suchäva"						#Suceava					|			01.09.19
+268 = "Suchäva"							#Suceava					|			01.09.19
 2228 = "Mäymänä"						#Maymana					|			03.02.19
 2227 = "Kondiz"							#Kunduz						|			03.02.19
 2350 = "Ashkabad"						#Konjikala					|			03.02.19
@@ -54,6 +55,7 @@
 3070 = "Lataqiä"						#Latakia					|			08.02.19
 2410 = "Achtiar"						#Theodoro					|			03.09.18
 2408 = "Qarasu"							#Yelets						|			03.09.18
+2409 = "Mahmud"							#Bahmut						|theory		17.02.23
 2447 = "Matrika"						#Matrega
 2416 = "Masar"							#Majar						|			10.02.19
 2415 = "Atkar"							#Etkara						|			25.08.19
@@ -66,6 +68,5 @@
 4305 = "Shäke"							#Shaki						|			19.10.18
 4324 = "Guriyan"						#Ghuriyan					|			03.02.19		
 4339 = "Räsht"							#Rasht						|			03.02.19		
-4343 = "Tirmez"							#Termez						|			03.02.19
 4529 = "Yash"							#Iasi						|			01.09.19
 4531 = "Bukräsh"						#Bucharest					|			05.09.19

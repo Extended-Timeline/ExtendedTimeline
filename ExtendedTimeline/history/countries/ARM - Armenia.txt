@@ -1182,7 +1182,6 @@ capital = 419 # Yerevan
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = abolish_presidency
-	set_legacy_government = parliamentary_republic
 	religion = coptic 
 }
 1910.1.1 = { religion = secularism }
@@ -1239,7 +1238,6 @@ capital = 419 # Yerevan
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
  }
 
 1991.9.21 = {
@@ -1283,6 +1281,17 @@ capital = 419 # Yerevan
 		birth_date = 1953.6.23
 		adm = 4
 		dip = 3
+		mil = 3
+		religion = coptic
+	}
+}
+
+2022.3.13 = {
+	monarch = {
+		name = "Vahagn Khachaturyan"
+		birth_date = 1959.4.22
+		adm = 3
+		dip = 4
 		mil = 3
 		religion = coptic
 	}

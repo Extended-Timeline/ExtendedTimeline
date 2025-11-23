@@ -5,12 +5,15 @@ estate_rajput = {
 
 	# If true, country will get estate
 	trigger = {
-		has_dlc = "Dharma"
-		NOT = { has_government_attribute = disables_rajput }
-		NOT = { has_country_flag = disables_rajput_flag }
 		OR = {
-			has_government_attribute = enables_rajput
-			has_country_flag = enables_rajput_flag
+			has_dlc = "Dharma"
+			has_dlc = "Winds of Change"
+		}
+		NOT = { has_government_attribute = disables_estate_rajput }
+		NOT = { has_disabled_estate = { estate = estate_rajput } }
+		OR = {
+			has_government_attribute = enables_estate_rajput
+			has_enabled_estate = { estate = estate_rajput }
 			AND = {
 				OR = {
 					technology_group = indian
@@ -25,6 +28,7 @@ estate_rajput = {
 					}
 					culture_group = hindusthani
 					culture_group = central_indic
+					has_unlocked_estate = { estate = estate_rajput }
 				}
 				#NOT = { has_government_attribute = is_merchant_republic }
 				#NOT = { has_reform = trading_city }
@@ -32,7 +36,6 @@ estate_rajput = {
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { government = native }
 				NOT = { has_reform = cossacks_reform }
-				NOT = { has_reform = siberian_tribe }
 				NOT = { has_reform = celestial_empire }
 				NOT = { has_government_attribute = is_pirate_republic_reform }
 				NOT = { has_reform = roman_empire_reform }
@@ -135,14 +138,8 @@ estate_rajput = {
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_rajput }
 		}
 		influence = -40
 	}
@@ -151,14 +148,8 @@ estate_rajput = {
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_rajput }
 		}
 		loyalty = -20
 	}
@@ -187,6 +178,12 @@ estate_rajput = {
 		estate_rajput_monopoly_of_gems
 		estate_rajput_subject_rights
 		estate_rajput_better_integration
+		estate_rajput_development_of_rajput_lands
+		estate_rajput_military_ministerium
+		estate_rajput_royal_court_tasks
+		estate_rajput_noble_promotion
+		estate_rajput_force_conscription
+		estate_rajputs_MUG_rajput_mansabdars
 	}
 
 	agendas = {

@@ -24,7 +24,6 @@ capital = 482
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = abolish_presidency
-	set_legacy_government = parliamentary_republic
  }
 
 1973.7.10 = {
@@ -87,6 +86,17 @@ capital = 482
 		name = "Hubert Minnis"
 		birth_date = 1954.4.17
 		adm = 4
+		dip = 3
+		mil = 3
+		religion = protestant
+	}
+}
+
+2021.9.17 = {
+	monarch = {
+		name = "Philip Davis"
+		birth_date = 1951.6.7
+		adm = 3
 		dip = 3
 		mil = 3
 		religion = protestant

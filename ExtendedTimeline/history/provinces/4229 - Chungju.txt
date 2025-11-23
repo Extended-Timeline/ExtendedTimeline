@@ -28,9 +28,9 @@ is_city = yes
 1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
-1592.6.6 = { controller = JAP unrest = 5 } # Japanese invasion - Battle of Cheongju
+1592.6.6 = { controller = TYT unrest = 5 } # Japanese invasion - Battle of Cheongju
 1593.6.10 = { controller = KOR unrest = 0 } # With Chinese help the Japanese are driven back
-1597.9.30 = { controller = JAP unrest = 5 } # Japanese invasion - 2nd Battle of Cheongju
+1597.9.30 = { controller = TYT unrest = 5 } # Japanese invasion - 2nd Battle of Cheongju
 1597.11.1 = { controller = KOR unrest = 0 } # the Japanese retreat south
 1637.1.1  = { add_core = MNG } # Tributary of Qing China
 1644.1.1  = { add_core = MCH remove_core = MNG } # Part of the Manchu empire
@@ -48,8 +48,8 @@ is_city = yes
 1912.2.12  = { remove_core = QNG }
 1930.1.1 = { base_tax = 16 base_production = 16 base_manpower = 15 }
 1932.1.1   = { capital = "Daejeon" }
-1945.8.15  = { owner = KOR controller = KOR add_core = SKO remove_core = JAP }
-1948.9.9   = { owner = SKO controller = SKO add_core = NOK remove_core = KOR }
+1945.8.15  = { owner = JOE controller = JOE add_core = JOE remove_core = JAP remove_core = KOR }
+1948.9.9   = { owner = SKO controller = SKO add_core = SKO add_core = NOK }
 1950.1.1 = { base_tax = 20 base_production = 20 base_manpower = 19 }
 1970.1.1 = { base_tax = 24 base_production = 24 base_manpower = 23 }
 1980.1.1 = { religion = mahayana }

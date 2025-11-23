@@ -29,7 +29,7 @@ national_focus = ADM
 	}
 }
 
-962.2.2 = { government = monarchy add_government_reform = imperial_march_reform }
+962.2.2 = { government = monarchy add_government_reform = margraviate_reform }
 
 976.1.1 = { capital = 134 }
 
@@ -1721,6 +1721,8 @@ add_government_reform = autocracy_reform  }
 
 1805.1.1 = { leader = {	name = "Schwarzenberg"         	type = general	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1817.1.1 } }
 
+1806.7.12 = { government_rank = 2 } # The Holy Roman Empire is dissolved
+
 1808.1.6 = {
 	queen = {
 		country_of_origin = HAB
@@ -1861,8 +1863,8 @@ add_government_reform = autocracy_reform  }
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
- government_rank = 2 }
+	government_rank = 2
+}
 
 1918.11.12 = {
 	monarch = {
@@ -1917,7 +1919,6 @@ add_government_reform = autocracy_reform  }
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = ceremonial_president
-	set_legacy_government = presidental_republic
 
 	monarch = {
 		name = "Karl Renner"	

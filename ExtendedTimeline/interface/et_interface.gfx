@@ -135,6 +135,12 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_disaster_red_turban_rebellion"
+		texturefile = "gfx//interface//disasters//red_turban_rebellion.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
 
 	# Political Parties
 	spriteType = {
@@ -1757,6 +1763,31 @@ spriteTypes = {
 		texturefile = "gfx//interface//holy_sites//aksum.dds"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_holy_site_451"
+		texturefile = "gfx//interface//holy_sites//kabel.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_506"
+		texturefile = "gfx//interface//holy_sites//multan.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_1947"
+		texturefile = "gfx//interface//holy_sites//cenci.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_2229"
+		texturefile = "gfx//interface//holy_sites//bust.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_4326"
+		texturefile = "gfx//interface//holy_sites//nishapur.dds"
+		loadType = "INGAME"
+	}
 	
 	#Missions
 	spriteType = {
@@ -1856,5 +1887,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_ziggurat_of_ur"	
 		texturefile = "gfx//interface//great_projects//great_project_ziggurat_of_ur.dds"
+	}
+	
+	#Government reforms
+	spriteType = {
+		name = "government_reform_parthian_reform"	
+		texturefile = "gfx//interface//government_reform_icons//parthian_reform.dds"
+	}
+	
+	#Government interactions
+	spriteType = {
+		name = "GFX_barbarian_pillage"
+		texturefile = "gfx/interface/government_interactions/pillage_lands_barb.dds"
+	}
+	spriteType = {
+		name = "GFX_barbarian_games"
+		texturefile = "gfx/interface/government_interactions/hold_games_barb.dds"
+	}
+	spriteType = {
+		name = "GFX_barbarian_settle"
+		texturefile = "gfx/interface/government_interactions/encourage_settlement.dds"
+	}
+	
+	#Nuke button
+	spriteType = {
+		name = "GFX_et_nuke_province_button"
+		textureFile = "gfx/interface/et_nuke_province_button.dds"
 	}
 }

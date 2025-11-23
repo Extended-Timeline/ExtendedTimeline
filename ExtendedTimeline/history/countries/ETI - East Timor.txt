@@ -1,5 +1,4 @@
 government = republic
-set_legacy_government = constitutional_republic
 primary_culture = moluccan
 religion = catholic
 technology_group = early_chinese
@@ -94,6 +93,17 @@ capital = 2695 # Dili
 		adm = 5
 		dip = 3
 		mil = 1
+		religion = catholic
+	}
+}
+
+2022.5.20 = {
+	monarch = {
+		name = "José Ramos-Horta"
+		birth_date = 1949.12.26
+		adm = 5
+		dip = 2
+		mil = 3
 		religion = catholic
 	}
 }

@@ -7,6 +7,7 @@ oir_missions_1 = {
 	potential = {
 		tag = OIR
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	has_country_shield = yes
 	oir_tumu_crisis = {
@@ -41,13 +42,20 @@ mongol_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			primary_culture = mongol
-			primary_culture = chahar
-			primary_culture = khalkha
-			primary_culture = oirats
-		}
+		culture_group = mongolic
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Winds of Change" }
+		
+		#new mod conditions
+		NOT = {
+			OR = {
+				tag = KHA		#Mongolia
+				tag = KMO		#Khamag Mongol
+			}
+			started_in = 1125.1.1
+		}
+		started_in = 1300.1.1
 	}
 	has_country_shield = yes
 	
@@ -210,13 +218,20 @@ mongol_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			primary_culture = mongol
-			primary_culture = chahar
-			primary_culture = khalkha
-			primary_culture = oirats
-		}
+		culture_group = mongolic
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Winds of Change" }
+		
+		#new mod conditions
+		NOT = {
+			OR = {
+				tag = KHA		#Mongolia
+				tag = KMO		#Khamag Mongol
+			}
+			started_in = 1125.1.1
+		}
+		started_in = 1300.1.1
 	}
 	has_country_shield = yes
 	
@@ -228,10 +243,8 @@ mongol_missions_2 = {
 				province_id = 2116
 				province_id = 2190
 			}
-			NOT = {
-				owned_by = ROOT
-				is_core = ROOT
-			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
 		}
 		trigger = {
 			owns_core_province = 2116
@@ -263,11 +276,7 @@ mongol_missions_2 = {
 		icon = mission_manchu_warrior
 		required_missions = { mongols_restore_the_khanate }
 		provinces_to_highlight = {
-			OR = {
-				culture = mongol
-				culture = chahar
-				culture = oirats
-			}
+			culture_group = mongolic
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
@@ -426,13 +435,20 @@ mongol_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			primary_culture = mongol
-			primary_culture = chahar
-			primary_culture = khalkha
-			primary_culture = oirats
-		}
+		culture_group = mongolic
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Winds of Change" }
+		
+		#new mod conditions
+		NOT = {
+			OR = {
+				tag = KHA		#Mongolia
+				tag = KMO		#Khamag Mongol
+			}
+			started_in = 1125.1.1
+		}
+		started_in = 1300.1.1
 	}
 	has_country_shield = yes
 	
@@ -594,13 +610,20 @@ mongol_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			primary_culture = mongol
-			primary_culture = chahar
-			primary_culture = khalkha
-			primary_culture = oirats
-		}
+		culture_group = mongolic
+		NOT = { can_preview_missions = yes }
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Winds of Change" }
+		
+		#new mod conditions
+		NOT = {
+			OR = {
+				tag = KHA		#Mongolia
+				tag = KMO		#Khamag Mongol
+			}
+			started_in = 1125.1.1
+		}
+		started_in = 1300.1.1
 	}
 	has_country_shield = yes
 	

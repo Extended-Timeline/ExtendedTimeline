@@ -30,7 +30,7 @@ add_core = GOG
 1435.1.1 = { owner = KOR controller = KOR add_core = KOR remove_core = MJZ }
 
 1542.1.1 = { discovered_by = POR }
-1592.7.18 = { controller = ODA } # Japanese invasion - Battle of Haejungchang
+1592.7.18 = { controller = TYT } # Japanese invasion - Battle of Haejungchang
 1593.2.22 = { controller = KOR } # Kato retreats to Seoul
 1637.1.1 = { add_core = MNG } # Tributary of Qing China
 1644.1.1 = { add_core = MCH remove_core = MNG } # Part of the Manchu empire
@@ -42,9 +42,9 @@ add_core = GOG
 1910.1.1 = { discovered_by = western discovered_by = muslim discovered_by = ottoman }
 1910.8.20  = { owner = JAP controller = JAP add_core = JAP }
 1912.2.12  = { remove_core = QNG }
-1945.8.15  = { owner = KOR controller = KOR add_core = NOK remove_core = JAP }
+1945.8.15  = { owner = JOE controller = JOE add_core = JOE remove_core = JAP remove_core = KOR }
 1948.1.1   = { religion = muism }
-1948.9.9   = { owner = NOK controller = NOK add_core = SKO remove_core = KOR }
+1948.9.9   = { owner = NOK controller = NOK add_core = NOK add_core = SKO }
 
 
 

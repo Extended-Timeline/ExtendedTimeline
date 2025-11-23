@@ -84,6 +84,7 @@ country_decisions = {
 			define_heir = {
 				dynasty = "Timurid"
 			}
+			set_country_flag = enthroned_a_timurid_prince
 		}
 		ai_will_do = {
 			factor = 10
@@ -178,6 +179,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TIM
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -185,6 +187,13 @@ country_decisions = {
 					NOT = { government_rank = 3 }
 				}
 				set_government_rank = 3
+			}
+			if = {
+				limit = {
+					NOT = { government = monarchy }
+				}
+				change_government = monarchy
+				add_government_reform = iqta
 			}
 			add_prestige = 25
 			add_country_modifier = {

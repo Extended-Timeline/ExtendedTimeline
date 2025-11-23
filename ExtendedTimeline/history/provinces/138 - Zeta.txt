@@ -33,7 +33,7 @@ add_core = ROM
 1046.1.1 = { owner = DOC controller = DOC remove_core = BYZ }
 1166.1.1 = { controller = SER add_core = SER }
 1186.1.1 = { owner = SER add_core = MON remove_core = DOC }
-1360.1.1 = { owner = MON controller = MON }
+1362.1.1 = { owner = MON controller = MON }
 
 1421.1.1 = { owner = SER controller = SER add_core = SER } # Annexed to Serbia
 1451.1.1 = { owner = MON controller = MON remove_core = SER }
@@ -54,8 +54,7 @@ add_core = ROM
 1945.5.8   = { owner = YUG controller = YUG }
 1946.7.13  = { capital = "Titograd" }
 1991.4.2   = { capital = "Podgorica" }
-1992.4.28  = { owner = SMN controller = SMN add_core = SMN remove_core = YUG }
-2006.6.3   = { owner = MON controller = MON remove_core = SMN }
+2006.6.3   = { owner = MON controller = MON remove_core = YUG }
 
 
 

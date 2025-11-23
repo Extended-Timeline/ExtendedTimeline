@@ -1,0 +1,36 @@
+﻿l_spanish:
+# Religion:
+lollard: "Lolardo"
+lollard_religion_desc: "El lolardismo es una denominación cristiana que surgió en Inglaterra en el siglo XIV. Tradujeron la Biblia del latín al idioma común de la gente y daban sermones en ese mismo idioma. Los lolardos creen que los laicos muy piadosos tienen la misma autoridad clerical que un sacerdote, por lo que no aceptan la jerarquía de la Iglesia Católica. Un aspecto clave de la fe lolarda es la búsqueda de la pobreza apostólica, combinada con la tributación del clero. Además, los lolardos no creen que las prácticas eclesiásticas como el bautismo y la confesión sean necesarias para la salvación. La confesión a un sacerdote se considera innecesaria, ya que un sacerdote no tiene la capacidad de perdonar los pecados. Los lolardos son pacifistas y rechazan la idea de la guerra, especialmente la de las Cruzadas contra los infieles. También rechazan el concepto de celibato clerical y creen que los sacerdotes no deberían ocupar cargos gubernamentales."
+
+# Center of Reformation:
+lollard_center_of_reformation: "Centro de la Reforma"
+
+# Fervor Focuses:
+et_lollard_fervor_taxed_clergy: "Enfoque ferviente en la tributación del clero"
+et_lollard_fervor_taxed_clergy_short: "Impuesto al clero"
+et_lollard_fervor_apostolic_poverty: "Enfoque ferviente en la pobreza apostólica"
+et_lollard_fervor_apostolic_poverty_short: "Pobreza"
+et_lollard_fervor_lay_priests: "Enfoque ferviente en el sacerdocio laico"
+et_lollard_fervor_lay_priests_short: "Sacerdotes laicos"
+et_lollard_fervor_pacifism: "Enfoque ferviente en el pacifismo"
+et_lollard_fervor_pacifism_short: "Pacifismo"
+
+# Decisions:
+convert_to_lollard_title: "Convertirse al lolardismo"
+convert_to_lollard_desc: "El lolardismo está ganando popularidad entre nuestra gente. Reconocer el lolardismo como religión oficial podría ayudar a hacerlos felices."
+
+# Events:
+et_lollard_events.EVTNAME1: "Emergencia del lolardismo"
+et_lollard_events.EVTDESC1: "Un movimiento cristiano recién emergido conocido como lolardismo ha estado ganando seguidores entre el pueblo común en algunas de nuestras provincias. Los seguidores no apoyan la jerarquía de la Iglesia y creen que un laico verdaderamente creyente tiene la misma autoridad que un sacerdote. También siguen una vida de pobreza apostólica y rechazan las prácticas del celibato clerical. Además, están a favor de traducir la Biblia al idioma de la gente común. Las iglesias cristianas establecidas han denunciado al lolardismo como herético."
+et_lollard_events1.EVTOPT1: "Debemos detenerlos."
+et_lollard_events1.EVTOPT2: "No es asunto nuestro."
+
+et_lollard_events.EVTNAME2: "Difusión del lolardismo"
+et_lollard_events.EVTDESC2: "El lolardismo se está extendiendo lentamente en [Root.GetName] a través de sus seguidores. El lolardismo traduce la Biblia al idioma de la gente común y da sermones en ese idioma. Además, hace uso de sacerdotes laicos. Los lolardos también viven en pobreza apostólica. Esas particularidades les ayudan a difundirlo entre los campesinos."
+et_lollard_events2.EVTOPT1: "Preocupante."
+et_lollard_events2.EVTOPT2: "Maravilloso."
+
+# Modifiers:
+## Event Modifiers:
+et_lollard_persecution: "Persecución de los lolardos"

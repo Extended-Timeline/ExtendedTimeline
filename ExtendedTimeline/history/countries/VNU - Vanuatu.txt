@@ -23,7 +23,6 @@ capital = 1239
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
 }
 
 1980.7.30 = {
@@ -240,6 +239,28 @@ capital = 1239
 		birth_date = 1954.10.24
 		adm = 5
 		dip = 2
+		mil = 3
+		religion = protestant
+	}
+}
+
+2022.7.6 = {
+	monarch = {
+		name = "Seule Simeon"
+		birth_date = 1970.10.10
+		adm = 2
+		dip = 2
+		mil = 3
+		religion = protestant
+	}
+}
+
+2022.7.23 = {
+	monarch = {
+		name = "Nikenike Vurobaravu"
+		birth_date = 1964.1.1
+		adm = 3
+		dip = 4
 		mil = 3
 		religion = protestant
 	}

@@ -1,0 +1,41 @@
+
+druid_sacred_site = {
+	
+    # Whether the triggered modifier is visible in the Province view window
+    
+
+    # Whether the triggered modifier is active
+    trigger = {
+        religion = druidism
+		controlled_by = ROOT
+    }
+
+    # The modifier to apply when the triggered modifier is active
+    
+	local_unrest = -1
+	local_monthly_devastation = -0.1
+	local_tax_modifier = 0.2
+    
+    # Province scope
+    # Effects to execute when the triggered modifiers switches to active
+    
+    
+    # Effects to execute when the triggered modifiers switches to inactive
+    on_deactivation = {
+		if = {
+			limit = {
+				owner = { religion = druidism }
+				controller = {
+					NOT = { religion = druidism }
+				}
+			}
+			owner = {
+				country_event = { 
+					id = druidism_flavor.5
+					days = 1
+				}
+			}
+			remove_province_triggered_modifier = druid_sacred_site
+		}
+    } 
+}

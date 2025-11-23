@@ -99,7 +99,7 @@ classical_age = {
 		}
 		ab_classical_terrain = {
 			modifier = {
-				attack_bonus_in_capital_terrain = yes
+				attack_bonus_in_capital_terrain = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -260,7 +260,7 @@ late_classical_age = {
 		}
 		ab_lateclassical_sassanid_cataphracts = {
 			allow = {
-				tag = SAS
+				tag = ERS
 			}
 			modifier = {
 				cavalry_power = 0.2

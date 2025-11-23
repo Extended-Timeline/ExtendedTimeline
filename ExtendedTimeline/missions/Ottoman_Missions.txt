@@ -4,8 +4,14 @@ tur_conquerors_of_the_near_east = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -258,8 +264,14 @@ tur_eastern_balkans = {
 	
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -349,8 +361,14 @@ tur_conquest_of_middle_east = {
 	
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -698,8 +716,14 @@ tur_black_sea = {
 	slot = 4
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -769,8 +793,14 @@ tur_eastern_mediterrenean_missions = {
 	
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1039,8 +1069,14 @@ tur_conquer_western_mediterrenean = {
 	slot = 2
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1146,8 +1182,14 @@ tur_indian_ocean = {
 	slot = 4
 	potential = {
 		OR = {
-			tag = TUR
-			tag = RUM
+			AND = {
+				tag = TUR
+				NOT = { has_dlc = "Domination" }
+			}
+			AND = {			#New in MMETR mod, added conditions
+				tag = RUM
+				started_in = 1307.1.1		#When Konya replaces Rum
+			}
 		}
 		NOT = { map_setup = map_setup_random }
 	}

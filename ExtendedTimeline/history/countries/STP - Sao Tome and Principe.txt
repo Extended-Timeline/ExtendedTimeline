@@ -24,7 +24,6 @@ capital = 1306
 	add_government_reform = multi_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = abolish_presidency
-	set_legacy_government = parliamentary_republic
  }
 
 1975.7.12 = {
@@ -89,6 +88,17 @@ capital = 1306
 		adm = 4
 		dip = 4
 		mil = 1
+		religion = catholic
+	}
+}
+
+2021.10.2 = {
+	monarch = {
+		name = "Carlos Vila Nova"
+		birth_date = 1959.7.27
+		adm = 3
+		dip = 4
+		mil = 2
 		religion = catholic
 	}
 }

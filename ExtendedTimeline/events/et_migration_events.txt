@@ -286,11 +286,6 @@ country_event = {
 	
 	option = {
 		name = "et.EVTOPTA22"
-		4362 = {
-			change_religion = slavic
-			change_culture = serbian
-			add_core = SER
-		}
 		141 = {
 			change_religion = slavic
 			change_culture = serbian
@@ -298,13 +293,18 @@ country_event = {
 		}
 		140 = {
 			change_religion = slavic
-			change_culture = serbian
-			add_core = SER
+			change_culture = bosnian
+			add_core = BOS
 		}
 		139 = {
 			change_religion = slavic
-			change_culture = serbian
-			add_core = SER
+			change_culture = bosnian
+			add_core = BOS
+		}
+		3002 = {
+			change_religion = slavic
+			change_culture = bosnian
+			add_core = BOS
 		}
 		1827 = {
 			change_religion = slavic
@@ -330,6 +330,31 @@ country_event = {
 			change_religion = slavic
 			change_culture = serbian
 			add_core = DOC
+		}
+		4754 = {
+			change_religion = slavic
+			change_culture = serbian
+			add_core = DOC
+		}
+		4176 = {
+			change_religion = slavic
+			change_culture = serbian
+			add_core = SER
+		}
+		4239 = {
+			change_religion = slavic
+			change_culture = serbian
+			add_core = SER
+		}
+		4756 = {
+			change_religion = slavic
+			change_culture = serbian
+			add_core = SER
+		}
+		4757 = {
+			change_religion = slavic
+			change_culture = serbian
+			add_core = SER
 		}
 	}
 }
@@ -391,6 +416,11 @@ country_event = {
 			add_core = CRO
 		}
 		4173 = {
+			change_religion = slavic
+			change_culture = croatian
+			add_core = CRO
+		}
+		4756 = {
 			change_religion = slavic
 			change_culture = croatian
 			add_core = CRO

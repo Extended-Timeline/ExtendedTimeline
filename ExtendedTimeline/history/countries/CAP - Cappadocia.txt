@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = cappadocian
+primary_culture = cappadocian_greek
 religion = hellenism
 technology_group = roman_group
 capital = 2301
@@ -8,7 +8,7 @@ capital = 2301
 2.1.1 = {
 	monarch = {
 		name = "Archelaus"
-		dynasty = "Ariathid"
+		dynasty = "Archelaid"
 		adm = 4
 		dip = 3
 		mil = 4

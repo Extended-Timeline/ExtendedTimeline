@@ -45,10 +45,10 @@
 1048 = "Mykolayiv-on-Amur"
 2406 = "Mykolaiv"
 2410 = "Sevastopol"
-2412 = "Mariupil"
+2412 = { "Mariupol" "Mariupol" }			#Kyzyl-Yar					|			19.01.24
 2411 = "Sicheslav"
-2413 = "Donetsk"
-2409 = "Luhansk"
+2413 = "Donetsk"							#Tyn						|			26.03.23
+2409 = "Luhansk"							#Luhansk					|			26.03.23
 2416 = "Stavropil"
 2961 = "Lviv"
 2962 = "Rivne"

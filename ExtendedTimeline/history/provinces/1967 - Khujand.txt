@@ -37,8 +37,8 @@ is_city = yes
 1042.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = KKH }
 1211.1.1 = { owner = KKT controller = KKT add_core = KKT }
 1219.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KKT }
-1260.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = KHA }
-1347.1.1 = { owner = TRS controller = TRS add_core = TRS }
+1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
+1347.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = CGT }
 1360.1.1 = { owner = CHG controller = CHG add_core = CHG }
 1363.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = CHG }
 1370.1.1 = { owner = TIM controller = TIM add_core = TIM }
@@ -68,6 +68,8 @@ is_city = yes
 
 1842.1.1   = { owner = BUK controller = BUK add_core = BUK remove_core = KOK }
 1866.1.1   = { owner = RUS controller = RUS add_core = RUS }
+1917.11.27 = { owner = TKS controller = TKS add_core = TKS }
+1918.2.22  = { owner = RUS controller = RUS remove_core = TKS }
 1922.12.30 = { owner = SOV controller = SOV add_core = SOV remove_core = RUS }
 1929.1.1   = { add_core = TJK remove_core = BUK }
 1991.9.9   = { owner = TJK controller = TJK remove_core = SOV remove_core = RUS }

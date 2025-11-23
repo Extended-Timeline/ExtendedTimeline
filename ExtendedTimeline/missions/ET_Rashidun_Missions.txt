@@ -13,9 +13,6 @@ rsd_slot_1 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
 		provinces_to_highlight = {
 			OR = {
 				area = tabuk_area
@@ -620,9 +617,6 @@ rsd_slot_2 = {
 		required_missions = { israel_rsd }
 		position = 2
 		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
 			factor = 5
 		}
 		provinces_to_highlight = {
@@ -1354,9 +1348,6 @@ rsd_slot_3 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
 		provinces_to_highlight = {
 			area = palestine_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -2081,9 +2072,6 @@ rsd_slot_4 = {
 		required_missions = { iraq_rsd }
 		position = 2
 		ai_weight = {
-			factor = 5
-		}
-		ai_priority = {
 			factor = 5
 		}
 		provinces_to_highlight = {
@@ -3281,9 +3269,6 @@ rsd_slot_5 = {
 		ai_weight = {
 			factor = 5
 		}
-		ai_priority = {
-			factor = 5
-		}
 		provinces_to_highlight = {
 			OR = {
 				area = basra_area
@@ -3547,6 +3532,7 @@ rsd_slot_5 = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
+					is_city = yes
 				}
 				add_permanent_claim = ROOT
 			}
@@ -3554,6 +3540,7 @@ rsd_slot_5 = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
+					is_city = yes
 				}
 				add_permanent_claim = ROOT
 			}
@@ -3627,11 +3614,17 @@ rsd_slot_5 = {
 		trigger = {
 			transcaspia_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					is_city = no
+				}
 			}
 			khiva_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					is_city = no
+				}
 			}
 			transoxiana_area = {
 				type = all

@@ -24,7 +24,6 @@ capital = 1273
 	add_government_reform = single_party_system
 	add_government_reform = democracy_reform
 	add_government_reform = powerful_head_of_state
-	set_legacy_government = constitutional_republic
 }
 
 1910.1.1 = { religion = secularism }
@@ -32,6 +31,7 @@ capital = 1273
 1963.12.12 = {
 	monarch = {
 		name = "Malcolm MacDonald"
+		birth_date = 1901.8.17
 		adm = 2
 		dip = 3
 		mil = 3
@@ -42,6 +42,7 @@ capital = 1273
 1964.12.12 = {
 	monarch = {
 		name = "Jomo Kenyatta"
+		birth_date = 1897.1.1
 		adm = 5
 		dip = 3
 		mil = 3
@@ -52,6 +53,7 @@ capital = 1273
 1978.8.22 = {
 	monarch = {
 		name = "Daniel arap Moi"
+		birth_date = 1924.9.2
 		adm = 4
 		dip = 4
 		mil = 2
@@ -62,6 +64,7 @@ capital = 1273
 2002.12.30 = {
 	monarch = {
 		name = "Mwai Kibaki"
+		birth_date = 1931.11.15
 		adm = 4
 		dip = 3
 		mil = 4
@@ -72,9 +75,21 @@ capital = 1273
 2013.4.4 = {
 	monarch = {
 		name = "Uhuru Kenyatta"
+		birth_date = 1961.10.26
 		adm = 3
 		dip = 3
 		mil = 4
+		religion = protestant
+	}
+}
+
+2022.9.13 = {
+	monarch = {
+		name = "William Ruto"
+		birth_date = 1966.12.21
+		adm = 3
+		dip = 4
+		mil = 3
 		religion = protestant
 	}
 }

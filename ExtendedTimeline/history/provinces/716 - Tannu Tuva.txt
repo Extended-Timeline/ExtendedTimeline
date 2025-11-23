@@ -20,7 +20,7 @@ is_city = yes
 
 750.1.1 = { culture = tuvan }
 848.1.1 = { owner = TUV controller = TUV add_core = TUV remove_core = YKY }
-1207.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = TUV }
+1207.1.1 = { owner = KHA controller = KHA add_core = KHA }
 1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
 1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
 1399.1.1 = { owner = OIR controller = OIR add_core = OIR remove_core = KHA } # The Oirads united much of Mongolia
@@ -48,10 +48,10 @@ is_city = yes
 1850.1.1   = { remove_core = OIR remove_core = KHA }
 1875.1.1 = { base_production = 2 }
 1910.1.1 = { discovered_by = western discovered_by = muslim discovered_by = ottoman }
-1911.12.29 = { owner = RUS controller = RUS add_core = RUS remove_core = QNG }
-1914.1.1   = { capital = "Belotsarsk" }
+1911.12.29 = { owner = TUV controller = TUV add_core = TUV remove_core = QNG } #Republic of Uryankhay
+1914.4.17  = { owner = RUS controller = RUS add_core = RUS capital = "Belotsarsk" }
 1918.1.1   = { capital = "Khem-Beldyr" }
-1921.8.14  = { owner = TTU controller = TTU add_core = TTU }
+1921.8.14  = { owner = TUV controller = TUV }
 1922.12.30 = { add_core = SOV }
 1926.1.1   = { capital = "Kyzyl" }
 1944.10.11 = { owner = SOV controller = SOV }

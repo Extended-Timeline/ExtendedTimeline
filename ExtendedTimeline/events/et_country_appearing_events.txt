@@ -638,7 +638,7 @@ country_event = {
 	}
 }
 
-# West Geates
+# Geates
 country_event = {
 	id = et.110
 	title = "et.EVTNAME100"
@@ -654,6 +654,8 @@ country_event = {
 			7 = { is_empty = yes }
 			5 = { is_empty = yes }
 			16 = { is_empty = yes }
+			3 = { is_empty = yes }
+			2 = { is_empty = yes }
 		}
 	}
 	mean_time_to_happen = {
@@ -703,33 +705,6 @@ country_event = {
 			}
 		}
 		26 = { add_core = GEW }
-		GEW = { every_neighbor_country = { add_truce_with = GEW } }
-	}
-}
-
-# East Geates
-country_event = {
-	id = et.111
-	title = "et.EVTNAME100"
-	desc = "et.EVTDESC100"
-	picture = CITY_DEVELOPMENT_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		owns = 1982
-		is_year = 360
-		OR = {
-			3 = { is_empty = yes }
-			2 = { is_empty = yes }
-		}
-	}
-	mean_time_to_happen = {
-		months = 240
-	}
-	
-	option = {
-		name = "et.EVTOPTA100"
 		if = {
 			limit = { 3 = { is_empty = yes } }
 			3 = { 
@@ -755,6 +730,7 @@ country_event = {
 			}
 		}
 		1982 = { add_core = GEE }
+		GEW = { every_neighbor_country = { add_truce_with = GEW } }
 		GEE = { every_neighbor_country = { add_truce_with = GEE } }
 	}
 }
@@ -827,9 +803,9 @@ country_event = {
 	}
 }
 
-# Vestfold
+# Norwegian tribes
 country_event = {
-	id = et.113
+	id = et.114
 	title = "et.EVTNAME100"
 	desc = "et.EVTDESC100"
 	picture = CITY_DEVELOPMENT_eventPicture
@@ -840,8 +816,10 @@ country_event = {
 		owns = 5
 		is_year = 700
 		OR = {
+			24 = { is_empty = yes }
+			23 = { is_empty = yes }
 			17 = { is_empty = yes }
-			22 = { is_empty = yes }
+			20 = { is_empty = yes }
 		}
 	}
 	mean_time_to_happen = {
@@ -874,33 +852,6 @@ country_event = {
 				change_trade_goods = naval_supplies
 			}
 		}
-		VES = { every_neighbor_country = { add_truce_with = VES } }
-	}
-}
-
-# Agder
-country_event = {
-	id = et.114
-	title = "et.EVTNAME100"
-	desc = "et.EVTDESC100"
-	picture = CITY_DEVELOPMENT_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		owns = 17
-		is_year = 700
-		OR = {
-			24 = { is_empty = yes }
-			23 = { is_empty = yes }
-		}
-	}
-	mean_time_to_happen = {
-		months = 240
-	}
-	
-	option = {
-		name = "et.EVTOPTA100"
 		if = {
 			limit = { 4144 = { is_empty = yes } }
 			4144 = { 
@@ -941,36 +892,6 @@ country_event = {
 				change_trade_goods = fish
 			}
 		}
-		AGD = { every_neighbor_country = { add_truce_with = AGD } }
-		ROG = { every_neighbor_country = { add_truce_with = AGD } }
-		HOR = { every_neighbor_country = { add_truce_with = AGD } }
-		RMD = { every_neighbor_country = { add_truce_with = AGD } }
-	}
-}
-
-# Halogaland
-country_event = {
-	id = et.115
-	title = "et.EVTNAME100"
-	desc = "et.EVTDESC100"
-	picture = CITY_DEVELOPMENT_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		owns = 22
-		is_year = 700
-		OR = {
-			20 = { is_empty = yes }
-			21 = { is_empty = yes }
-		}
-	}
-	mean_time_to_happen = {
-		months = 240
-	}
-	
-	option = {
-		name = "et.EVTOPTA100"
 		if = {
 			limit = { 20 = { is_empty = yes } }
 			20 = { 
@@ -987,6 +908,11 @@ country_event = {
 				change_trade_goods = fish
 			}
 		}
+		VES = { every_neighbor_country = { add_truce_with = VES } }
+		AGD = { every_neighbor_country = { add_truce_with = AGD } }
+		ROG = { every_neighbor_country = { add_truce_with = ROG } }
+		HOR = { every_neighbor_country = { add_truce_with = HOR } }
+		RMD = { every_neighbor_country = { add_truce_with = RMD } }
 		HAL = { every_neighbor_country = { add_truce_with = HAL } }
 	}
 }
@@ -1179,9 +1105,9 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 410
+		owns = 409
 		is_year = 200
-		409 = { is_empty = yes }
+		3211 = { is_empty = yes }
 	}
 	mean_time_to_happen = {
 		months = 240
@@ -1189,22 +1115,13 @@ country_event = {
 	
 	option = {
 		name = "et.EVTOPTA100"
-		409 = { 
+		3211 = { 
 			cede_province = LKH
 			add_core = LKH
 			change_religion = chalcedonism
-			change_trade_goods = spices
+			change_trade_goods = wool
 		}
 		LKH = { every_neighbor_country = { add_truce_with = LKH } }
-		if = {
-			limit = { 3211 = { is_empty = yes } }
-			3211 = { 
-				cede_province = LKH
-				add_core = LKH
-				change_religion = chalcedonism
-				change_trade_goods = wool
-			}
-		}
 	}
 }
 
@@ -2721,6 +2638,14 @@ country_event = {
 		if = {
 			limit = { 1955 = { is_empty = yes } }
 			1955 = { 
+				cede_province = KRL
+				add_core = KRL
+				change_trade_goods = fur
+			}
+		}
+		if = {
+			limit = { 309 = { is_empty = yes } }
+			309 = { 
 				cede_province = KRL
 				add_core = KRL
 				change_trade_goods = fur
@@ -4941,7 +4866,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2793
+		owns = 2790
 		is_year = 1190
 		OR = {
 			2792 = { is_empty = yes }
@@ -6415,7 +6340,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 1189
+		owns = 1184
 		is_year = 1400
 		OR = {
 			4040 = { is_empty = yes }
@@ -7244,7 +7169,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2475
+		owns = 2374
 		is_year = 880
 		OR = {
 			2697 = { is_empty = yes }
@@ -7312,7 +7237,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2863
+		owns = 656
 		is_year = 1180
 		OR = {
 			653 = { is_empty = yes }
@@ -7382,7 +7307,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2860
+		owns = 656
 		is_year = 1400
 		OR = {
 			2698 = { is_empty = yes }
@@ -7426,7 +7351,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2407
+		owns = 2392
 		is_year = 580
 		OR = {
 			622 = { is_empty = yes }
@@ -7527,7 +7452,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2555
+		owns = 2107
 		is_year = 400
 		OR = {
 			4664 = { is_empty = yes }
@@ -7627,7 +7552,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2563
+		owns = 2107
 		is_year = 580
 		OR = {
 			2105 = { is_empty = yes }
@@ -7718,7 +7643,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 2558
+		owns = 729
 		is_year = 1180
 		OR = {
 			2102 = { is_empty = yes }
@@ -7843,7 +7768,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 4350
+		owns = 717
 		is_year = 780
 		OR = {
 			1060 = { is_empty = yes }
@@ -8422,8 +8347,7 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			3275 = { 
-				change_province_name = "Golog" 
+			3275 = {
 				change_trade_goods = wool
 				set_base_tax = 1
 				set_base_production = 1

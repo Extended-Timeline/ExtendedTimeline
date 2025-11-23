@@ -28,7 +28,7 @@ add_core = MHN
 1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
-1592.6.11 = { controller = ODA unrest = 5 } # Japanese invasion
+1592.6.11 = { controller = TYT unrest = 5 } # Japanese invasion
 1593.5.20 = { controller = KOR unrest = 0 } # With Chinese help the Japanese are driven back
 1637.1.1 = { add_core = MNG } # Tributary of Qing China
 1644.1.1 = { add_core = MCH remove_core = MNG } # Part of the Manchu empire
@@ -45,8 +45,8 @@ add_core = MHN
 1910.8.20  = { owner = JAP controller = JAP add_core = JAP }
 1912.2.12  = { remove_core = QNG }
 1930.1.1 = { base_tax = 14 base_production = 14 base_manpower = 13 }
-1945.8.15  = { owner = KOR controller = KOR add_core = SKO remove_core = JAP }
-1948.9.9   = { owner = SKO controller = SKO add_core = NOK remove_core = KOR }
+1945.8.15  = { owner = JOE controller = JOE add_core = JOE remove_core = JAP remove_core = KOR }
+1948.9.9   = { owner = SKO controller = SKO add_core = SKO add_core = NOK }
 1950.1.1   = { trade_goods = cars }
 1951.1.1 = { base_tax = 17 base_production = 17 base_manpower = 16 }
 1969.1.1 = { base_tax = 20 base_production = 20 base_manpower = 19 }
