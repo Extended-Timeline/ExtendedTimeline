@@ -34,6 +34,7 @@ base_manpower = 1
 	add_core = SPA
 	is_city = yes
 	trade_goods = wool
+	tribal_owner = ---
 } # conquered by Spain
 1680.8.21 = {
 	owner = PUE

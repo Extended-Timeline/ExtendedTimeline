@@ -24,6 +24,7 @@ tribal_owner = OJI
 	religion = catholic
 	is_city = yes
 	trade_goods = fur
+	tribal_owner = ---
 } # Construction of Fort St. Pierce
 1763.2.10 = {
 	discovered_by = GBR

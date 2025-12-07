@@ -28,7 +28,7 @@ tribal_owner = WIC
 	trade_goods = grain
 	culture = choctaw 
 } #Indian Removal Act, Trails of Tears
-1834.6.30  = { owner = USA controller = USA add_core = USA }
+1834.6.30  = { owner = USA controller = USA add_core = USA tribal_owner = --- }
 1887.1.1   = { capital = "Ardmore" }
 1890.5.2   = { culture = american religion = protestant }
 1880.1.1 = { discovered_by = eastern discovered_by = muslim discovered_by = ottoman discovered_by = asian }

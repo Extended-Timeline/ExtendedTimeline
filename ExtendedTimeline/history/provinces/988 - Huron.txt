@@ -36,6 +36,7 @@ native_hostileness = 2
 	culture = british_canadian
 	religion = protestant
 	capital = "Barrie"
+	tribal_owner = ---
 }
 1790.1.1  = { culture = british_canadian }
 

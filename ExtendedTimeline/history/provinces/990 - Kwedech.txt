@@ -24,6 +24,7 @@ tribal_owner = STA
 	is_city = yes
 	trade_goods = fur
 	capital = "Trois-Rivières"
+	tribal_owner = ---
 } # Founding of Trois-Rivières
 1639.1.1  = { unrest = 5 } # Settlement created by Jérôme Le Royer, under constant attacks from the Iroquois
 1664.1.1  = { discovered_by = ENG }

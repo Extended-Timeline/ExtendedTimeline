@@ -24,6 +24,7 @@ tribal_owner = OEO
 	culture = cosmopolitan_french
 	religion = catholic
 	trade_goods = fur
+	tribal_owner = ---
 } # Founding of La Baye
 1707.5.12 = { discovered_by = GBR }
 1712.1.1  = { unrest = 5 } # Fox war

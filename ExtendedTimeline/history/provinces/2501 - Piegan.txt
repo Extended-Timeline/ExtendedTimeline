@@ -23,6 +23,7 @@ tribal_owner = BLA
 	trade_goods = grain
 	culture = british_californian
 	religion = protestant
+	tribal_owner = ---
 }
 1888.1.1 = { capital = "Great Falls" }
 1910.1.1 = { discovered_by = western }

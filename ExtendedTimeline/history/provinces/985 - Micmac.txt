@@ -25,6 +25,7 @@ tribal_owner = MIK
 	religion = catholic
 	trade_goods = fish
 	capital = "Memramcook"
+	tribal_owner = ---
 } # Beaubassin
 1763.2.10 = {	
 	owner = GBR

@@ -28,6 +28,7 @@ tribal_owner = OJI
 	add_core = USA
 	culture = american
 	religion = protestant
+	tribal_owner = ---
 } #The death of Tecumseh mark the end of organized native resistance 
 
 1834.1.1 = { base_manpower = 2 }

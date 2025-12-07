@@ -23,6 +23,7 @@ tribal_owner = OJI
 	is_city = yes
 	trade_goods = fur
 	capital = "Fort Népigon"
+	tribal_owner = ---
 } #French settlement. Ojibwe should have migrated west by then. 
 1700.1.1  = { religion = catholic culture = cosmopolitan_french }
 1707.5.12 = { discovered_by = GBR }

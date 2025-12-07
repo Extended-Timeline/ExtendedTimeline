@@ -23,6 +23,7 @@ tribal_owner = MAH
 	culture = dutch
 	religion = reformed
 	trade_goods = fur
+	tribal_owner = ---
 } # Dutch settlers
 1629.1.1 = { discovered_by = ENG }
 1665.6.1 = { controller = ENG } # English seize New Netherlands at outset of Second Anglo-Dutch war

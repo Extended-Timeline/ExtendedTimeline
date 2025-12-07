@@ -27,6 +27,7 @@ tribal_owner = SAL
 	religion = protestant
 	capital = "Fort Langley"
 	trade_goods = fish
+	tribal_owner = ---
 }
 1858.1.1 = { capital = "New Westminster" }
 1860.1.1  = { culture = british_canadian }

@@ -27,6 +27,7 @@ tribal_owner = MIK
 	culture = cosmopolitan_french
 	religion = catholic
 	trade_goods = naval_supplies
+	tribal_owner = ---
 } # Founding of Fort Ste-Anne
 1707.5.12 = { discovered_by = GBR } 
 1719.1.1 = { capital = "Louisbourg" }

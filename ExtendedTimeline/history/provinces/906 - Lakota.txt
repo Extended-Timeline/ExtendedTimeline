@@ -30,6 +30,7 @@ tribal_owner = LAK
 	capital = "Grandes Fourches"
 	culture = english
 	religion = protestant
+	tribal_owner = ---
 } #French fur traders from Canada establish trading posts (part of Hudson Bay territory at the time, Hudson Bay watershed)
 1818.10.20 = {	
 	discovered_by = USA

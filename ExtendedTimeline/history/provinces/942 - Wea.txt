@@ -25,6 +25,7 @@ tribal_owner = MMI
 	culture = american
 	religion = protestant
 	trade_goods = grain
+	tribal_owner = ---
 } # Treaty of Vincennes and subsequent, Natives cede much of this region
 1811.1.1 = { capital = "Fort Harrison" }
 1816.1.1 = { capital = "Terre Haute" }

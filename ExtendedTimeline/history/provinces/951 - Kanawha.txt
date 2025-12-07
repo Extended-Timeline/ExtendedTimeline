@@ -28,6 +28,7 @@ tribal_owner = HWK
 	culture = american
 	religion = protestant
 	trade_goods = iron
+	tribal_owner = ---
 } #Treaty of Fort Stanwix, becomes part of Virginia
 1774.1.1 = { capital = "Fort Blair" unrest = 6 }
 1776.7.4 = {

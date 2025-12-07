@@ -23,6 +23,7 @@ tribal_owner = PEQ
 		religion = reformed
 		culture = english
 		trade_goods = fish
+		tribal_owner = ---
 	    } # British settlers from Massachusetts
 1661.1.1  = { add_core = ENG }
 1687.10.1 = { unrest = 4 } # The unwelcomed arrival of Edmund Andros

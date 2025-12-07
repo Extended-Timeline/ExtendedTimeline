@@ -25,6 +25,7 @@ tribal_owner = POW
 	capital = "St. Mary's City"
 	is_city = yes
 	trade_goods = tobacco
+	tribal_owner = ---
 } # Founding of St. Mary's City
 1707.5.12 = { owner = GBR controller = GBR add_core = GBR discovered_by = GBR remove_core = ENG } 
 1764.7.1  = { culture = american unrest = 6 } # Growing unrest

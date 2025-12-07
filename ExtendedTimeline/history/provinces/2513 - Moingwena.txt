@@ -29,6 +29,7 @@ tribal_owner = PEO
 	religion = protestant
 	culture = american 
 	capital = "Fort Madison" 
+	tribal_owner = ---
 }
 
 1825.1.1 = { base_tax = 4 base_production = 3 }

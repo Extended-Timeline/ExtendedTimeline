@@ -27,6 +27,7 @@ native_hostileness = 2
 	culture = british_louisianan
 	religion = protestant 
 	capital = "Knoxville" 
+	tribal_owner = ---
 } #Treaty of Fort Holston, end of Chickamauga wars and Cherokee resistance
 
 1850.1.1 = { base_manpower = 2 }

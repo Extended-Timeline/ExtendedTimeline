@@ -29,6 +29,7 @@ tribal_owner = CHI
 	add_core = USA
 	culture = british_louisianan
 	religion = protestant 
+	tribal_owner = ---
 } #Treaty of Hopewell (with the Chickasaw), come under US authority
 1819.5.22  = { capital = "Memphis" }
 

@@ -23,6 +23,7 @@ tribal_owner = WCR
 	culture = english
 	religion = protestant
 	trade_goods = fur
+	tribal_owner = ---
 } # Construction of Fort Severn
 1699.1.1 = { discovered_by = FRA } # Pierre le Moyne
 1707.5.12 = {

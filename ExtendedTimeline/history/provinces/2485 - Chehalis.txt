@@ -26,6 +26,7 @@ tribal_owner = SAL
 	religion = protestant
 	trade_goods = grain
 	capital = "Fort Nisqually"
+	tribal_owner = ---
 }
 1846.6.15  = { owner = USA add_core = USA controller = USA remove_core = GBR } # Oregon Treaty
 1859.1.28  = { capital = "Olympia" }

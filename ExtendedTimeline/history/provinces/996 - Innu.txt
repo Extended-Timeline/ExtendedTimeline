@@ -25,6 +25,7 @@ tribal_owner = INN
 	religion = catholic
 	trade_goods = fish
 	capital = "Gros-Mécatina"
+	tribal_owner = ---
 }
 1763.2.10  = { owner = GBR controller = GBR add_core = GBR remove_core = FRA capital = "Chevery" }
 1790.1.1  = { culture = french_canadian }

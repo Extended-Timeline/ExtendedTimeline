@@ -29,6 +29,7 @@ tribal_owner = KSP
 	culture = british_louisianan
 	religion = protestant
 	trade_goods = fur
+	tribal_owner = ---
 } #Treaty of Camp Charlotte, becomes part of Virginia
 1776.7.4 = {
 	owner = USA

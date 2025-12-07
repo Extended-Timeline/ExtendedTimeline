@@ -44,6 +44,7 @@ tribal_owner = FOX
 	is_city = yes
 	religion = catholic
 	trade_goods = fur
+	tribal_owner = ---
 } # French occupy northern Ohio
 1763.2.10 = {
 	owner = GBR

@@ -23,6 +23,7 @@ tribal_owner = ABE
 	add_core = GBR 
 	culture = french_canadian 
 	religion = catholic
+	tribal_owner = ---
 } # The Constitutional Act, Quebec is split into upper & lower Canada, and settlement of the Eastern Townships
 1793.1.1  = { capital = "Sherbrooke" }
 
