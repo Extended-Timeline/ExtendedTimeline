@@ -29,6 +29,7 @@ tribal_owner = OEO
 	add_core = USA
 	religion = protestant
 	culture = american
+	tribal_owner = ---
 } #Fort Lisa (actually on other side of river, but here for gameplay reasons)
 
 1825.1.1 = { base_tax = 2 }

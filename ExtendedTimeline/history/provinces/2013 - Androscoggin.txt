@@ -24,6 +24,7 @@ tribal_owner = PEN
 	trade_goods = naval_supplies
 	culture = english
 	religion = protestant
+	tribal_owner = ---
 } # Founding of Casco
 1707.5.12 = {
 	discovered_by = GBR

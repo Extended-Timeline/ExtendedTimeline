@@ -25,6 +25,7 @@ tribal_owner = WAM
 	culture = english
 	religion = reformed
 	trade_goods = naval_supplies
+	tribal_owner = ---
 } # Settled by the British
  # Fort William & Mary
 1653.1.1 = { capital = "Portsmouth" }

@@ -22,6 +22,7 @@ base_manpower = 1
 	add_core = USA 
 	culture = british_californian
 	religion = catholic
+	tribal_owner = ---
 }
 1880.1.1 = { discovered_by = eastern discovered_by = muslim discovered_by = ottoman discovered_by = asian }
 1881.1.1   = { capital = "Gallup" }

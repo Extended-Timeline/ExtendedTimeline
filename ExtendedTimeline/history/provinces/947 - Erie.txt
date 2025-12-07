@@ -31,6 +31,7 @@ tribal_owner = ERI
 	add_core = FRA
 	culture = cosmopolitan_french
 	religion = catholic
+	tribal_owner = ---
 } # Construction of Fort Presque Isle
 1760.1.1  = { controller = GBR } # Occupied by the British
 1763.2.10 = {

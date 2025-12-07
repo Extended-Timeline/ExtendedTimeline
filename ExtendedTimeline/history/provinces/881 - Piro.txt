@@ -24,6 +24,7 @@ native_hostileness = 5
 	culture = castillian
 	religion = catholic
 	trade_goods = salt 
+	tribal_owner = ---
 } # Spanish conquest of the Pueblo people
 1660.1.1  = { unrest = 4 }
 1670.1.1  = { unrest = 5 }

@@ -24,6 +24,7 @@ tribal_owner = LEN
 	religion = protestant
 	trade_goods = tobacco
 	capital = "Nya Elfsborg" 
+	tribal_owner = ---
 } #Founding of settlement in New Jersey
 1655.9.15 = {
 	owner = NED

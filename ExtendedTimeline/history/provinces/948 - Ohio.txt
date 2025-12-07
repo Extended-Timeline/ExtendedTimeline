@@ -31,6 +31,7 @@ tribal_owner = CLG
 	add_core = USA
 	culture = american
 	religion = protestant
+	tribal_owner = ---
 } # Treaty of Greenville, much of Ohio ceded by Natives.
 1810.1.1  = { capital = "Zanesville" }
 

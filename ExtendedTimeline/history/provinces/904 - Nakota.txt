@@ -25,6 +25,7 @@ tribal_owner = OEO
 	religion = protestant
 	trade_goods = grain
 	capital = "Cratte's Landing"
+	tribal_owner = ---
 }
 1851.1.1   = { capital = "Winona" }
 1850.1.1 = { base_production = 3 }

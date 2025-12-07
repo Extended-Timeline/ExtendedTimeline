@@ -31,6 +31,7 @@ native_hostileness = 8
 	religion = protestant
 	trade_goods = grain
 	capital = "Fort Laramie"
+	tribal_owner = ---
 }
 1867.7.5   = { capital = "Cheyenne" }
 1880.1.1 = { discovered_by = eastern discovered_by = muslim discovered_by = ottoman discovered_by = asian discovered_by = indian }

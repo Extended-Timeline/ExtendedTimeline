@@ -24,6 +24,7 @@ native_hostileness = 2
 	trade_goods = grain
 	religion = catholic
 	culture = mexican 
+	tribal_owner = ---
 } #Isleta Mission
 1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
 

@@ -30,6 +30,7 @@ tribal_owner = LEN
 	culture = english
 	religion = protestant
 	trade_goods = grain
+	tribal_owner = ---
  } #Settlers from Connecticut
 1764.7.4 = { culture = american }
 1769.1.1 = { unrest = 5 } #conflicts between Pennsylvania and Connecticut over the region.

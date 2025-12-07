@@ -25,6 +25,7 @@ tribal_owner = OEO
 	is_city = yes
 	culture = mesquakie
 	trade_goods = fur
+	tribal_owner = ---
 } # Royal proclamation
 1813.10.5 = {
 	owner = USA

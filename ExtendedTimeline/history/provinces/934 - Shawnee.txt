@@ -31,6 +31,7 @@ tribal_owner = CCA
 	culture = british_louisianan
 	religion = protestant
 	capital = "Nashville"
+	tribal_owner = ---
 } #Treaty of Hopewell (with the Cherokee), define a new border
 
 1850.1.1 = { base_manpower = 2 }

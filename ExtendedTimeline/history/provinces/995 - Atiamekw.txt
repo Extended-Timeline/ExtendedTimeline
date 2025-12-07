@@ -23,6 +23,7 @@ tribal_owner = INN
 	culture = cosmopolitan_french
 	religion = catholic
 	trade_goods = fish
+	tribal_owner = ---
 }
 1629.1.1  = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR } 

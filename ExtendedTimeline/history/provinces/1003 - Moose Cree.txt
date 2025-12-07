@@ -24,6 +24,7 @@ tribal_owner = WCR
 	culture = english
 	religion = protestant
 	is_city = yes
+	tribal_owner = ---
 } # Construction of Fort Albany
 1707.5.12  = {
 	discovered_by = GBR

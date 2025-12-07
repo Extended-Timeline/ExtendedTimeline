@@ -24,6 +24,7 @@ tribal_owner = MSG
 	capital = "Sault Ste. Marie"
 	trade_goods = fur
 	is_city = yes
+	tribal_owner = ---
 }
 1707.5.12 = { discovered_by = GBR }
 1763.2.10 = {

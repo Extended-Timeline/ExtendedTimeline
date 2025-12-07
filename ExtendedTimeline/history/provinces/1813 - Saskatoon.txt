@@ -29,6 +29,7 @@ tribal_owner = NEH
 	religion = catholic
 	trade_goods = fur 
 	capital = "Fort de la Corne"
+	tribal_owner = ---
 } #Fort a la Corne
 1763.2.10 = {
 	owner = GBR

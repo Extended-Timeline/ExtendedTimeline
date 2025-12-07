@@ -30,6 +30,7 @@ native_hostileness = 3
 	add_core = USA
 	culture = british_louisianan
 	religion = protestant
+	tribal_owner = ---
 } #Treaty of Hopewell (with the Cherokee), define a new border
 
 1826.1.1 = { capital = "Spring Place" }

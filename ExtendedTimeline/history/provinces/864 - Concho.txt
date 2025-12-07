@@ -23,6 +23,7 @@ tribal_owner = MOG
 	culture = castillian
 	capital = "Chihuahua"
 	trade_goods = wool 
+	tribal_owner = ---
 } # Francisco de Ibarra 
 1770.1.1   = { culture = mexican }
 1779.1.1   = { base_manpower = 2 }

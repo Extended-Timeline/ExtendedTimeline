@@ -28,6 +28,7 @@ add_permanent_province_modifier = {
 	culture = english
 	religion = protestant
 	is_city = yes
+	tribal_owner = ---
 }# Founding of Jamestown
 1622.1.1  = { unrest = 4 } # A large proportion of the colonists are killed by the Powhatan tribe
 1624.1.1  = { unrest = 6 } # Battle between the Powhatans & the British

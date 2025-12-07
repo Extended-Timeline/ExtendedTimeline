@@ -23,6 +23,7 @@ tribal_owner = KSK
 	trade_goods = grain
 	religion = catholic
 	culture = cosmopolitan_french
+	tribal_owner = ---
 }
 1750.1.1 = { discovered_by = GBR }
 1762.1.1  = { owner = SPA controller = SPA remove_core = FRA } # Treaty of Fontainebleau, secretely ceded to Spain

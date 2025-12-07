@@ -24,6 +24,7 @@ tribal_owner = WAM
 	religion = reformed
 	capital = "Gloucester"
 	trade_goods = fish
+	tribal_owner = ---
 }# Arrival of the Dorchester company
 1626.1.1 = { capital = "Salem" } #Founded on Cape Ann
 1630.1.1 = { capital = "Boston" }

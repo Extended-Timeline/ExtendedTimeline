@@ -31,6 +31,7 @@ tribal_owner = SIO
 	culture = american
 	religion = protestant
 	capital = "Fort Snelling"
+	tribal_owner = ---
 }
 1826.1.1 = { base_production = 4 }
 1850.1.1 = { base_manpower = 5 }

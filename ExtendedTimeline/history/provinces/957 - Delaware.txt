@@ -25,6 +25,7 @@ tribal_owner = LEN
 	religion = protestant
 	is_city = yes
 	trade_goods = tobacco
+	tribal_owner = ---
 } # New Sweden, small Swedish settlement founded by Peter Minuit. Fort Christina
 1655.9.15 = {
 	owner = NED

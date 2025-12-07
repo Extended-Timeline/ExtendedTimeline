@@ -24,6 +24,7 @@ tribal_owner = POW
 	trade_goods = tobacco
 	culture = english
 	religion = protestant
+	tribal_owner = ---
 } # Settlement around New Bath
 1764.7.1  = { culture = british_louisianan unrest = 6 } # Growing unrest
 1771.1.1  = { capital = "Martinsborough" }

@@ -34,6 +34,7 @@ native_hostileness = 8
 	is_city = yes
 	religion = catholic
 	culture = cosmopolitan_french
+	tribal_owner = ---
 } # French settlement
 1762.1.1 = {
 	owner = SPA

@@ -24,6 +24,7 @@ tribal_owner = CAO
 	culture = cosmopolitan_french
 	religion = catholic 
 	trade_goods = grain
+	tribal_owner = ---
 } #Fort Orleans
 1750.1.1 = { discovered_by = GBR }
 1762.1.1  = { discovered_by = SPA owner = SPA controller = SPA remove_core = FRA }

@@ -33,6 +33,7 @@ native_hostileness = 6
 	culture = cosmopolitan_french
 	religion = catholic
 	is_city = yes
+	tribal_owner = ---
 } # Construction of Fort Frontenac
 1707.5.12 = { discovered_by = GBR } 
 1763.2.10 = {

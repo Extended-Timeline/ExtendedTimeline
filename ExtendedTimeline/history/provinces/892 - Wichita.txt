@@ -24,7 +24,7 @@ tribal_owner = WIC
 	trade_goods = grain
 	culture = chickasaw 
 } #Indian Removal Act, Trails of Tears
-1834.6.30  = { owner = USA controller = USA add_core = USA }
+1834.6.30  = { owner = USA controller = USA add_core = USA tribal_owner = --- }
 1860.1.1 = { base_tax = 2 base_production = 2 base_manpower = 2 }
 1887.1.1   = { capital = "Guthrie" }
 1890.5.2   = { culture = american religion = protestant remove_core = WIC }
